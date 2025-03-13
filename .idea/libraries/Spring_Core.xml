@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Spring Core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.expression-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.core-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.context.support-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.context-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.beans-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.context.support-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.context-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.beans-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.expression-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.core-sources-3.0.5.RELEASE.jar!/" />
+    </SOURCES>
+  </library>
+</component>

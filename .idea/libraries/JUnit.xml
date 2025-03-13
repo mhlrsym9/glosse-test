@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="JUnit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/test/bin/junit/4.7.0/com.springsource.org.junit-4.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/test/src/junit/4.7.0/com.springsource.org.junit-sources-4.7.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>

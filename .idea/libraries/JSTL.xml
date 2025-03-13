@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JSTL">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/JavaEE/5.0.0/appserv-jstl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

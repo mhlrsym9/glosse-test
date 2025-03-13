@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JNLP Servlet">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jnlp-servlet/1.8.0/jnlp-servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jnlp-servlet/1.8.0/jnlp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jnlp-servlet/1.8.0/jnlp-servlet-src.jar!/" />
+    </SOURCES>
+  </library>
+</component>

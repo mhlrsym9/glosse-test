@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Spring Data Access and Integration">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.orm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.oxm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.transaction-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.jms-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.jdbc-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.jms-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.orm-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.oxm-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.transaction-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.jdbc-sources-3.0.5.RELEASE.jar!/" />
+    </SOURCES>
+  </library>
+</component>

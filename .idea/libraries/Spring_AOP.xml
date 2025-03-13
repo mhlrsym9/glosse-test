@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Spring AOP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.aop-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.asm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.aspects-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.aop-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.asm-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.aspects-sources-3.0.5.RELEASE.jar!/" />
+    </SOURCES>
+  </library>
+</component>

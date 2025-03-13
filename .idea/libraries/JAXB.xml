@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="JAXB">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jaxb/2.2.2/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jaxb/2.2.2/jsr173_1.0_api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jaxb/2.2.2/jaxb1-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jaxb/2.2.2/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jaxb/2.2.2/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/jaxb/2.2.2/jaxb-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-api-doc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/dtd-parser" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/rngom/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb1-impl-src.zip!/isorelax/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/istack-commons/src14" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/istack-commons/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/txw2/src/compiler" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/resolver-comsun/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/txw2/src/runtime" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/xsom/build/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/staxex" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/fi" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/impl" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/relaxng-datatype/java/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/codemodel/codemodel-annotation-compiler/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb1-impl-src.zip!/xsdlib/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb1-impl-src.zip!/xsdlib/test" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb1-impl-src.zip!/xsdlib/src-apache" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/istack-commons/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/codemodel/codemodel/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/xjc" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-api-src.zip!/src" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-impl.src.zip!/istack-commons/src/test/java" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb1-impl-src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/jaxb/2.2.2/jaxb-xjc.src.zip!/xsom/src" />
+    </SOURCES>
+  </library>
+</component>

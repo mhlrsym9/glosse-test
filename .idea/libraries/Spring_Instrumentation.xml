@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Spring Instrumentation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.instrument.tomcat-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.instrument-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.instrument.tomcat-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.instrument-sources-3.0.5.RELEASE.jar!/" />
+    </SOURCES>
+  </library>
+</component>

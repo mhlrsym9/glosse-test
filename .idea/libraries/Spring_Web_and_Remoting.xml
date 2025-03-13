@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Spring Web and Remoting">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.web.servlet-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.web.portlet-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.web-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/bin/spring/3.0.5/org.springframework.web.struts-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.web-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.web.servlet-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.web.portlet-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/main/src/spring/3.0.5/org.springframework.web.struts-sources-3.0.5.RELEASE.jar!/" />
+    </SOURCES>
+  </library>
+</component>
