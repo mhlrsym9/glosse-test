@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>PORbr_ENGus_04_Verbs</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>PORTUGUESE_BRAZILIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>BykiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title></side1_title>
+		<side2_title></side2_title>
+		<creation_date>2011-01-10T05:00:00</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>false</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>false</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>false</is_SR_ProduceIt>
+			<is_Written_ProduceIt>false</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>to design buildings</side1_phrase>
+			<side2_phrase>projetar prédios</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F0715BE3-562D-4191-87DC-EE494E17FA82}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>1</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0001.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to paint, draw pictures</side1_phrase>
+			<side2_phrase>pintar, desenhar quadros</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{15AAAFD1-3090-481D-A918-EAEF19AE8182}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>2</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0002.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to repair cars</side1_phrase>
+			<side2_phrase>consertar carros</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{973946C2-F225-45D6-B37B-13106E5DE567}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>3</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0003.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to design computers</side1_phrase>
+			<side2_phrase>projetar computadores</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{14F7418C-364A-4BB6-802D-98F3B933E35D}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>4</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0004.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to make software</side1_phrase>
+			<side2_phrase>fazer programas para computador</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{FF013BE6-98E8-4C70-9ABA-3EEDF952DD1F}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>5</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0005.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to build houses</side1_phrase>
+			<side2_phrase>contruír casas</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{AB66CF0F-114D-49B9-8CE3-8510437CEA93}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>6</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0006.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to make skin beautiful</side1_phrase>
+			<side2_phrase>deixar a pele bonita</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F51B98CB-1085-4ACA-BAA9-312F4E703816}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>7</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0007.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to design bridges</side1_phrase>
+			<side2_phrase>projetar pontes</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{45E65339-985A-4C76-8164-C45CB727AB8E}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>8</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0008.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to grow vegetables</side1_phrase>
+			<side2_phrase>crescer vegetais</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{7D72A7F9-F927-430A-9820-25DD545FDB1F}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>9</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0009.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to make movies</side1_phrase>
+			<side2_phrase>fazer filmes</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{A05E1A79-5141-4425-ACFE-F59E8FB00657}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>10</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0010.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to catch fish</side1_phrase>
+			<side2_phrase>pescar peixe</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{67C51B74-7DAC-4FE6-A9F7-05618C4240C9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>11</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0011.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to dance on stage</side1_phrase>
+			<side2_phrase>dançar no palco</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{CD157A18-D7D7-42DD-A9D4-3BCEC46FC73D}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>12</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0012.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to cure teeth</side1_phrase>
+			<side2_phrase>cuidar dos dentes</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{9CD00AA3-2A9D-4272-8706-37588E4F6979}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>13</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0013.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to treat people</side1_phrase>
+			<side2_phrase>tratar as pessoas</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{9D737020-7F7F-44CC-87F7-AF3EB1CE9DD9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>14</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0014.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to fly on planes</side1_phrase>
+			<side2_phrase>pilotar aviões</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{AE5885AA-0927-47D9-8662-CF08A6F6BCA6}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>15</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0015.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to make images on the computer</side1_phrase>
+			<side2_phrase>fazer imagens no computador</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F9F047FC-A1A0-48EB-BFAE-575FE9DAD315}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>16</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0016.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to cut hair</side1_phrase>
+			<side2_phrase>cortar cabelo</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{A48116B2-5EDC-47AA-B0CE-B020C1099AC7}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>17</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0017.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to look after the house</side1_phrase>
+			<side2_phrase>cuidar da casa</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{E5F287F1-027B-4120-8C20-82844AD96FE5}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>18</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0018.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to take care of the sick people</side1_phrase>
+			<side2_phrase>cuidar de gente doente</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{C1BA4397-C42D-4956-AF6B-13718CFDBF7F}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>19</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0019.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to make repairs in the house</side1_phrase>
+			<side2_phrase>fazer reparos em casa</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{AAB1DDE7-C9EC-4E84-8D41-8DB37679EA8B}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>20</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0020.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to translate in conferences</side1_phrase>
+			<side2_phrase>traduzir em conferências</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{5CDFA1E7-B582-489C-AF76-AB5405CA9C01}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>21</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0021.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to investigate crimes</side1_phrase>
+			<side2_phrase>investigar crimes</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{B221B9C2-D708-473D-9841-0EF40D1D1043}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>22</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0022.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to work in court</side1_phrase>
+			<side2_phrase>trabalhar na côrte</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{6B8C15A3-9BE6-401D-B116-595E2E7BC7E3}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>23</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0023.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to work with numbers</side1_phrase>
+			<side2_phrase>trabalhar com números</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{D8ADD98B-89E5-407A-9B93-8C7121A01E76}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>24</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0024.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to play a musical instrument</side1_phrase>
+			<side2_phrase>tocar um instrumento musical</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{BE3C71F0-52FC-4E7B-91B5-7B27D838C9DE}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>25</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0025.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to do research</side1_phrase>
+			<side2_phrase>fazer pesquisa</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F2709D2E-7CB8-4AD5-8273-32B859995C5C}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>26</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0026.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to sing on stage</side1_phrase>
+			<side2_phrase>cantar no palco</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{2EB0C2E0-8D0C-4C9E-BF1F-5375144C5D23}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>27</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0027.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to work at school</side1_phrase>
+			<side2_phrase>trabalhar na escola</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{8E4158EE-5B0B-4786-8B1F-08F555BA4E8B}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>28</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0028.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to supervise</side1_phrase>
+			<side2_phrase>supervisonar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{569142B1-B14F-4811-85DD-28260F1762FA}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>29</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0029.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to spend time with</side1_phrase>
+			<side2_phrase>passar tempo com</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{72FA3A38-419E-42F0-AAE7-133334558C25}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>30</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0030.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to find</side1_phrase>
+			<side2_phrase>achar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{6F48D4FD-7C74-4824-B69F-8BC8200D3213}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>31</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0031.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to relax</side1_phrase>
+			<side2_phrase>relaxar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{9E0CB997-C4A9-4539-9151-064B1A8681F1}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>32</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0032.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to take classes</side1_phrase>
+			<side2_phrase>ter aulas</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{4915BA60-EA40-4452-A14F-BC4D7F52FBF5}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>33</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0033.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>	

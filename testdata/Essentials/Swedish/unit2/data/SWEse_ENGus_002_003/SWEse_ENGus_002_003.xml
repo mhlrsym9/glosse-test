@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>002_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:50</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>restroom</side1_phrase>
+			<side2_phrase>en toalett</side2_phrase>
+			<side2_hint>referring to a room</side2_hint>
+			<guid>{7EB53B56-3BD8-464E-A459-9EBDD68BE9C4}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>luggage</side1_phrase>
+			<side2_phrase>bagage</side2_phrase>
+			<guid>{22A70729-07E1-B04D-BA50-A6A004B5270B}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>five</side1_phrase>
+			<side2_phrase>fem</side2_phrase>
+			<guid>{B0DA308F-2C9A-8940-B73E-AFEBBAB38505}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to declare</side1_phrase>
+			<side2_phrase>att deklarera</side2_phrase>
+			<guid>{645C4FF8-9919-3C4A-803A-0519A944D469}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have nothing to declare.</side1_phrase>
+			<side2_phrase>Jag har ingenting att deklarera.</side2_phrase>
+			<guid>{8571F087-E537-DD4F-A064-561F89456C47}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ATM</side1_phrase>
+			<side2_phrase>en bankomat</side2_phrase>
+			<guid>{13B4181B-22EA-AC47-A5A8-A3824E90A8CA}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is the closest ATM located?</side1_phrase>
+			<side2_phrase>Var ligger närmaste bankomat?</side2_phrase>
+			<guid>{056FF2C1-2BA9-C747-8B04-AC37C08496B5}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bus</side1_phrase>
+			<side2_phrase>en buss</side2_phrase>
+			<guid>{7C30F258-CF53-4146-A8D5-00FCABB87E8B}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bank</side1_phrase>
+			<side2_phrase>en bank</side2_phrase>
+			<guid>{C24DD2C3-6842-0D45-9A8E-C1B8CA018926}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>next to the bank</side1_phrase>
+			<side2_phrase>bredvid banken</side2_phrase>
+			<guid>{5323A24F-0F84-2849-B729-BC5CD8CA3D59}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bills</side1_phrase>
+			<side2_phrase>sedlar</side2_phrase>
+			<guid>{DC625C6D-4E93-1048-8AF9-55455DF0738A}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>You&apos;re welcome.</side1_phrase>
+			<side2_phrase>Ingen orsak.</side2_phrase>
+			<guid>{5D5CE4F1-0215-C042-8D30-F181012012C1}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Goodbye.</side1_phrase>
+			<side2_phrase>Hej då!</side2_phrase>
+			<guid>{08ECB9D7-B0C0-E240-9B6E-4619D2559449}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is the restroom?</side1_phrase>
+			<side2_phrase>Var ligger toaletten?</side2_phrase>
+			<guid>{27134820-A493-7D4C-908C-06E16AB93384}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<side2_picture url="pictures/image013.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

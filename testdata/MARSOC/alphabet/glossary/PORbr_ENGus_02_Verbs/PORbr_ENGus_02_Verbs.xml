@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>PORbr_ENGus_02_Verbs</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>PORTUGUESE_BRAZILIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>BykiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title></side1_title>
+		<side2_title></side2_title>
+		<creation_date>2011-01-10T05:00:00</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>false</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>false</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>false</is_SR_ProduceIt>
+			<is_Written_ProduceIt>false</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>to be married/to get married/to marry someone</side1_phrase>
+			<side2_phrase>casar/casar-se/casar com alguém</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{227D84B0-904C-4ED1-943A-62DDBA609ECE}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>1</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0001.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to get a divorce/to divorce/ to be divorced</side1_phrase>
+			<side2_phrase>divorciar-se/divorciar/ser divorciado</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{5EDB7D1F-D7D7-4CD9-987E-B1173725D01E}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>2</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0002.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to meet someone</side1_phrase>
+			<side2_phrase>conhecer alguém</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F4949F2C-4CE1-49AE-9D79-2BB88D89333A}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>3</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0003.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to date someone</side1_phrase>
+			<side2_phrase>namorar alguém</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{B770D041-FFB4-43E9-8C69-DFBEE71BB233}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>4</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0004.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to invite someone to an event</side1_phrase>
+			<side2_phrase>convidar alguém para um evento</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{EA89DF36-2E41-471D-98CE-176D21AC50F9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>5</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0005.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to wear</side1_phrase>
+			<side2_phrase>vestir</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{DC4201AC-A121-42C7-8EE3-5BC25461B058}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>6</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0006.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to have (to hold) in one’s hands</side1_phrase>
+			<side2_phrase>ter em mãos</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{2CE904F3-AAC1-40DE-8E4A-1A9DD72FCFA7}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>7</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0007.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to look (pretty/happy)</side1_phrase>
+			<side2_phrase>parecer bonita/feliz</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{885EA8FA-9398-47AC-9F2B-2D3204C54208}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>8</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0008.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to fall in love</side1_phrase>
+			<side2_phrase>se apaixonar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{5DD199FB-1C9C-4CDF-B61F-BC81F2AA15C8}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>9</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0009.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to be from</side1_phrase>
+			<side2_phrase>ser de</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{383D1E6D-C93D-4902-8BA2-0B58F74BB8E9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>10</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0010.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to come from</side1_phrase>
+			<side2_phrase>vir de</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{4EC402E4-8083-4216-B943-7B496D35E21E}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>11</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0011.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to be (by origin/ethnicity)</side1_phrase>
+			<side2_phrase>ser de origem</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{12B9384A-EF80-4A06-B02A-9B05D430C80C}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>12</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0012.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to immigrate from</side1_phrase>
+			<side2_phrase>imigrar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{DDD6B659-AF77-462F-AE0D-04F9F26A9BF1}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>13</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0013.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to emigrate to</side1_phrase>
+			<side2_phrase>emigrar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{44991EC2-9A1E-42A7-8972-E5DD2802CC2C}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>14</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0014.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>	

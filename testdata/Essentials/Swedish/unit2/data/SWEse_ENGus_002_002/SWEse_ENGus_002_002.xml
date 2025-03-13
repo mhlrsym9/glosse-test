@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>002_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:49</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>to land</side1_phrase>
+			<side2_phrase>att landa</side2_phrase>
+			<guid>{212A0D98-9350-4641-B402-5DBBA79BEA93}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>When do we land?</side1_phrase>
+			<side2_phrase>När landar vi?</side2_phrase>
+			<guid>{41223C21-90FE-1746-8C8A-29EE54C0B292}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>airport</side1_phrase>
+			<side2_phrase>en flygplats</side2_phrase>
+			<guid>{7648C985-F6BA-E74E-8CC3-6E1DE97D6F32}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>What time is it?</side1_phrase>
+			<side2_phrase>Vad är klockan?</side2_phrase>
+			<guid>{954044B8-F168-DC4D-BD87-B727B0985B4C}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>three</side1_phrase>
+			<side2_phrase>tre</side2_phrase>
+			<guid>{4B5EAFB2-3760-524C-A828-5D5AF8D361B6}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>It is three in the afternoon.</side1_phrase>
+			<side2_phrase>Klockan är tre på eftermiddagen.</side2_phrase>
+			<guid>{C7DE151C-1A29-2348-8A66-029CD8A3C97C}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I&apos;m in a hurry.</side1_phrase>
+			<side2_phrase>Jag har bråttom.</side2_phrase>
+			<guid>{70DB154B-B2EC-E340-BE80-30C3AB8A3C24}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>train</side1_phrase>
+			<side2_phrase>ett tåg</side2_phrase>
+			<guid>{8DCF5EC1-82D8-984D-8B43-1BBD288DC7AE}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>town</side1_phrase>
+			<side2_phrase>en stad</side2_phrase>
+			<side2_hint>small settlement, urban or rural</side2_hint>
+			<guid>{E0F33BB1-B2C3-934C-A628-1F7935391886}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>next</side1_phrase>
+			<side2_phrase>nästa</side2_phrase>
+			<guid>{9E29AB36-93B9-1145-B49C-C084D53694C2}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>When is...?</side1_phrase>
+			<side2_phrase>När är...?</side2_phrase>
+			<guid>{35AD8380-8801-8944-82EC-A0A6CD40F52F}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>When is the next train to...?</side1_phrase>
+			<side2_phrase>När går nästa tåg till...?</side2_phrase>
+			<guid>{193FFF0E-7262-A345-B8D0-3C1B81EF4A9E}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>tomorrow</side1_phrase>
+			<side2_phrase>i morgon</side2_phrase>
+			<guid>{F96CEBC3-F5FD-4549-BDDD-BF05F8B89639}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Tuesday</side1_phrase>
+			<side2_phrase>tisdag</side2_phrase>
+			<guid>{946085A8-79FD-064B-A5A0-076F52820742}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>four</side1_phrase>
+			<side2_phrase>fyra</side2_phrase>
+			<guid>{27515FE1-9EBE-0443-97E8-1828D796C1B5}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

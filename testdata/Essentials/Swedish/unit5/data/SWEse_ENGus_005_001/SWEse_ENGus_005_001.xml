@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>005_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:53</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>dinner</side1_phrase>
+			<side2_phrase>en middag</side2_phrase>
+			<guid>{7DD475BE-DEFA-A842-BA39-93F1CEAEAAE4}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>table</side1_phrase>
+			<side2_phrase>ett bord</side2_phrase>
+			<guid>{0C0CE8C7-3E0F-B346-B077-4872934ADC2F}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>waiter</side1_phrase>
+			<side2_phrase>en servitör</side2_phrase>
+			<guid>{60DF4107-288D-474B-AC2F-36FB9B6B0F15}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>glass</side1_phrase>
+			<side2_phrase>ett glas</side2_phrase>
+			<guid>{5CB561B4-08B9-2449-8288-649B460FB3D1}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>glass of water</side1_phrase>
+			<side2_phrase>ett glas vatten</side2_phrase>
+			<guid>{B81EE60E-A1A0-B041-A023-F9E36337442F}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May I have some water?</side1_phrase>
+			<side2_phrase>Kan jag få lite vatten?</side2_phrase>
+			<guid>{144F9419-05CE-1245-A3E4-F0D43099CAD1}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>absolutely</side1_phrase>
+			<side2_phrase>absolut</side2_phrase>
+			<guid>{AD037D05-4748-CA4F-8060-1C5C00C3A915}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wine</side1_phrase>
+			<side2_phrase>vin</side2_phrase>
+			<guid>{3DEE021C-FD0E-1F4F-AE8E-2C5EFE1652C2}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>What do you recommend?</side1_phrase>
+			<side2_phrase>Vad kan ni rekommendera?</side2_phrase>
+			<side2_hint>formal</side2_hint>
+			<guid>{AEDFFD99-9DDA-2A49-A249-6E95FEED9E72}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May I have some ice, please?</side1_phrase>
+			<side2_phrase>Kan jag få lite is, tack?</side2_phrase>
+			<guid>{006E2B62-4B90-C54A-B05F-32008387EEF7}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>menu</side1_phrase>
+			<side2_phrase>en meny</side2_phrase>
+			<guid>{EA3617DE-8959-8D47-8848-5975C589E839}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May I have a menu, please?</side1_phrase>
+			<side2_phrase>Kan jag få menyn, tack?</side2_phrase>
+			<guid>{9AF792A6-2EF6-234E-A5F5-2A8D509C096A}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<side2_picture url="pictures/image011.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>today</side1_phrase>
+			<side2_phrase>i dag</side2_phrase>
+			<guid>{F523E0A4-540B-C540-96EA-2FE0797B93BF}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>What is the special today?</side1_phrase>
+			<side2_phrase>Vilken är dagens rätt idag?</side2_phrase>
+			<guid>{1520630B-0201-D542-81AA-C06A665FE7DC}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<side2_picture url="pictures/image013.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>napkin</side1_phrase>
+			<side2_phrase>en servett</side2_phrase>
+			<guid>{57FB5BDB-ADFE-D845-92A2-EB98969C5D73}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<side2_picture url="pictures/image014.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May I have another napkin?</side1_phrase>
+			<side2_phrase>Kan jag få en annan servett?</side2_phrase>
+			<guid>{49B000D7-A4C9-6F4F-8E93-1E17C4A3E6E3}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>007_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:56</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>shoe store</side1_phrase>
+			<side2_phrase>en skoaffär</side2_phrase>
+			<guid>{44BBDD6A-E325-224D-9614-A5F3C2819792}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to look at</side1_phrase>
+			<side2_phrase>att titta på</side2_phrase>
+			<guid>{886CFD66-6C2F-BC4F-91F8-899863DD2C0D}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Just looking, thank you.</side1_phrase>
+			<side2_phrase>Jag tittar bara, tack.</side2_phrase>
+			<guid>{1B26C598-5539-B647-906D-D204BFB0F77F}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>black</side1_phrase>
+			<side2_phrase>svart</side2_phrase>
+			<guid>{058CE715-FD74-394E-AE54-6E3B5665518C}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>shoes</side1_phrase>
+			<side2_phrase>skor</side2_phrase>
+			<guid>{B4059A9B-54E6-0E45-89E4-05EDCBD8E2E6}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like this one, please.</side1_phrase>
+			<side2_phrase>Jag skulle vilja ha det här, tack.</side2_phrase>
+			<guid>{C546C18A-FBA5-F043-B2A2-8F53A39FBC59}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>shoe size</side1_phrase>
+			<side2_phrase>en skostorlek</side2_phrase>
+			<side2_alt_answers>
+				<alt_answer>skonummer</alt_answer>
+			</side2_alt_answers>
+			<guid>{850FCAC5-A301-2A45-83A0-BDD9B2AF77C4}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>My American size is...</side1_phrase>
+			<side2_phrase>Min amerikanska storlek är...</side2_phrase>
+			<guid>{FD4737F1-0D1B-D749-A587-399624ED7AFA}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>nine</side1_phrase>
+			<side2_phrase>nio</side2_phrase>
+			<guid>{8B33EA94-5610-3B47-8B47-84F45968A009}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>This doesn&apos;t quite fit.</side1_phrase>
+			<side2_phrase>Det passar inte så bra.</side2_phrase>
+			<guid>{03ECDA50-7BA8-E142-AE36-9906A318181E}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>big</side1_phrase>
+			<side2_phrase>stor</side2_phrase>
+			<guid>{F4D14566-C15F-7047-981B-1A294600B0B2}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you have a bigger size?</side1_phrase>
+			<side2_phrase>Har ni en större storlek?</side2_phrase>
+			<guid>{14A3237B-CFAA-894A-919D-04538CCB86F4}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>forty</side1_phrase>
+			<side2_phrase>fyrtio</side2_phrase>
+			<guid>{9CE33C22-6F24-7F4F-ABD5-22005B383102}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>expensive</side1_phrase>
+			<side2_phrase>dyr</side2_phrase>
+			<guid>{6EE02231-14DD-DF4C-99B6-0A71602E8F69}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<side2_picture url="pictures/image013.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Is this real leather?</side1_phrase>
+			<side2_phrase>Är det äkta läder?</side2_phrase>
+			<guid>{77E60AAE-1D6B-DF4B-9C1D-D41A2A80B969}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<side2_picture url="pictures/image014.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you have…?</side1_phrase>
+			<side2_phrase>Har ni...?</side2_phrase>
+			<guid>{9F31940A-4CEC-654A-8284-E87BEA195B11}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

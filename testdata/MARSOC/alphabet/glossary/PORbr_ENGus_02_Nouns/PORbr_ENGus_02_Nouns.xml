@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>PORbr_ENGus_02_Nouns</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>PORTUGUESE_BRAZILIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>BykiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title></side1_title>
+		<side2_title></side2_title>
+		<creation_date>2011-01-10T05:00:00</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>false</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>false</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>false</is_SR_ProduceIt>
+			<is_Written_ProduceIt>false</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>marriage</side1_phrase>
+			<side2_phrase>casamento</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{5CA39A18-6F99-4FB3-89C3-2C338D1CD4C9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>1</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0001.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wedding</side1_phrase>
+			<side2_phrase>casamento</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{8DCEDF20-E088-4FF0-A999-F85661828D7C}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>2</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0002.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>engagement</side1_phrase>
+			<side2_phrase>noivado</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{FFCEFB7A-2FFE-4DF9-ACF0-BF57E96F45A9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>3</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0003.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bride</side1_phrase>
+			<side2_phrase>noiva</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{4D30998E-A360-4D0A-A82A-6D9E7A7825D3}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>4</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0004.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>groom</side1_phrase>
+			<side2_phrase>noivo</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{577590E7-7786-42A2-B667-FBB21C0D37B6}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>5</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0005.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wife</side1_phrase>
+			<side2_phrase>esposa</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{C1BB7645-0570-4ABA-98F5-39ECB4D2A3F5}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>6</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0006.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>husband</side1_phrase>
+			<side2_phrase>marido</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{9F5CDF0C-A29C-4F23-983C-494AFA4C8435}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>7</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0007.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>newlyweds</side1_phrase>
+			<side2_phrase>recém-casados</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{D0BB42F0-7E4A-428C-A88F-336B04304722}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>8</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0008.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wedding ring</side1_phrase>
+			<side2_phrase>aliança</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{04F2B53D-78F6-48CD-9A1A-75C93A90B61F}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>9</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0009.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>veil</side1_phrase>
+			<side2_phrase>véu</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{5B8CFB8E-BF65-4A05-A0D7-5DDA1AC36F91}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>10</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0010.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wedding gown</side1_phrase>
+			<side2_phrase>vestido de casamento</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{B81DC70D-C2F4-4332-936F-6CB301738510}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>11</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0011.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>tuxedo</side1_phrase>
+			<side2_phrase>smoking</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{09972FA6-F58A-4CD5-83DA-E163CAB6E9D6}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>12</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0012.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bouquet</side1_phrase>
+			<side2_phrase>buquê</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{36932573-9A41-45EC-B118-98067AF3B2D7}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>13</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0013.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wedding band</side1_phrase>
+			<side2_phrase>aliança/anel de casamento</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{644A8AC0-98C0-4915-A362-7196310AE132}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>14</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0014.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wedding cake</side1_phrase>
+			<side2_phrase>bolo de casamento</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{33A4AC47-D22E-4B5D-88B1-2CC3E0B40ADC}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>15</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0015.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>dress</side1_phrase>
+			<side2_phrase>vestido</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{D1AF28B9-C463-4A07-9E0E-D6689683BA04}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>16</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0016.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>suit</side1_phrase>
+			<side2_phrase>terno</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{C1E3C447-CC67-40D8-B079-50DE7CD502D1}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>17</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0017.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bow tie</side1_phrase>
+			<side2_phrase>gravata borboleta</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{13C8C725-EE4F-477A-AAA4-65DB1A5E4752}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>18</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0018.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>men&apos;s shoes</side1_phrase>
+			<side2_phrase>sapatos de homem</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{00226867-3E11-4EFE-900C-F0B89CA433C5}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>19</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0019.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>shoes</side1_phrase>
+			<side2_phrase>sapatos</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F2241A47-EEC4-4B18-8C85-699010D3A8D4}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>20</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0020.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>witness</side1_phrase>
+			<side2_phrase>testemunhas</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F3E4828B-C815-42E1-8DB2-5E71A2E81D64}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>21</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0021.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>shirt</side1_phrase>
+			<side2_phrase>camisa</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{4B54131A-78F5-4C68-AC8D-89926628B6A7}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>22</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0022.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ethnicity</side1_phrase>
+			<side2_phrase>etnía</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{4C0FEE1B-2129-46B5-B61D-A60B157C82DB}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>23</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0023.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>origin</side1_phrase>
+			<side2_phrase>origem</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{36ECD19E-2BBB-4EC0-9498-4C333F1D63B9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>24</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0024.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>boyfriend</side1_phrase>
+			<side2_phrase>namorado</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{D24192EF-8043-49EC-846B-7766F32CF881}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>25</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0025.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>girlfriend</side1_phrase>
+			<side2_phrase>namorada</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{A5BFED1B-44D5-4DD7-9933-FD46141C7A87}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>26</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0026.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>	

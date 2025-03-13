@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>PORbr_ENGus_06_Expressions</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>PORTUGUESE_BRAZILIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>BykiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title></side1_title>
+		<side2_title></side2_title>
+		<creation_date>2011-01-10T05:00:00</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>false</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>false</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>false</is_SR_ProduceIt>
+			<is_Written_ProduceIt>false</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>Well, that depends.</side1_phrase>
+			<side2_phrase>Bem, isso acontece.</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{E1BC5BDE-7E9F-4B4F-A353-87F44B0FA29C}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>1</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0001.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have to think about it.</side1_phrase>
+			<side2_phrase>Eu tenho que pensar sobre isso.</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{E7CA32A7-0DA9-47BB-B823-53CA5A380EE5}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>2</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0002.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>For me the most important thing is…</side1_phrase>
+			<side2_phrase>Para mim a coisa mais importate é...</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{6B6723A9-BDAE-405D-804D-398800DAB031}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>3</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0003.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Unfortunately…</side1_phrase>
+			<side2_phrase>Infelizmente...</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F8FCDD62-893D-40DD-87F4-00BD2E7F2327}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>4</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0004.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>	

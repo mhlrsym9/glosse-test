@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<glossary language="ENGLISH" version="20101006">
+    <letters>
+        <letter isMiscBucket="false" name="A">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">appetizer</key>
+                    <translation language="ITALIAN">l'antipasto</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="B">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">bill</key>
+                    <translation language="ITALIAN">il conto</translation>
+                    <annotations>
+                        <annotation name="hint1">referring to the check</annotation>
+                        <annotation name="comment">"Il conto" also means (bank) account.</annotation>
+                    </annotations>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">bottle of wine</key>
+                    <translation language="ITALIAN">la bottiglia di vino</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">bread</key>
+                    <translation language="ITALIAN">il pane</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="C">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">clams</key>
+                    <translation language="ITALIAN">i molluschi</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">cold</key>
+                    <translation language="ITALIAN">freddo</translation>
+                    <annotations>
+                        <annotation name="hint1">masculine, singular</annotation>
+                    </annotations>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">crab</key>
+                    <translation language="ITALIAN">il granchio</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">crawfish</key>
+                    <translation language="ITALIAN">il gambero</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">cream</key>
+                    <translation language="ITALIAN">la panna</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="D">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">dessert</key>
+                    <translation language="ITALIAN">il dolce</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">dinner</key>
+                    <translation language="ITALIAN">la cena</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="F">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">fish</key>
+                    <translation language="ITALIAN">il pesce</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: Ah, yes, I have it here. A double room with bath.</key>
+                    <translation language="ITALIAN">Portiere: Sì, eccola qua. Una stanza doppia con bagno.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: Here is a list of the dining room hours.</key>
+                    <translation language="ITALIAN">Portiere: Ecco un orario scritto.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: No.</key>
+                    <translation language="ITALIAN">Portiere: No..</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: Of course.</key>
+                    <translation language="ITALIAN">Portiere: Certo.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: Sign the register here, please.</key>
+                    <translation language="ITALIAN">Portiere: Firmi qui nel registro, per favore.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: The hotel serves excellent meals, and there are several cafés in the area.</key>
+                    <translation language="ITALIAN">Portiere: Quello dell'albergo è buono e in questa zona vi sono, comunque, diverse trattorie.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Front Desk Attendant: When did you make your reservation?</key>
+                    <translation language="ITALIAN">Portiere: Quando l'ha prenotata?</translation>
+                    <annotations/>
+                </phrase>
+            </phrases>
+        </letter>
+        <letter isMiscBucket="false" name="G">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">glass of beer</key>
+                    <translation language="ITALIAN">il bicchiere di birra</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">glass of water</key>
+                    <translation language="ITALIAN">il bicchiere d'acqua</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="H">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">hot</key>
+                    <translation language="ITALIAN">caldo</translation>
+                    <annotations>
+                        <annotation name="hint1">masculine, singular</annotation>
+                        <annotation name="comment">"Caldo" can also mean warm.</annotation>
+                    </annotations>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="I">
+            <words/>
+            <phrases>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">I am allergic to...</key>
+                    <translation language="ITALIAN">Sono allergico a...</translation>
+                    <annotations>
+                        <annotation name="hint1">spoken by a male</annotation>
+                    </annotations>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">I am allergic to...</key>
+                    <translation language="ITALIAN">Sono allergica a...</translation>
+                    <annotations>
+                        <annotation name="hint1">spoken by a female</annotation>
+                    </annotations>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">I believe you have a room for me.</key>
+                    <translation language="ITALIAN">Dovrebbe avere una stanza per me.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">I don't like this.</key>
+                    <translation language="ITALIAN">Questo non mi piace.</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">It's a nice town.</key>
+                    <translation language="ITALIAN">È un bel paese.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">It's on San Daniele Street.</key>
+                    <translation language="ITALIAN">È in via San Daniele.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">I would like...</key>
+                    <translation language="ITALIAN">Vorrei...</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">I would like to start with...</key>
+                    <translation language="ITALIAN">Vorrei iniziare con...</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+            </phrases>
+        </letter>
+        <letter isMiscBucket="false" name="L">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">lobster</key>
+                    <translation language="ITALIAN">l'aragosta</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">lunch</key>
+                    <translation language="ITALIAN">il pranzo</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="M">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">meals</key>
+                    <translation language="ITALIAN">i pasti</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">menu</key>
+                    <translation language="ITALIAN">il menu</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">mussels</key>
+                    <translation language="ITALIAN">le cozze</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: Do you work on the weekend, too?</key>
+                    <translation language="ITALIAN">Maria: Lavori anche il fine settimana?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: Fine, thanks.</key>
+                    <translation language="ITALIAN">Maria: Bene, grazie.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: Hi, Paolo! How are you?</key>
+                    <translation language="ITALIAN">Maria: Ciao, Paolo! Come va?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: How nice!</key>
+                    <translation language="ITALIAN">Maria: Che bello!</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: My aunt lives in Ostia.</key>
+                    <translation language="ITALIAN">Maria: Mia zia abita ad Ostia.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: No, I'm going into town to buy a gift for a friend.</key>
+                    <translation language="ITALIAN">Maria: No, vado in centro a comprare un regalo per un'amica.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: Really? Where do you work?</key>
+                    <translation language="ITALIAN">Maria: Sì? Dove lavori?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Maria: What is it called?</key>
+                    <translation language="ITALIAN">Maria: Come si chiama?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">May I have a menu, please?</key>
+                    <translation language="ITALIAN">Potrei avere il menu, per favore?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">May I have another glass?</key>
+                    <translation language="ITALIAN">Potrei avere un altro bicchiere?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">May I have another napkin?</key>
+                    <translation language="ITALIAN">Potrei avere un altro tovagliolo?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">May I have some ice, please?</key>
+                    <translation language="ITALIAN">Potrei avere un po' di ghiaccio, per favore?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">May I see your passport?</key>
+                    <translation language="ITALIAN">Posso vedere il suo passaporto?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: Can you recommend a good restaurant?</key>
+                    <translation language="ITALIAN">Signor Bianco: Ci può raccomandare un buon ristorante?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: Hello, my name is Bianco,</key>
+                    <translation language="ITALIAN">Signor Bianco: Buon giorno, sono il signor Bianco.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: Here it is. Can you provide an extra cot for our room?</key>
+                    <translation language="ITALIAN">Signor Bianco: Eccolo. Potrebbe darci una branda da mettere in camera?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: I reserved the room by telephone yesterday.</key>
+                    <translation language="ITALIAN">Signor Bianco: Ieri, per telefono.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: Is there an extra charge for the cot?</key>
+                    <translation language="ITALIAN">Signor Bianco: C'è da pagare un supplemento per la branda?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: That's right. For ten days.</key>
+                    <translation language="ITALIAN">Signor Bianco: Esatto, per dieci giorni.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Mr. Bianco: What hours do you serve meals?</key>
+                    <translation language="ITALIAN">Signor Bianco: Che orari fa il ristorante?</translation>
+                    <annotations/>
+                </phrase>
+            </phrases>
+        </letter>
+        <letter isMiscBucket="false" name="O">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">oysters</key>
+                    <translation language="ITALIAN">le ostriche</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="P">
+            <words/>
+            <phrases>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: Are you going away on Saturday?</key>
+                    <translation language="ITALIAN">Paolo: Tu vai via sabato?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: Fine, and you?</key>
+                    <translation language="ITALIAN">Paolo: Bene, tu?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: I'm going to Ostia.</key>
+                    <translation language="ITALIAN">Paolo: Vado a Ostia.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: I'm going to work.</key>
+                    <translation language="ITALIAN">Paolo: Vado al lavoro.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: It's called Trattoria Margherita.</key>
+                    <translation language="ITALIAN">Paolo: Si chiama Trattoria Margherita.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: I work in a restaurant.</key>
+                    <translation language="ITALIAN">Paolo: Lavoro in un ristorante.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Paolo: Sometimes, but this Saturday I'm going to the sea.</key>
+                    <translation language="ITALIAN">Paolo: A volte, ma sabato prossimo vado al mare.</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Please remember to leave your key when you go out.</key>
+                    <translation language="ITALIAN">Si ricordi di lasciare la chiave quando esce..</translation>
+                    <annotations/>
+                </phrase>
+            </phrases>
+        </letter>
+        <letter isMiscBucket="false" name="R">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">restaurant</key>
+                    <translation language="ITALIAN">il ristorante</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="S">
+            <words>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">salad</key>
+                    <translation language="ITALIAN">l'insalata</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">scallops</key>
+                    <translation language="ITALIAN">le capesante</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">seafood</key>
+                    <translation language="ITALIAN">i frutti di mare</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+                <word L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">shrimps</key>
+                    <translation language="ITALIAN">i gamberetti</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </word>
+            </words>
+            <phrases/>
+        </letter>
+        <letter isMiscBucket="false" name="W">
+            <words/>
+            <phrases>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">What do you recommend?</key>
+                    <translation language="ITALIAN">Che cosa mi consiglia?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">What is in this dish?</key>
+                    <translation language="ITALIAN">Che ingredienti ci sono in questo piatto?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">What is the special today?</key>
+                    <translation language="ITALIAN">Qual è il piatto del giorno?</translation>
+                    <annotations/>
+                    <sideOneSoundfile></sideOneSoundfile>
+                    <sideTwoSoundfile></sideTwoSoundfile>
+                    <referencedBy>Unit 00</referencedBy>
+                    <partOfSpeech>uncategorized</partOfSpeech>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Where are you going?</key>
+                    <translation language="ITALIAN">Dove vai?</translation>
+                    <annotations/>
+                </phrase>
+                <phrase L1="ENGLISH" L2="ITALIAN">
+                    <key language="ENGLISH">Where are you going now?</key>
+                    <translation language="ITALIAN">Dove vai adesso?</translation>
+                    <annotations/>
+                </phrase>
+            </phrases>
+        </letter>
+    </letters>
+</glossary>

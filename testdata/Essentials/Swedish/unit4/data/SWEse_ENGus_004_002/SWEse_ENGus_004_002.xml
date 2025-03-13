@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>004_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:52</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>room service</side1_phrase>
+			<side2_phrase>rumservice</side2_phrase>
+			<guid>{37BEDAB5-C07F-B94A-8E45-D970FEEE9268}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>pillow</side1_phrase>
+			<side2_phrase>en kudde</side2_phrase>
+			<guid>{362494BA-9F8A-5440-88FD-ED34013FE4D8}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I need an extra pillow, please.</side1_phrase>
+			<side2_phrase>Kan jag få en kudde till, tack?</side2_phrase>
+			<guid>{6A8BC6DD-40BA-B348-B2FC-F4694CA0DC8B}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to order</side1_phrase>
+			<side2_phrase>att beställa</side2_phrase>
+			<guid>{7AB11283-9CD6-714A-9F71-248BA43E97C1}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>coffee</side1_phrase>
+			<side2_phrase>kaffe</side2_phrase>
+			<guid>{C3EF890E-04F9-934D-9519-AAAE347E5ADC}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>sugar</side1_phrase>
+			<side2_phrase>socker</side2_phrase>
+			<guid>{B6CC0D16-3F28-8143-8718-DAEA4F54D987}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>breakfast</side1_phrase>
+			<side2_phrase>en frukost</side2_phrase>
+			<guid>{77F67075-36B2-2844-9328-F046A2F933BB}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>full breakfast</side1_phrase>
+			<side2_phrase>full frukost</side2_phrase>
+			<guid>{15D508C9-77F5-AC40-9EAF-67AE480F8957}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>We would like a full breakfast.</side1_phrase>
+			<side2_phrase>Vi skulle vilja ha en full frukost.</side2_phrase>
+			<guid>{36A76F61-B1C1-1E40-8D03-C228D6DB0796}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>cream</side1_phrase>
+			<side2_phrase>grädde</side2_phrase>
+			<guid>{81E5E105-57A2-4A45-8347-2203F7654625}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to order a sandwich.</side1_phrase>
+			<side2_phrase>Jag skulle vilja beställa en smörgås.</side2_phrase>
+			<guid>{3A3D2321-514B-1040-A55E-A42D35D1008B}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I lost my key.</side1_phrase>
+			<side2_phrase>Jag har tappat min nyckel.</side2_phrase>
+			<guid>{3236123A-F024-624D-91C0-6312FE01DF0B}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<side2_picture url="pictures/image011.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

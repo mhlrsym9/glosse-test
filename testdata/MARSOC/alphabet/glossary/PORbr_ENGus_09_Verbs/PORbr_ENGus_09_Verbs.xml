@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>PORbr_ENGus_09_Verbs</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>PORTUGUESE_BRAZILIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>BykiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title></side1_title>
+		<side2_title></side2_title>
+		<creation_date>2011-01-10T05:00:00</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>false</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>false</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>false</is_SR_ProduceIt>
+			<is_Written_ProduceIt>false</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>to serve</side1_phrase>
+			<side2_phrase>servir</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{075B305B-FE2C-4D66-9E74-976A7A59D2BD}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>1</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0001.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to chop</side1_phrase>
+			<side2_phrase>picar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{0174DEF5-0348-49D7-BECC-93551266BA5C}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>2</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0002.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to slice</side1_phrase>
+			<side2_phrase>fatiar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{D5F8FA75-0444-48C2-8517-91D9780E9FE8}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>3</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0003.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to grate</side1_phrase>
+			<side2_phrase>ralar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{31EF9380-D0BF-434C-8568-76F7FEF326DC}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>4</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0004.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to pour</side1_phrase>
+			<side2_phrase>pôr</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{15E9E415-8421-4454-9432-908AB667FAC7}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>5</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0005.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to add</side1_phrase>
+			<side2_phrase>adicionar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{1AAE9253-558C-4D3D-BB42-65D1891A0ED5}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>6</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0006.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to order</side1_phrase>
+			<side2_phrase>pedir</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{C2DBAE69-2C42-4C63-A8A7-EC810357D6F9}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>7</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0007.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to share</side1_phrase>
+			<side2_phrase>dividir</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{DE957001-5CCE-4ACD-A5A7-2EDD597892E2}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>8</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0008.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to make a reservation</side1_phrase>
+			<side2_phrase>fazer uma reserva</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{E7C75B20-E3A0-4BDC-B2F9-9C286E1DAF55}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>9</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0009.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to be seated</side1_phrase>
+			<side2_phrase>(esperar) para sentar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{1996C392-1862-4B52-9124-D4FBE5AC2FE2}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>10</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0010.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to look at the menu</side1_phrase>
+			<side2_phrase>olhar no menu/cardápio</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{5B84CD78-6FE1-4EF0-B57B-AE867351519A}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>11</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0011.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to be out of something</side1_phrase>
+			<side2_phrase>estar em falta</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{8DEED7E5-AB2C-460E-96DD-5F7064E6588F}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>12</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0012.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to taste</side1_phrase>
+			<side2_phrase>experimentar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{BDC8BAAA-A138-49CE-B628-26AD4F779C38}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>13</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0013.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to recommend</side1_phrase>
+			<side2_phrase>recomendar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{46B681DC-D418-49A8-B8A4-68E3104A6C6B}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>14</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0014.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to try something out</side1_phrase>
+			<side2_phrase>experimentar algo novo</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{52D94F78-65D0-4F6D-A265-6A0AE6B81393}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>15</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0015.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to go out for lunch/dinner</side1_phrase>
+			<side2_phrase>sair para almoçar/jantar</side2_phrase>
+			<side1_hint></side1_hint>
+			<side2_hint></side2_hint>
+			<guid>{F0CF66A2-504B-4293-A0B0-144206517827}</guid>
+			<side2_transliteration></side2_transliteration>
+			<alternative_side2_phrase></alternative_side2_phrase>
+			<list_position>16</list_position>
+			<side1_sound url=""/>
+			<side2_sound url="sounds/learn0016.mp3"/>
+			<side2_picture url=""/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>	

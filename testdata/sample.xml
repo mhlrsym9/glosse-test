@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list formatVersion="2">
+    <head>
+        <name>BBBKj7-damVM811OVfKH0hYyf</name>
+        <side1_language_key>IRISH</side1_language_key>
+        <side2_language_key>T_PUNJABI_GURMUKHI</side2_language_key>
+        <description>NKtJRYT</description>
+        <creator>lX.JP4jPEWisiFXrhdiAd7n</creator>
+        <creator_url>http://xHPLPnls/</creator_url>
+        <creator_application>CK23DHWKhtleeEyU35</creator_application>
+        <subject_name>atFEc9O6LbQjN0b</subject_name>
+        <side1_title>xYNmff8</side1_title>
+        <side2_title>MKAreLYnVm</side2_title>
+        <creation_date>2012-07-06T11:39:40</creation_date>
+        <is_themed>true</is_themed>
+        <is_government>1</is_government>
+        <is_library>1</is_library>
+        <is_alternative_side2_present>0</is_alternative_side2_present>
+        <is_ordered>false</is_ordered>
+        <is_transliteration_shown>0</is_transliteration_shown>
+        <more_content_type>RTF</more_content_type>
+        <more_content_data>75656890</more_content_data>
+        <ListProtection>
+            <is_Protected_Editing>true</is_Protected_Editing>
+            <is_Protected_Copying>false</is_Protected_Copying>
+            <is_Protected_Sharing>false</is_Protected_Sharing>
+        </ListProtection>
+        <LearningFeatures>
+            <is_PreviewIt>0</is_PreviewIt>
+            <is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+            <is_Written_RecognizeIt>1</is_Written_RecognizeIt>
+            <is_SR_ProduceIt>1</is_SR_ProduceIt>
+            <is_Written_ProduceIt>true</is_Written_ProduceIt>
+        </LearningFeatures>
+    </head>
+    <cards>
+        <card>
+            <side1_phrase>UHkK</side1_phrase>
+            <side2_phrase>WtAejM</side2_phrase>
+            <side1_hint>Q-0</side1_hint>
+            <side2_hint>kGgeMtU2lK3G75D</side2_hint>
+            <side1_alt_answers>
+                <alt_answer>X</alt_answer>
+                <alt_answer>fOXjH3K</alt_answer>
+            </side1_alt_answers>
+            <side2_alt_answers>
+                <alt_answer>xZB.x1QpW6rsajP7XJbv9ZbZOWLtv</alt_answer>
+                <alt_answer>iSbooP1F7B</alt_answer>
+            </side2_alt_answers>
+            <guid>fR9rxycZnfJj_4</guid>
+            <list_position>226993702</list_position>
+            <side2_transliteration>a.y9lPYWT58-nuU1mD1meFcRWRs</side2_transliteration>
+            <comment>A</comment>
+            <alternative_side2_phrase>ZEv</alternative_side2_phrase>
+            <side1_sentence>MCFOgiH7k8X4</side1_sentence>
+            <side2_sentence>oMN9dMkLscYr9Zllssn</side2_sentence>
+            <side1_sound url="q_DphYggqmU9AO_zr1C">776573716874857071726877838380736975657984798878</side1_sound>
+            <side2_sound url="JngBr_ZY5Iu1TsI">877269688087807369906967837488826879708486898773806576766965718788766665</side2_sound>
+            <side2_picture url="OI9GJhSd2HZeDBzTWjJC0p">868079897668707866869075728378698169759074768381748276846989846575747384678780868680839088868582686689787876737387897175</side2_picture>
+            <is_video_sound_used>false</is_video_sound_used>
+            <is_video_auto_played>1</is_video_auto_played>
+        </card>
+        <card>
+            <side1_phrase>fKLD-4hYnZA</side1_phrase>
+            <side2_phrase>KGwJRET0IuK6IK</side2_phrase>
+            <side1_hint>JsaEQ7G9nRnrf</side1_hint>
+            <side2_hint>O</side2_hint>
+            <side1_alt_answers>
+                <alt_answer>NscOG.1vx9ylEKl</alt_answer>
+                <alt_answer>A5OsLa</alt_answer>
+            </side1_alt_answers>
+            <side2_alt_answers>
+                <alt_answer>l65nW_xCBLBXfVVMcYH-RD2snz_bO</alt_answer>
+                <alt_answer>DGA8G2RlPq</alt_answer>
+            </side2_alt_answers>
+            <guid>A</guid>
+            <list_position>-365727623</list_position>
+            <side2_transliteration>UF.MZvp</side2_transliteration>
+            <comment>nZ_KIYS1KMLzgy7MMT</comment>
+            <alternative_side2_phrase>MrnzNzAt8i</alternative_side2_phrase>
+            <side1_sentence>ENZFc9xs</side1_sentence>
+            <side2_sentence>XAmaG</side2_sentence>
+            <side1_sound url="fnOjLrJWoDPYxI9nVJzV4jtaKUk_">73787471806577898181668672787581757079657085747272867878799078887875837879828473779069678372898368907573</side1_sound>
+            <side2_sound url="AKGR3V98CzGABSy">6789677072807182668190728066786789739077829070896879778766669075</side2_sound>
+            <side2_picture url="TA5D2NpQ.jo">80787186657079746680878873696682687788786776817566818876708881887480786566717581</side2_picture>
+            <is_video_sound_used>false</is_video_sound_used>
+            <is_video_auto_played>1</is_video_auto_played>
+        </card>
+    </cards>
+</list>

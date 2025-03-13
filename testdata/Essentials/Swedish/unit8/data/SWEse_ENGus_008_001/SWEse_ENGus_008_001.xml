@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>008_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:58</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>I feel pain in my chest.</side1_phrase>
+			<side2_phrase>Jag har ont i bröstet.</side2_phrase>
+			<guid>{14AC9CE8-B49F-6D4D-BEDD-208782BC65C3}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Can you help me?</side1_phrase>
+			<side2_phrase>Kan du hjälpa mig?</side2_phrase>
+			<guid>{2B4666E5-0BBD-1543-A406-B5878B934716}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>doctor</side1_phrase>
+			<side2_phrase>en doktor</side2_phrase>
+			<side2_alt_answers>
+				<alt_answer>en läkare</alt_answer>
+			</side2_alt_answers>
+			<guid>{CC0F3A07-24FB-BB46-9B5E-87D954E56E84}</guid>
+			<list_position>3</list_position>
+			<comment>&quot;En läkare&quot; is another way of saying &quot;doctor&quot;.</comment>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ambulance</side1_phrase>
+			<side2_phrase>en ambulans</side2_phrase>
+			<guid>{6F60B59E-518E-3E48-AD01-680ED120E467}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please send an ambulance.</side1_phrase>
+			<side2_phrase>Kan ni skicka en ambulans?</side2_phrase>
+			<guid>{54E33C21-6704-B74D-A5BF-7B39058BF9F5}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>telephone</side1_phrase>
+			<side2_phrase>en telefon</side2_phrase>
+			<guid>{45CDF875-C1AC-904A-9099-719442F9B8C9}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>telephone number</side1_phrase>
+			<side2_phrase>ett telefonnummer</side2_phrase>
+			<guid>{DD7A03CA-DE98-6540-96E3-F3CB75AD33E6}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>wife</side1_phrase>
+			<side2_phrase>en hustru</side2_phrase>
+			<guid>{F75FEAC9-A47F-6B48-9F39-3C9B3524CFF5}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>hospital</side1_phrase>
+			<side2_phrase>ett sjukhus</side2_phrase>
+			<guid>{53FAB905-0247-B846-9BD6-705FE33BFA71}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>for</side1_phrase>
+			<side2_phrase>efter</side2_phrase>
+			<side1_hint>to send for a doctor</side1_hint>
+			<side2_hint>att skicka efter en läkare</side2_hint>
+			<guid>{CC410C14-D475-C542-9CAE-066556FD8C7A}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

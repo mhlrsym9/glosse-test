@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>009_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:59</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>embassy</side1_phrase>
+			<side2_phrase>en ambassad</side2_phrase>
+			<guid>{39F74B4C-B5F3-E344-B5B4-4EE4CE85864E}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>direction</side1_phrase>
+			<side2_phrase>en väganvisning</side2_phrase>
+			<guid>{7EDE9021-CA42-CA4C-9B61-2678EBEF0BD1}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please give me directions to...</side1_phrase>
+			<side2_phrase>Kan du vänligen visa mig vägen till...</side2_phrase>
+			<guid>{F01B761A-FACA-154C-94D9-EA95AD7F1484}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>street name</side1_phrase>
+			<side2_phrase>ett gatunamn</side2_phrase>
+			<guid>{AEB980BC-58C3-1449-AEA0-955DE4BED668}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>at this intersection</side1_phrase>
+			<side2_phrase>vid gatukorsningen</side2_phrase>
+			<guid>{15DC4B1A-45ED-5C45-A715-B58E6D1AE908}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Turn right.</side1_phrase>
+			<side2_phrase>Sväng åt höger.</side2_phrase>
+			<guid>{85F94E18-1BE9-A348-A157-D650DC759C03}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>opposite the bank</side1_phrase>
+			<side2_phrase>mittemot banken</side2_phrase>
+			<guid>{5EC5D9C9-DF80-C349-A879-B3425FF8020A}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you mean...?</side1_phrase>
+			<side2_phrase>Menar du...?</side2_phrase>
+			<guid>{0BD90787-5757-6B48-92AC-4E7F5698E6E0}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>number</side1_phrase>
+			<side2_phrase>ett nummer</side2_phrase>
+			<guid>{216ACD6A-AF3D-D941-AB58-3CAACB2B442E}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>eleven</side1_phrase>
+			<side2_phrase>elva</side2_phrase>
+			<guid>{A383F9C3-BE13-FF43-ACAB-DC672F827EED}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>on the first floor</side1_phrase>
+			<side2_phrase>på första våningen</side2_phrase>
+			<guid>{66C32832-20D5-0148-AD1E-716268282C02}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Go up those stairs.</side1_phrase>
+			<side2_phrase>Gå uppför trappan.</side2_phrase>
+			<guid>{765271E5-2BDB-DE45-BB64-B59F0F48D38E}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<side2_picture url="pictures/image011.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Continue straight on.</side1_phrase>
+			<side2_phrase>Fortsätt gå rakt fram.</side2_phrase>
+			<guid>{647EB4C0-D32D-1E43-8490-3D183D8CB61D}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

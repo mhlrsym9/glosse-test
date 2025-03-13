@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>007_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:57</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>salesperson</side1_phrase>
+			<side2_phrase>en expedit</side2_phrase>
+			<guid>{B9831203-35C1-AC46-8616-00CB9EA1FCA1}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I need a salesperson.</side1_phrase>
+			<side2_phrase>Jag behöver en expedit.</side2_phrase>
+			<guid>{31998A1A-9192-8F48-801E-A0B26AB35CB5}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to try on</side1_phrase>
+			<side2_phrase>att prova</side2_phrase>
+			<guid>{2BE35DBC-1BDB-BD4C-A0FE-71322B7417C8}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to try this on.</side1_phrase>
+			<side2_phrase>Jag skulle vilja prova det.</side2_phrase>
+			<guid>{B75CD7F9-F601-3A4A-945B-CC275148DE86}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>blue</side1_phrase>
+			<side2_phrase>blå</side2_phrase>
+			<guid>{E26F0F14-59E0-2843-9042-DA4DCBC1FBD8}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>shirt</side1_phrase>
+			<side2_phrase>en skjorta</side2_phrase>
+			<guid>{C9346EDD-FFC5-2A42-AD37-3CC5073F4403}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is the dressing room?</side1_phrase>
+			<side2_phrase>Var är provrummet?</side2_phrase>
+			<guid>{ED429C7A-E637-964A-9ED0-52582E85D033}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>long</side1_phrase>
+			<side2_phrase>lång</side2_phrase>
+			<side1_alt_answers>
+				<alt_answer>tall</alt_answer>
+			</side1_alt_answers>
+			<guid>{D1074A13-2D8F-A34F-A70E-9DD31D166CF5}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>It is too long.</side1_phrase>
+			<side2_phrase>Det är för långt.</side2_phrase>
+			<guid>{2C5A48BB-43FB-7A49-B750-DC6AA261FFD9}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>mirror</side1_phrase>
+			<side2_phrase>en spegel</side2_phrase>
+			<guid>{F44BDE71-30D6-3848-A887-CB4B2102403D}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you have a mirror?</side1_phrase>
+			<side2_phrase>Finns det en spegel?</side2_phrase>
+			<guid>{B53977AB-052E-A249-92E1-3AD350EE2D36}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is the cashier?</side1_phrase>
+			<side2_phrase>Var ligger kassan?</side2_phrase>
+			<guid>{142850B4-FD3F-D042-B631-C5C7896B94C7}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>stairs</side1_phrase>
+			<side2_phrase>en trappa</side2_phrase>
+			<guid>{CD25A860-8738-F146-9128-E00F1AB64F78}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May I return it?</side1_phrase>
+			<side2_phrase>Kan jag lämna tillbaka det?</side2_phrase>
+			<guid>{0B33427B-A77E-BD42-A060-5F71A7F120EA}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>When do you close?</side1_phrase>
+			<side2_phrase>När stänger ni?</side2_phrase>
+			<guid>{D446841B-B4B1-9142-94F6-4BF467F01A9D}</guid>
+			<list_position>17</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>up</side1_phrase>
+			<side2_phrase>uppför</side2_phrase>
+			<side1_hint>up the stairs</side1_hint>
+			<side2_hint>uppför trappan</side2_hint>
+			<side2_alt_answers>
+				<alt_answer>längs</alt_answer>
+				<alt_answer>upp</alt_answer>
+			</side2_alt_answers>
+			<guid>{B51B22D7-8BC0-C949-BD50-EBB60BDB4593}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<side2_picture url="pictures/image015.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>beside</side1_phrase>
+			<side2_phrase>vid</side2_phrase>
+			<side1_hint>beside the door</side1_hint>
+			<side2_hint>vid dörren</side2_hint>
+			<side2_alt_answers>
+				<alt_answer>bredvid</alt_answer>
+			</side2_alt_answers>
+			<guid>{4AE35E02-B80C-D74F-9885-6D3732DF6729}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn016.mp3"/>
+			<side2_picture url="pictures/image016.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

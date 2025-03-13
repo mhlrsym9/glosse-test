@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>001_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:48</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>American</side1_phrase>
+			<side2_phrase>en amerikan</side2_phrase>
+			<side1_hint>referring to nationality</side1_hint>
+			<guid>{3FAA80FA-3EB0-7A43-86A2-97B718EBF101}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I am American.</side1_phrase>
+			<side2_phrase>Jag är amerikan.</side2_phrase>
+			<guid>{2404F0A2-9A12-5A49-B882-922009363AE0}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to speak</side1_phrase>
+			<side2_phrase>att tala</side2_phrase>
+			<guid>{004C152F-2061-DF4F-9E83-EE3AED303A52}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>English</side1_phrase>
+			<side2_phrase>engelska</side2_phrase>
+			<guid>{4483825A-A432-4C48-ACC2-B030B3371D28}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you speak English?</side1_phrase>
+			<side2_phrase>Talar du engelska?</side2_phrase>
+			<side2_alt_answers>
+				<alt_answer>Pratar du engelska?</alt_answer>
+			</side2_alt_answers>
+			<guid>{A1E78F7E-B8C7-E34C-8FB1-C9A3FCD6E025}</guid>
+			<list_position>5</list_position>
+			<comment>&quot;Pratar du engelska?&quot; is another way of asking someone if they speak English.</comment>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>no</side1_phrase>
+			<side2_phrase>nej</side2_phrase>
+			<guid>{45CADDC2-400C-BA4F-BEB5-49B7CFD178E5}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>American consulate</side1_phrase>
+			<side2_phrase>amerikanska konsulatet</side2_phrase>
+			<guid>{ED8C249A-866E-A04F-A6CA-D78D7D612001}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>This is an emergency.</side1_phrase>
+			<side2_phrase>Det är akut.</side2_phrase>
+			<guid>{F392CC8B-2C5B-CB4F-8DDA-2068334F9D46}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>passport</side1_phrase>
+			<side2_phrase>ett pass</side2_phrase>
+			<guid>{58812C43-40B9-5D4F-9778-20690F5FBE82}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have lost my passport.</side1_phrase>
+			<side2_phrase>Mitt pass är borta.</side2_phrase>
+			<guid>{3A423C43-82AB-A44A-B895-FBC2C2C9CA39}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to understand</side1_phrase>
+			<side2_phrase>att förstå</side2_phrase>
+			<guid>{7FD4F347-BBD6-BC40-AAEC-AD52ECD2420B}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I understand.</side1_phrase>
+			<side2_phrase>Jag förstår.</side2_phrase>
+			<guid>{A64FCCE8-D757-334A-B790-023F0CE02902}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you understand?</side1_phrase>
+			<side2_phrase>Förstår du?</side2_phrase>
+			<guid>{B2CD5A78-87CA-7E4F-B48F-4319361DBA63}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>taxi</side1_phrase>
+			<side2_phrase>en taxi</side2_phrase>
+			<guid>{CD396DB4-7B07-E148-83C0-0660DD83C2BE}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<side2_picture url="pictures/image013.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to take a taxi</side1_phrase>
+			<side2_phrase>att ta en taxi</side2_phrase>
+			<guid>{8C3922DA-456C-3E45-B691-C3744E4C5872}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>consulate</side1_phrase>
+			<side2_phrase>ett konsulat</side2_phrase>
+			<guid>{4A572ED3-3384-2742-89C8-BCDEAD9C9ADB}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

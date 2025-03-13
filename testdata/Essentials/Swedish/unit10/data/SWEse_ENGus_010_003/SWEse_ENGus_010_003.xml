@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>010_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:16:02</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>July</side1_phrase>
+			<side2_phrase>juli</side2_phrase>
+			<guid>{AA9B908B-AD45-2143-8BFA-25DFFBB17F79}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>weather</side1_phrase>
+			<side2_phrase>ett väder</side2_phrase>
+			<guid>{31C2E3C8-2874-2348-A883-1F8B9ED47195}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>warm</side1_phrase>
+			<side2_phrase>varm</side2_phrase>
+			<side2_hint>referring to mild temperature</side2_hint>
+			<guid>{203BF185-20A4-DF4D-BAD0-956442753B8B}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>It is a beautiful day.</side1_phrase>
+			<side2_phrase>Det är en skön dag.</side2_phrase>
+			<guid>{A1B48F06-63BD-DF4C-BD1E-6EDB6A147C02}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>cloudy</side1_phrase>
+			<side2_phrase>molnig</side2_phrase>
+			<guid>{100A9893-84D3-0C4B-90C7-549024B6F4BE}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to rain</side1_phrase>
+			<side2_phrase>att regna</side2_phrase>
+			<guid>{0337DB2E-C639-7A4B-A46D-816EDBD0D8D1}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Will it rain today?</side1_phrase>
+			<side2_phrase>Kommer det att regna idag?</side2_phrase>
+			<guid>{A2A9D63A-9889-E349-BF66-6887B0296587}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>flower</side1_phrase>
+			<side2_phrase>en blomma</side2_phrase>
+			<guid>{2010E09A-0922-8E4E-9B0F-83F99DC08CAA}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Your flowers are lovely.</side1_phrase>
+			<side2_phrase>Dina blommor är härliga.</side2_phrase>
+			<guid>{3FCFE8C4-3968-A145-ADF4-6BD27CE3FBEC}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to take pictures</side1_phrase>
+			<side2_phrase>att ta bilder</side2_phrase>
+			<guid>{784D8784-13B4-EC41-B43C-71B025C4C9EF}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>camera</side1_phrase>
+			<side2_phrase>en kamera</side2_phrase>
+			<guid>{B8598CCA-0977-044A-870E-223D6EFAB221}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May I offer you some coffee?</side1_phrase>
+			<side2_phrase>Får jag bjuda på kaffe?</side2_phrase>
+			<guid>{5F522EC2-504C-164C-9DAC-99AA77C9AF49}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<side2_picture url="pictures/image011.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>No, thank you.</side1_phrase>
+			<side2_phrase>Nej, tack.</side2_phrase>
+			<guid>{A168FBFD-3F2B-E740-86FB-3073F35C8E43}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bathroom</side1_phrase>
+			<side2_phrase>ett badrum</side2_phrase>
+			<guid>{DB2ECD7E-51D0-2C41-B04C-F07B64EE7C69}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<side2_picture url="pictures/image013.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>You have been very kind.</side1_phrase>
+			<side2_phrase>Det var snällt.</side2_phrase>
+			<guid>{C072CEC8-6DFA-4E43-9684-4E52BEBD6ED8}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Good night.</side1_phrase>
+			<side2_phrase>God natt!</side2_phrase>
+			<guid>{E1E54C0F-B6D6-3B44-A399-BE749332C250}</guid>
+			<list_position>17</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<side2_picture url="pictures/image015.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is the bathroom?</side1_phrase>
+			<side2_phrase>Var är badrummet?</side2_phrase>
+			<side1_hint>referring to the washroom</side1_hint>
+			<guid>{B8C01DF4-493D-4A44-B380-0CAB90D34A9A}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn016.mp3"/>
+			<side2_picture url="pictures/image016.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

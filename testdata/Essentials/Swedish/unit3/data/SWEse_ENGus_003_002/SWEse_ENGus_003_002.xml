@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>003_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:51</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>Are you free?</side1_phrase>
+			<side2_phrase>Är du ledig?</side2_phrase>
+			<guid>{7225B23C-7EC9-2F44-B2CD-F2222BAC1B48}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to go to...</side1_phrase>
+			<side2_phrase>Jag skulle vilja åka till...</side2_phrase>
+			<guid>{1E5A8465-B585-9A4A-9599-C42FDF3E2377}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to this address</side1_phrase>
+			<side2_phrase>till den här adressen</side2_phrase>
+			<guid>{2DE78678-1046-6B42-9FE9-6D09C0E644F1}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>suitcase</side1_phrase>
+			<side2_phrase>en resväska</side2_phrase>
+			<guid>{09B92C23-0EB5-2C43-84A3-FE2D48424C1D}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to have</side1_phrase>
+			<side2_phrase>att ha</side2_phrase>
+			<guid>{E35DB6D8-23A9-A54F-8093-0C7FBADE16D1}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have two suitcases.</side1_phrase>
+			<side2_phrase>Jag har två resväskor.</side2_phrase>
+			<guid>{CF911F40-F5FA-384F-8375-D029AC723534}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>fare</side1_phrase>
+			<side2_phrase>en taxa</side2_phrase>
+			<guid>{592615E6-FFE1-A44D-BCB3-A0603C92F5F3}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please stop here.</side1_phrase>
+			<side2_phrase>Stanna här, tack.</side2_phrase>
+			<guid>{7CED2AA3-8381-EB47-B55C-1EF855E4E044}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>receipt</side1_phrase>
+			<side2_phrase>ett kvitto</side2_phrase>
+			<guid>{392A47C2-4605-0445-AED1-43C35326CE48}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I need a receipt.</side1_phrase>
+			<side2_phrase>Jag behöver ett kvitto.</side2_phrase>
+			<guid>{C9E56E56-9138-AD42-97C0-8B7885F38608}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Why is it so much?</side1_phrase>
+			<side2_phrase>Varför är det så dyrt?</side2_phrase>
+			<guid>{AC19E887-AEAE-5742-A489-055069E5866A}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please repeat that.</side1_phrase>
+			<side2_phrase>Kan du upprepa det, tack.</side2_phrase>
+			<guid>{9410BA05-A85A-B440-9AC6-8BB01AA119B4}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>change</side1_phrase>
+			<side2_phrase>växel</side2_phrase>
+			<guid>{9CF0DAD9-0848-7540-9DB5-B369742F35BD}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Keep the change.</side1_phrase>
+			<side2_phrase>Behåll växeln.</side2_phrase>
+			<guid>{9DA51861-DFA1-7945-9FE4-43128DD6E81A}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>003_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:51</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>to the airport</side1_phrase>
+			<side2_phrase>till flygplatsen</side2_phrase>
+			<guid>{31655605-1617-2245-ACE9-DDA312CCF3F6}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>How far is it to the airport?</side1_phrase>
+			<side2_phrase>Hur långt är det till flygplatsen?</side2_phrase>
+			<guid>{E279E2C4-931C-404C-AAF3-3A80ACCEDA08}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ten</side1_phrase>
+			<side2_phrase>tio</side2_phrase>
+			<guid>{E045AC18-5E8A-1F4D-BA1D-CDC8DB7D02EB}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>minute</side1_phrase>
+			<side2_phrase>en minut</side2_phrase>
+			<guid>{EC68D61F-35E0-AE46-ABBA-14F890497BAA}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>quickly</side1_phrase>
+			<side2_phrase>snabbt</side2_phrase>
+			<guid>{E362C68F-CD9F-A147-9C5B-6923C638CC42}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Is this the way?</side1_phrase>
+			<side2_phrase>Är detta rätt väg?</side2_phrase>
+			<guid>{5B4EEDB4-B72B-E549-A88B-D86911A6D392}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please take the shortest way.</side1_phrase>
+			<side2_phrase>Ta den kortaste vägen, är du snäll.</side2_phrase>
+			<guid>{58434617-9A30-ED40-BEB5-5CEA0C320BC4}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>good</side1_phrase>
+			<side2_phrase>bra</side2_phrase>
+			<side1_alt_answers>
+				<alt_answer>well</alt_answer>
+				<alt_answer>fine</alt_answer>
+			</side1_alt_answers>
+			<side2_alt_answers>
+				<alt_answer>god</alt_answer>
+			</side2_alt_answers>
+			<guid>{317E51CD-8589-7F4B-94AD-F3883234A5D6}</guid>
+			<list_position>8</list_position>
+			<comment>&quot;Bra&quot; can also mean &quot;well&quot;.</comment>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>restaurant</side1_phrase>
+			<side2_phrase>en restaurang</side2_phrase>
+			<guid>{D05F310D-BA2C-AF43-B4B5-096C157A12EC}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Can you recommend a good restaurant?</side1_phrase>
+			<side2_phrase>Kan du rekommendera en bra restaurang?</side2_phrase>
+			<guid>{F0BA7074-4045-2C40-9B89-EFDA129B5B14}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to walk</side1_phrase>
+			<side2_phrase>att gå</side2_phrase>
+			<side2_hint>referring to going by foot</side2_hint>
+			<side1_alt_answers>
+				<alt_answer>to go</alt_answer>
+			</side1_alt_answers>
+			<guid>{A510FDDA-FBF7-5348-8FEF-85449859E02B}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Can you change this bill?</side1_phrase>
+			<side2_phrase>Kan du växla den här sedeln?</side2_phrase>
+			<guid>{2E038A97-E7E0-734D-A6D2-44062263F98B}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>It&apos;s the smallest I have.</side1_phrase>
+			<side2_phrase>Det är den minsta jag har.</side2_phrase>
+			<guid>{6FEDB218-DC66-AC42-8FF3-9BBDEBE95ABD}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

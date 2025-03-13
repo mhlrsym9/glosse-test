@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>003_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Created By Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:50</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>Swedish</side1_phrase>
+			<side2_phrase>svenska</side2_phrase>
+			<guid>{286EA543-131C-2D4A-BA0B-6307DAF5FC43}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I&apos;m sorry.</side1_phrase>
+			<side2_phrase>Jag är ledsen.</side2_phrase>
+			<side1_hint>used when expressing regret</side1_hint>
+			<side1_alt_answers>
+				<alt_answer>I am sad.</alt_answer>
+			</side1_alt_answers>
+			<guid>{F0AC28CB-CCF1-344E-BDAF-64033B18C58C}</guid>
+			<list_position>2</list_position>
+			<comment>&quot;Jag är ledsen.&quot; can mean &quot;I&apos;m sorry.&quot; or &quot;I am sad.&quot;</comment>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I do not speak Swedish.</side1_phrase>
+			<side2_phrase>Jag talar inte svenska.</side2_phrase>
+			<guid>{502B6606-3A4F-534F-972A-159F6F4038CA}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>train station</side1_phrase>
+			<side2_phrase>en järnvägsstation</side2_phrase>
+			<side2_alt_answers>
+				<alt_answer>tågstation</alt_answer>
+			</side2_alt_answers>
+			<guid>{515B9EF8-4E69-654A-87D1-4B5464FF427F}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is the train station?</side1_phrase>
+			<side2_phrase>Var ligger järnvägsstationen?</side2_phrase>
+			<guid>{CF361CE5-789A-7041-9EB0-1E785CA53FE8}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>schedule</side1_phrase>
+			<side2_phrase>en tidtabell</side2_phrase>
+			<side1_hint>referring to a timetable</side1_hint>
+			<guid>{09EDAD82-7C59-4B49-A7EB-C87D014F8EF8}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where can I get a schedule?</side1_phrase>
+			<side2_phrase>Var kan jag få en tidtabell?</side2_phrase>
+			<guid>{B45A31A7-FC14-6A43-9E2B-76DB112A8C7A}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>slowly</side1_phrase>
+			<side2_phrase>långsamt</side2_phrase>
+			<guid>{C07E5884-9C7F-A04E-816D-2EE1DB3788F4}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please speak slowly.</side1_phrase>
+			<side2_phrase>Kan du tala långsamt, tack.</side2_phrase>
+			<guid>{9BFB6271-CB80-5E49-AD2C-674531412586}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Did you say...?</side1_phrase>
+			<side2_phrase>Sa du...?</side2_phrase>
+			<guid>{4A521FC6-2661-9347-B877-8D75DC43C128}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I&apos;m sorry, what did you say?</side1_phrase>
+			<side2_phrase>Förlåt, vad sa du?</side2_phrase>
+			<guid>{3CA8C111-5805-5141-8D35-F5BC756D9081}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I don&apos;t understand.</side1_phrase>
+			<side2_phrase>Jag förstår inte.</side2_phrase>
+			<guid>{514D15C2-F76E-CC4C-BDD6-7302F3FC7420}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where should I change?</side1_phrase>
+			<side2_phrase>Var ska jag byta?</side2_phrase>
+			<guid>{1778007B-EDFD-1942-88CE-DD25C15A82C1}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

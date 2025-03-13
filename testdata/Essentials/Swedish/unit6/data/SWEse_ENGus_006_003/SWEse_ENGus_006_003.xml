@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>006_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:56</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>account</side1_phrase>
+			<side2_phrase>ett konto</side2_phrase>
+			<guid>{99C7D862-7489-AA43-A4B2-9B800C823229}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have an account.</side1_phrase>
+			<side2_phrase>Jag har ett konto.</side2_phrase>
+			<guid>{D6B7DFB9-C244-2540-BD38-44AA6C5FE3AE}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>savings account</side1_phrase>
+			<side2_phrase>ett sparkonto</side2_phrase>
+			<guid>{06B250B8-0CBA-044D-BAB2-3B3BF9F005BD}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>check</side1_phrase>
+			<side2_phrase>en check</side2_phrase>
+			<guid>{13FFD9A2-F7A7-F849-A00C-5341A51714B3}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ten thousand</side1_phrase>
+			<side2_phrase>tiotusen</side2_phrase>
+			<guid>{77C0E954-E2DE-384D-9F5A-62AEE6B32A57}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>printer</side1_phrase>
+			<side2_phrase>en skrivare</side2_phrase>
+			<guid>{1F675C8B-F93F-5B4D-BC0A-5AF7732A0640}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>What are the bank&apos;s hours?</side1_phrase>
+			<side2_phrase>När har banken öppet?</side2_phrase>
+			<guid>{4AD02114-DD11-FD47-9E06-41A819A9C6FF}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>eight</side1_phrase>
+			<side2_phrase>åtta</side2_phrase>
+			<guid>{826AAE89-C720-344D-B233-05A0C22956F2}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Saturday</side1_phrase>
+			<side2_phrase>lördag</side2_phrase>
+			<guid>{A8AD16A2-41C7-8449-A14F-06C1C9503834}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Are you open on Saturdays?</side1_phrase>
+			<side2_phrase>Har ni öppet på lördagar?</side2_phrase>
+			<guid>{819016C8-BCAA-7948-933E-9EF65B6F08F7}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to</side1_phrase>
+			<side2_phrase>till</side2_phrase>
+			<side1_hint>from eight to five</side1_hint>
+			<side2_hint>från åtta till fem</side2_hint>
+			<guid>{50B640CB-8C0B-5948-B290-315B433ABFEC}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Thank you for all your help.</side1_phrase>
+			<side2_phrase>Tack för hjälpen.</side2_phrase>
+			<guid>{B16337E0-8F7C-0D4D-836E-C6BA1625D490}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have three traveler&apos;s checks I&apos;d like to cash.</side1_phrase>
+			<side2_phrase>Jag vill lösa in tre resecheckar.</side2_phrase>
+			<guid>{3F07A6AE-6889-6C47-A4F3-F6238C0AC830}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

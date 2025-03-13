@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<head>
+		<name>Types Of Seafood</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>ITALIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>ㄐਤkiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Italian</side2_title>
+		<creation_date>1198780110</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_ordered>false</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<guid>{8ACBA329-2AAC-2B4B-990F-70B9E6098D59}</guid>
+			<list_position>2</list_position>
+			<side1_phrase>clams</side1_phrase>
+			<side2_phrase>i molluschi</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_000_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_000_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_000.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{793BA40C-E8B7-C047-92CA-5FBE107FD9A1}</guid>
+			<list_position>3</list_position>
+			<side1_phrase>crab</side1_phrase>
+			<side2_phrase>il granchio</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_001_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_001_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_001.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{848E2C53-F7CB-D747-A74F-94E4A23FB4C3}</guid>
+			<list_position>4</list_position>
+			<side1_phrase>crawfish</side1_phrase>
+			<side2_phrase>il gambero</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_002_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_002_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_002.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{361E84C3-9846-7641-8157-231BCB20E726}</guid>
+			<list_position>1</list_position>
+			<side1_phrase>fish</side1_phrase>
+			<side2_phrase>il pesce</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_003_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_003_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_003.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{BC8C8B28-2F2D-0B44-A841-5934041662F2}</guid>
+			<list_position>5</list_position>
+			<side1_phrase>lobster</side1_phrase>
+			<side2_phrase>l&apos;aragosta</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_004_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_004_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_004.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{4BF16BBA-C781-CD49-AE4A-50771D0DBEBE}</guid>
+			<list_position>6</list_position>
+			<side1_phrase>mussels</side1_phrase>
+			<side2_phrase>le cozze</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_005_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_005_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_005.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{84CB4828-1BAC-1B47-8819-7D9E31FFD880}</guid>
+			<list_position>7</list_position>
+			<side1_phrase>oysters</side1_phrase>
+			<side2_phrase>le ostriche</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_006_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_006_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_006.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{64A0E6B9-9622-9B46-BA1D-31077615B3BD}</guid>
+			<list_position>8</list_position>
+			<side1_phrase>scallops</side1_phrase>
+			<side2_phrase>le capesante</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_007_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_007_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_007.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{981F6BB9-BF34-E04B-AD74-1DC12D45B412}</guid>
+			<list_position>9</list_position>
+			<side1_phrase>seafood</side1_phrase>
+			<side2_phrase>i frutti di mare</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_008_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_008_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_008.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{97094117-78BC-9843-8A5B-5E55F6222281}</guid>
+			<list_position>10</list_position>
+			<side1_phrase>shrimps</side1_phrase>
+			<side2_phrase>i gamberetti</side2_phrase>
+			<side1_sound>sounds/italian_english_types_of_seafood_009_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_types_of_seafood_009_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_types_of_seafood_009.jpg</side2_picture>
+		</card>
+	</cards>
+</list>

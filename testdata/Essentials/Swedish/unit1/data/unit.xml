@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cw1Unit xsi:noNamespaceSchemaLocation="cw1Unit_schema.xsd" name="Unit 1" knownLanguage="ENGLISH" hasAlphabet="true" isRTL="false" formatVersion="1" transliterated="false" learningLanguage="SWEDISH" learningFontUrl="fonts/Latin.swf" translitFont="fonts/Latin.swf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <lesson name="Lesson 1" number="1">
+    <activity required="false" activityType="Preview Plus" name="Preview Plus" moduleUrl="modules/PreviewPlus.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_001"/>
+    <activity required="false" activityType="Pronunciation Practice" name="Pronunciation Practice" moduleUrl="modules/Pronunciation.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_001"/>
+    <activity required="false" activityType="Recognize &amp; Write it" name="Recognize &amp; Write it" moduleUrl="modules/RecognizeWritten.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_001"/>
+    <activity required="false" activityType="Four Square" name="Four Square" moduleUrl="modules/FourSquareProduce.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_001"/>
+    <activity required="false" activityType="Produce &amp; Say it" name="Produce &amp; Say it" moduleUrl="modules/SelfReportingProduce.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_001"/>
+    <activity required="false" activityType="Game Show" name="Game Show" moduleUrl="modules/GameShow.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_001"/>
+    <activity required="false" activityType="Dictation" name="Dictation" moduleUrl="modules/Dictation.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_001"/>
+  </lesson>
+  <lesson name="Lesson 2" number="2">
+    <activity required="false" activityType="Preview Plus" name="Preview Plus" moduleUrl="modules/PreviewPlus.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_002"/>
+    <activity required="false" activityType="Pronunciation Practice" name="Pronunciation Practice" moduleUrl="modules/Pronunciation.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_002"/>
+    <activity required="false" activityType="Four Square" name="Four Square" moduleUrl="modules/FourSquareProduce.swf" isB4u="false">
+      <item dataUrl="data/SWEse_ENGus_001_002"/>
+      <item dataUrl="data/SWEse_ENGus_001_001"/>
+    </activity>
+    <activity required="false" activityType="Produce &amp; Say it" name="Produce &amp; Say it" moduleUrl="modules/SelfReportingProduce.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_002"/>
+    <activity required="false" activityType="Unscramble" name="Unscramble" moduleUrl="modules/Unscramble.swf" isB4u="false">
+      <item dataUrl="data/SWEse_ENGus_001_002"/>
+      <item dataUrl="data/SWEse_ENGus_001_001"/>
+    </activity>
+    <activity required="false" activityType="Dictation" name="Dictation" moduleUrl="modules/Dictation.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_002"/>
+  </lesson>
+  <lesson name="Lesson 3" number="3">
+    <activity required="false" activityType="Preview Plus" name="Preview Plus" moduleUrl="modules/PreviewPlus.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_003"/>
+    <activity required="false" activityType="Pronunciation Practice" name="Pronunciation Practice" moduleUrl="modules/Pronunciation.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_003"/>
+    <activity required="false" activityType="Recognize &amp; Write it" name="Recognize &amp; Write it" moduleUrl="modules/RecognizeWritten.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_003"/>
+    <activity required="false" activityType="Produce &amp; Say it" name="Produce &amp; Say it" moduleUrl="modules/SelfReportingProduce.swf" isB4u="true" dataUrl="data/SWEse_ENGus_001_003"/>
+    <activity required="false" activityType="Unscramble" name="Unscramble" moduleUrl="modules/Unscramble.swf" isB4u="false">
+      <item dataUrl="data/SWEse_ENGus_001_003"/>
+      <item dataUrl="data/SWEse_ENGus_001_002"/>
+    </activity>
+    <activity required="false" activityType="Game Show" name="Game Show" moduleUrl="modules/GameShow.swf" isB4u="false" dataUrl="data/SWEse_ENGus_001_003"/>
+  </lesson>
+  <assessment name="Assessment" moduleUrl="modules/AudioMultiChoiceA.swf,modules/ListeningRecognitionA.swf,modules/WrittenProduceA.swf" minscore="69" minitems="15" maxitems="25" showhints="true" isB4u="false">
+    <item dataUrl="data/SWEse_ENGus_001_001"/>
+    <item dataUrl="data/SWEse_ENGus_001_002"/>
+    <item dataUrl="data/SWEse_ENGus_001_003"/>
+  </assessment>
+  <description><![CDATA[<div lineHeight="100%"><p textAlign="center" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#cc6600" fontWeight="bold">Expected Performance Outcomes:</span></p><p textAlign="center" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#cc6600" fontWeight="bold"/></p><p textAlign="center" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#000000" fontSize="20" fontStyle="normal" fontWeight="bold">Hello!</span></p><p textAlign="center" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#000000" fontSize="20" fontStyle="normal" fontWeight="bold"/></p><p xmlns="http://ns.adobe.com/textLayout/2008"><span fontWeight="bold">After completing Unit 1, you will be able to:</span></p><p xmlns="http://ns.adobe.com/textLayout/2008"><span fontWeight="bold"/></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- Use common formal and familiar greetings.</span></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- Politely ask for something.</span></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- Get acquainted with someone.</span></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- State that you've been hurt.</span></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- Express wants.</span></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- Ask for directions to a location.</span></p><p paragraphSpaceBefore="5" paragraphStartIndent="20" xmlns="http://ns.adobe.com/textLayout/2008"><span>- Use basic communication facilitation phrases.</span></p><p textAlign="justify" xmlns="http://ns.adobe.com/textLayout/2008"><span color="#000000" fontStyle="italic" fontWeight="bold"/></p></div>]]></description>
+</cw1Unit>

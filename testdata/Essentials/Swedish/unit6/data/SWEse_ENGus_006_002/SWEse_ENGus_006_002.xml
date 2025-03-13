@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>006_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:55</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>cash</side1_phrase>
+			<side2_phrase>kontanter</side2_phrase>
+			<guid>{DF0D2842-B3F0-6F41-AFA9-2E01EA7BFAB9}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Here is my passport.</side1_phrase>
+			<side2_phrase>Här är mitt pass.</side2_phrase>
+			<guid>{F83D7F62-B54A-B14F-9592-A6EA1BC0D5FD}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>address</side1_phrase>
+			<side2_phrase>en adress</side2_phrase>
+			<guid>{392253D0-1F5C-D04E-9EC1-4D1B7A1FF884}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>computer</side1_phrase>
+			<side2_phrase>en dator</side2_phrase>
+			<guid>{0A845E28-248C-CB4A-9B16-A0A91D14AED8}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>traveler&apos;s check</side1_phrase>
+			<side2_phrase>en resecheck</side2_phrase>
+			<guid>{10EE8278-6245-6B45-9CDC-32C8D8C2F089}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>seven</side1_phrase>
+			<side2_phrase>sju</side2_phrase>
+			<guid>{13F6E53B-3772-754F-A283-C0E36F5C1E7B}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>briefcase</side1_phrase>
+			<side2_phrase>en portfölj</side2_phrase>
+			<guid>{71E255C6-A9A7-224C-8A4D-888542036F9B}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you charge a fee for that?</side1_phrase>
+			<side2_phrase>Tar ni avgift för det?</side2_phrase>
+			<guid>{97CCF52B-18BA-5F45-8E1F-A80A0E782C39}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>twenty-one</side1_phrase>
+			<side2_phrase>tjugoett</side2_phrase>
+			<guid>{8176008E-58DE-6549-9A50-D078CB6A3630}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>sometimes</side1_phrase>
+			<side2_phrase>ibland</side2_phrase>
+			<guid>{3A7D10A8-837F-B549-A21E-3BE8FE9CBC0B}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Can I use this credit card in your ATM?</side1_phrase>
+			<side2_phrase>Kan jag använda det här kreditkortet i er bankomat?</side2_phrase>
+			<guid>{1D131C65-AA86-DA42-B7EC-7B0EEB083E34}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to cash my traveler&apos;s checks.</side1_phrase>
+			<side2_phrase>Jag skulle vilja lösa in mina resecheckar.</side2_phrase>
+			<guid>{249802ED-E9BD-6A49-8ABC-B69C06522DA5}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<head>
+		<name>Useful Words and Phrases Unit 15</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>ITALIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>࿘॰kiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Italian</side2_title>
+		<creation_date>1198780104</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_ordered>false</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<guid>{FB16E6F0-6056-AB47-AAF8-AB7825915ECD}</guid>
+			<list_position>1</list_position>
+			<side1_phrase>dessert</side1_phrase>
+			<side2_phrase>il dolce</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_000_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_000_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_000.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{3C48D711-69D9-2C4D-A013-8D018AE99639}</guid>
+			<list_position>2</list_position>
+			<side1_phrase>dinner</side1_phrase>
+			<side2_phrase>la cena</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_001_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_001_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_001.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{F136D9C8-9C5F-1F4A-8384-9B88EA32F6AA}</guid>
+			<list_position>3</list_position>
+			<side1_phrase>lunch</side1_phrase>
+			<side2_phrase>il pranzo</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_002_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_002_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_002.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{271D53F2-8C2F-024F-823B-9C385B6CA5DE}</guid>
+			<list_position>4</list_position>
+			<side1_phrase>meals</side1_phrase>
+			<side2_phrase>i pasti</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_003_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_003_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_003.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{4FF3418D-83A4-9441-A3E0-51D034CDB88B}</guid>
+			<list_position>5</list_position>
+			<side1_phrase>restaurant</side1_phrase>
+			<side2_phrase>il ristorante</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_004_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_004_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_004.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{2B19C6A6-5319-7345-8F3E-8D0C475EC371}</guid>
+			<list_position>6</list_position>
+			<side1_phrase>restaurant</side1_phrase>
+			<side2_phrase>il ristorante</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_005_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_005_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_005.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{7AF9511D-DD39-2E46-B134-04FA23A75F6D}</guid>
+			<list_position>7</list_position>
+			<side1_phrase>salad</side1_phrase>
+			<side2_phrase>l&apos;insalata</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_006_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_006_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_006.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{0BBCBA6C-445C-EE48-B1F1-6DC85A8B6F52}</guid>
+			<list_position>1</list_position>
+			<side1_phrase>appetizer</side1_phrase>
+			<side2_phrase>l&apos;antipasto</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_007_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_007_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_007.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{413E6173-33F1-274E-B8A0-1EB5007184CC}</guid>
+			<list_position>7</list_position>
+			<side1_phrase>bill</side1_phrase>
+			<side2_phrase>il conto</side2_phrase>
+			<side1_hint>referring to the check</side1_hint>
+			<side1_alt_answers>
+				<alt_answer>check</alt_answer>
+				<alt_answer>account</alt_answer>
+			</side1_alt_answers>
+			<comment>&quot;Il conto&quot; also means (bank) account.</comment>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_008_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_008_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_008.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{D5A0D25D-0CDC-B44D-9EF2-E99D63D073BD}</guid>
+			<list_position>2</list_position>
+			<side1_phrase>bottle of wine</side1_phrase>
+			<side2_phrase>la bottiglia di vino</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_009_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_009_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_009.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{E713DD1D-D2D9-6146-8A13-7A23DDBD2309}</guid>
+			<list_position>8</list_position>
+			<side1_phrase>bread</side1_phrase>
+			<side2_phrase>il pane</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_010_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_010_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_010.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{8093C466-9C6A-104E-A7D2-C9CC244D27E8}</guid>
+			<list_position>10</list_position>
+			<side1_phrase>cold</side1_phrase>
+			<side2_phrase>freddo</side2_phrase>
+			<side1_hint>masculine, singular</side1_hint>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_011_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_011_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_011.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{4D0EAF5D-46A1-D240-9142-430FB7E13DCB}</guid>
+			<list_position>11</list_position>
+			<side1_phrase>cream</side1_phrase>
+			<side2_phrase>la panna</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_012_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_012_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_012.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{58CDEA5F-B96A-8D46-B10F-2F017E424999}</guid>
+			<list_position>3</list_position>
+			<side1_phrase>glass of beer</side1_phrase>
+			<side2_phrase>il bicchiere di birra</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_013_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_013_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_013.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{4285AA09-6989-2040-8A37-5241F66F0D07}</guid>
+			<list_position>4</list_position>
+			<side1_phrase>glass of water</side1_phrase>
+			<side2_phrase>il bicchiere d&apos;acqua</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_014_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_014_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_014.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{CA307382-D5DC-CB4C-851F-39F025B95E13}</guid>
+			<list_position>12</list_position>
+			<side1_phrase>hot</side1_phrase>
+			<side2_phrase>caldo</side2_phrase>
+			<side1_hint>masculine, singular</side1_hint>
+			<comment>&quot;Caldo&quot; can also mean warm.</comment>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_015_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_015_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_015.jpg</side2_picture>
+		</card>
+		<card>
+			<guid>{949C1428-B493-7749-92EB-107CD4EC72C3}</guid>
+			<list_position>5</list_position>
+			<side1_phrase>menu</side1_phrase>
+			<side2_phrase>il menu</side2_phrase>
+			<side1_sound>sounds/italian_english_15_52_useful_words_and_phrases_016_known.mp3</side1_sound>
+			<side2_sound>sounds/italian_english_15_52_useful_words_and_phrases_016_learning.mp3</side2_sound>
+			<side2_picture>pictures/italian_english_15_52_useful_words_and_phrases_016.jpg</side2_picture>
+		</card>
+	</cards>
+</list>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>005_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:54</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>waitress</side1_phrase>
+			<side2_phrase>en servitris</side2_phrase>
+			<guid>{F317D20D-D4C6-7341-A6EB-BFCFCBD2DF1C}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>dessert</side1_phrase>
+			<side2_phrase>en efterrätt</side2_phrase>
+			<guid>{84264B9D-7B11-834F-979E-FEB1D3357E21}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>chocolate</side1_phrase>
+			<side2_phrase>choklad</side2_phrase>
+			<guid>{B1708797-DDFF-CF4B-BE77-2FE223F2D2C5}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ice cream</side1_phrase>
+			<side2_phrase>glass</side2_phrase>
+			<guid>{880F37E6-6FC8-924F-891C-39CC111CDBBE}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>vanilla ice cream</side1_phrase>
+			<side2_phrase>vaniljglass</side2_phrase>
+			<guid>{29D9CBA1-C40B-014F-8A8B-F52369C1C59E}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May we have our coffee now?</side1_phrase>
+			<side2_phrase>Kan vi få kaffet nu?</side2_phrase>
+			<guid>{7D574CB5-BD09-9A49-A32E-972E66F34C2D}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bill</side1_phrase>
+			<side2_phrase>en nota</side2_phrase>
+			<side1_hint>referring to a statement of charges</side1_hint>
+			<side2_alt_answers>
+				<alt_answer>en räkning</alt_answer>
+			</side2_alt_answers>
+			<guid>{6976A6D8-3005-2B47-98AD-4635601B3D45}</guid>
+			<list_position>7</list_position>
+			<comment>&quot;En räkning&quot; is another way of saying &quot;bill&quot; in modern speech.</comment>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>May we have the bill, please?</side1_phrase>
+			<side2_phrase>Kan vi få notan, tack?</side2_phrase>
+			<guid>{5010C69E-0753-B84C-8305-138F3B8C0DF1}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to speak to the manager.</side1_phrase>
+			<side2_phrase>Jag skulle vilja tala med chefen.</side2_phrase>
+			<guid>{DEC78C81-4F38-7E44-AE2E-6D84BAB924E5}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Is this correct?</side1_phrase>
+			<side2_phrase>Är det här rätt?</side2_phrase>
+			<guid>{2EB2F8B2-281E-5E46-84C7-BDFD5ED58382}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>tip</side1_phrase>
+			<side2_phrase>dricks</side2_phrase>
+			<guid>{6C346D04-1CF5-A440-A033-38E8D2797A3E}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Is the tip included?</side1_phrase>
+			<side2_phrase>Ingår dricks?</side2_phrase>
+			<guid>{F4F13247-61E5-BE4D-B603-3A9AB7F546E4}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I don&apos;t know.</side1_phrase>
+			<side2_phrase>Jag vet inte.</side2_phrase>
+			<guid>{30F19477-7B96-6A43-A1E0-C059A76A70C7}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>fifteen</side1_phrase>
+			<side2_phrase>femton</side2_phrase>
+			<guid>{46D8F117-E1A6-E44D-AFD2-F52DF225F258}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>percent</side1_phrase>
+			<side2_phrase>en procent</side2_phrase>
+			<guid>{0A9213BD-53F8-D74F-8F7F-569352DE8283}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

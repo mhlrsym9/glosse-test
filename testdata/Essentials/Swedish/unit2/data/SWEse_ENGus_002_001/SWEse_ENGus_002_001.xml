@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>002_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:49</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>Good afternoon.</side1_phrase>
+			<side2_phrase>God dag!</side2_phrase>
+			<guid>{855E865C-8744-0846-8D37-642855CD3621}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>airline</side1_phrase>
+			<side2_phrase>ett flygbolag</side2_phrase>
+			<guid>{48721025-B87B-2244-85D2-66F50DD5FBCD}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>reservation</side1_phrase>
+			<side2_phrase>en bokning</side2_phrase>
+			<guid>{A4E5A5AC-CCD9-6440-9F2D-F56851D594EB}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>ticket</side1_phrase>
+			<side2_phrase>en biljett</side2_phrase>
+			<guid>{8DB9BFA6-43F3-6F44-9C42-5DC300EFE843}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to buy a ticket to...</side1_phrase>
+			<side2_phrase>Jag skulle vilja ha en biljett till...</side2_phrase>
+			<guid>{9ACFB2EB-4008-7248-9F2B-A64E0FDDB294}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Sweden</side1_phrase>
+			<side2_phrase>Sverige</side2_phrase>
+			<guid>{EC95C0FF-66BF-B749-92E2-EE3EA6C6B00C}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>round trip</side1_phrase>
+			<side2_phrase>tur och retur</side2_phrase>
+			<guid>{5CEE2058-A7BD-464B-AFE1-9C57980A84C3}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>stopover</side1_phrase>
+			<side2_phrase>en mellanlandning</side2_phrase>
+			<guid>{609DDE2A-8F3C-E742-8498-A7539F1E92DD}</guid>
+			<list_position>10</list_position>
+			<comment>&quot;En mellandlandning&quot; is just used for airplanes.  For a train or bus, use &quot;ett uppehåll&quot;.</comment>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>How much is it?</side1_phrase>
+			<side2_phrase>Hur mycket kostar det?</side2_phrase>
+			<guid>{B147868A-CB20-2C43-AD2F-5E4E10EE66B0}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>two</side1_phrase>
+			<side2_phrase>två</side2_phrase>
+			<guid>{38D94187-37BE-A14D-BE55-B97F877681ED}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>two hundred</side1_phrase>
+			<side2_phrase>tvåhundra</side2_phrase>
+			<guid>{8CF9CA50-B102-314A-BDD0-D43D99453D22}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>dollar</side1_phrase>
+			<side2_phrase>en dollar</side2_phrase>
+			<guid>{25A4B90F-A9A3-5547-8629-677ACE4FC7AB}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<side2_picture url="pictures/image011.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>credit card</side1_phrase>
+			<side2_phrase>ett kreditkort</side2_phrase>
+			<guid>{93E31CF7-AD21-1E44-9B46-4733BA53DD13}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to pay</side1_phrase>
+			<side2_phrase>att betala</side2_phrase>
+			<guid>{071E9646-0401-B446-8942-67D544D7F15B}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to pay with a credit card.</side1_phrase>
+			<side2_phrase>Kan jag betala med kreditkort?</side2_phrase>
+			<guid>{A2CC9541-52BE-DA48-8180-7BCE6C264A85}</guid>
+			<list_position>17</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<side2_picture url="pictures/image014.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to confirm my reservation for flight number...</side1_phrase>
+			<side2_phrase>Jag skulle vilja bekräfta min bokning till flyg nummer...</side2_phrase>
+			<guid>{BE023868-B227-274F-BD52-BFB2ECAB0FD9}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to confirm</side1_phrase>
+			<side2_phrase>att bekräfta</side2_phrase>
+			<guid>{F6AB8B0A-B0EA-3442-AD84-AA74203A8124}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn016.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>010_001</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:16:01</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>young</side1_phrase>
+			<side2_phrase>ung</side2_phrase>
+			<guid>{F020D93B-A367-7F45-943B-30F8DD0A8D5C}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>businessman</side1_phrase>
+			<side2_phrase>en affärsman</side2_phrase>
+			<guid>{F0C0C0F8-CA5E-E847-90E4-90014C5F91C2}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>thirty</side1_phrase>
+			<side2_phrase>trettio</side2_phrase>
+			<guid>{DAA970C4-3DD5-4A47-879A-4AA8360079C7}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Mr.</side1_phrase>
+			<side2_phrase>Herr</side2_phrase>
+			<guid>{CCA0EA21-F978-5A43-931C-34B2B2F12617}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<side2_picture url="pictures/image003.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>This is Mr. ...</side1_phrase>
+			<side2_phrase>Det här är herr...</side2_phrase>
+			<guid>{BF640F33-551E-4345-A864-FCEF640BE244}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to meet</side1_phrase>
+			<side2_phrase>att träffas</side2_phrase>
+			<side1_hint>to make acquaintance</side1_hint>
+			<guid>{407A568E-9070-0C41-A1C2-C34444B8E622}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Pleased to meet you.</side1_phrase>
+			<side2_phrase>Trevligt att träffas.</side2_phrase>
+			<guid>{C18AB0B4-A06B-F142-B3B3-7F2AAD9FF420}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where are you from?</side1_phrase>
+			<side2_phrase>Varifrån kommer du?</side2_phrase>
+			<guid>{A82D5CA3-3142-F74B-BF3C-342711313C02}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>United States</side1_phrase>
+			<side2_phrase>Förenta Staterna</side2_phrase>
+			<guid>{57153A49-79D4-C94C-A7FA-CAC4760C256A}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>family</side1_phrase>
+			<side2_phrase>en familj</side2_phrase>
+			<guid>{9EEBECEF-D30A-BD41-AACC-069F853070AE}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>How is your family?</side1_phrase>
+			<side2_phrase>Hur står det till med din familj?</side2_phrase>
+			<guid>{4D473627-7B08-D546-B656-2A3D48EB429A}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>baby</side1_phrase>
+			<side2_phrase>en bäbis</side2_phrase>
+			<guid>{006A109A-D669-E144-9C8E-56F1EEE3405D}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<side2_picture url="pictures/image011.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>daughter</side1_phrase>
+			<side2_phrase>en dotter</side2_phrase>
+			<guid>{D9F1E602-5872-7C47-B4ED-5133B8DA064F}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Congratulations!</side1_phrase>
+			<side2_phrase>Grattis!</side2_phrase>
+			<guid>{545F19A9-6952-5246-9F56-B998B2739A9D}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>They are all very well, thank you.</side1_phrase>
+			<side2_phrase>Tack, de mår bra allihop.</side2_phrase>
+			<guid>{8B3BCEE1-59F7-3B43-99F5-769146A5760D}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>See you tomorrow.</side1_phrase>
+			<side2_phrase>Vi ses i morgon.</side2_phrase>
+			<guid>{2334287C-E0AD-F24D-9505-54FC7EB37810}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

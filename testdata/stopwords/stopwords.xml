@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<head>
+		<name>Useful Words and Phrases Unit 15</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>ITALIAN</side2_language_key>
+		<description>Created By Transparent Language</description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application>࿘॰kiLister</creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Italian</side2_title>
+		<creation_date>1198780104</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_ordered>false</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<guid>{FB16E6F0-6056-AB47-AAF8-AB7825915ECD}</guid>
+			<list_position>1</list_position>
+			<side1_phrase>The stop word</side1_phrase>
+			<side2_phrase></side2_phrase>
+			<side1_sound></side1_sound>
+			<side2_sound></side2_sound>
+			<side2_picture></side2_picture>
+		</card>
+		<card>
+			<guid>{FB16E6F0-6056-AB47-AAF8-AB7825915ECD}</guid>
+			<list_position>2</list_position>
+			<side1_phrase>This is a test of the stop words in the phrase.</side1_phrase>
+			<side2_phrase></side2_phrase>
+			<side1_sound></side1_sound>
+			<side2_sound></side2_sound>
+			<side2_picture></side2_picture>
+		</card>
+	</cards>
+</list>

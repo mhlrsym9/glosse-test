@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>005_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:54</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>chicken</side1_phrase>
+			<side2_phrase>kyckling</side2_phrase>
+			<side1_hint>referring to food</side1_hint>
+			<guid>{DE70B7AB-BE46-344B-9118-641916623F99}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<side2_picture url="pictures/image000.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>What is in this dish?</side1_phrase>
+			<side2_phrase>Vad är det i den här rätten?</side2_phrase>
+			<guid>{8BDFAD53-1958-6F44-B639-B01DE5B612D1}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>fish</side1_phrase>
+			<side2_phrase>en fisk</side2_phrase>
+			<guid>{3FC573B0-6BD5-EB41-88F9-35695D3827A5}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I am allergic to...</side1_phrase>
+			<side2_phrase>Jag är allergisk mot...</side2_phrase>
+			<guid>{FA55F5DA-4D3A-E549-A9EC-FCE78E04517B}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>pepper</side1_phrase>
+			<side2_phrase>peppar</side2_phrase>
+			<guid>{46EA422C-ADD9-334C-B2B2-81A82564BFF0}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<side2_picture url="pictures/image004.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>beef</side1_phrase>
+			<side2_phrase>oxkött</side2_phrase>
+			<guid>{504B413D-69C1-CC40-9EC5-87E53468C458}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>potato</side1_phrase>
+			<side2_phrase>en potatis</side2_phrase>
+			<guid>{CA60FB8C-3F6E-7846-8DB4-34A023F139D4}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to start with...</side1_phrase>
+			<side2_phrase>Jag skulle vilja börja med...</side2_phrase>
+			<guid>{8032BA23-D748-2B49-AB79-091E71F0EE4D}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>salad</side1_phrase>
+			<side2_phrase>sallad</side2_phrase>
+			<side2_hint>referring to a dish</side2_hint>
+			<side1_alt_answers>
+				<alt_answer>lettuce</alt_answer>
+			</side1_alt_answers>
+			<guid>{8DEA6E9D-2837-D348-9CF7-893CEAF220C9}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<side2_picture url="pictures/image008.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>too</side1_phrase>
+			<side2_phrase>för</side2_phrase>
+			<side1_alt_answers>
+				<alt_answer>for</alt_answer>
+				<alt_answer>because</alt_answer>
+			</side1_alt_answers>
+			<side2_alt_answers>
+				<alt_answer>alltför</alt_answer>
+			</side2_alt_answers>
+			<guid>{9A11A67E-6F44-334D-B3E8-6240B226FA06}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>cold</side1_phrase>
+			<side2_phrase>kall</side2_phrase>
+			<guid>{3BF7BB4A-8C1F-5B42-94C6-3C3415010570}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>This is too cold.</side1_phrase>
+			<side2_phrase>Det är för kallt.</side2_phrase>
+			<guid>{062340C5-5837-AF40-8D4C-C112EF1EDF79}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>steak</side1_phrase>
+			<side2_phrase>en stek</side2_phrase>
+			<guid>{11AEF86B-E2F3-0D41-9E70-A0D8A65ED7BD}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I don&apos;t like this.</side1_phrase>
+			<side2_phrase>Jag tycker inte om det.</side2_phrase>
+			<guid>{693C1231-BE64-D341-B1C9-E5832F7FDF86}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>salt</side1_phrase>
+			<side2_phrase>salt</side2_phrase>
+			<guid>{3EC5B20F-4873-E34B-A649-3CC2A946734D}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<side2_picture url="pictures/image014.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>This is not what I ordered.</side1_phrase>
+			<side2_phrase>Det är inte vad jag har beställt.</side2_phrase>
+			<guid>{A9BA2470-CADB-AB4D-B49F-3375789AC577}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>vegetable</side1_phrase>
+			<side2_phrase>en grönsak</side2_phrase>
+			<guid>{9933E151-6250-3240-8536-8ADA67E75CDB}</guid>
+			<list_position>17</list_position>
+			<side2_sound url="sounds/learn016.mp3"/>
+			<side2_picture url="pictures/image016.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

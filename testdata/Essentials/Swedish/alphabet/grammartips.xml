@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	<item>
+		<name>Pronunciation of "G"</name>
+		<videoUrl>alphabet/video/SWEse_gv_pronunciation_of_g.f4v</videoUrl>
+		<thumb>alphabet/thumbs/SWEse_gv_pronunciation_of_g.jpg</thumb>
+	</item>
+	<item>
+		<name>Definite Articles</name>
+		<videoUrl>alphabet/video/SWEse_gv_definite_articles.f4v</videoUrl>
+		<thumb>alphabet/thumbs/SWEse_gv_definite_articles.jpg</thumb>
+	</item>
+	<item>
+		<name>Indefinite Articles</name>
+		<videoUrl>alphabet/video/SWEse_gv_indefinite_articles.f4v</videoUrl>
+		<thumb>alphabet/thumbs/SWEse_gv_indefinite_articles.jpg</thumb>
+	</item>
+	<item>
+		<name>Verb Endings</name>
+		<videoUrl>alphabet/video/SWEse_gv_verb_endings.f4v</videoUrl>
+		<thumb>alphabet/thumbs/SWEse_gv_verb_endings.jpg</thumb>
+	</item>
+	<item>
+		<name>Possessive Endings</name>
+		<videoUrl>alphabet/video/SWEse_gv_possessive_endings.f4v</videoUrl>
+		<thumb>alphabet/thumbs/SWEse_gv_possessive_endings.jpg</thumb>
+	</item>
+	<item>
+		<name>The Passive Voice</name>
+		<videoUrl>alphabet/video/SWEse_gv_the_passive_voice.f4v</videoUrl>
+		<thumb>alphabet/thumbs/SWEse_gv_the_passive_voice.jpg</thumb>
+	</item>
+</items>

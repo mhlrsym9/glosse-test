@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>001_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:15:48</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>morning</side1_phrase>
+			<side2_phrase>en morgon</side2_phrase>
+			<guid>{16B59321-36CD-584F-861A-E794CD8F0AC2}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Good morning.</side1_phrase>
+			<side2_phrase>God morgon!</side2_phrase>
+			<guid>{B295E372-8317-2744-B542-F1C2828C8C37}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Mrs.</side1_phrase>
+			<side2_phrase>Fru</side2_phrase>
+			<guid>{CF295895-53C2-F542-B95A-35BE5A1A46C4}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>How are you?</side1_phrase>
+			<side2_phrase>Hur står det till?</side2_phrase>
+			<guid>{DB111042-6E1A-B844-B6CA-B3F2B26BA73D}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I&apos;m fine, thank you.</side1_phrase>
+			<side2_phrase>Bra, tack.</side2_phrase>
+			<guid>{D40B1337-CF7C-1347-90D7-7C25356C90A7}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like...</side1_phrase>
+			<side2_phrase>Jag skulle vilja...</side2_phrase>
+			<guid>{F60A8D3C-6098-1A4A-9837-F3A958DEE8BB}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to buy</side1_phrase>
+			<side2_phrase>att köpa</side2_phrase>
+			<guid>{745B1732-5F5B-0845-9D46-5B44A408DE89}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<side2_picture url="pictures/image006.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I would like to buy a...</side1_phrase>
+			<side2_phrase>Jag skulle vilja köpa...</side2_phrase>
+			<guid>{0C64BE09-1C72-F347-A160-3D2C95826985}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please.</side1_phrase>
+			<side2_phrase>Var så god!</side2_phrase>
+			<guid>{30CD668E-674E-2848-8175-FC2DD8EA66EA}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bread</side1_phrase>
+			<side2_phrase>ett bröd</side2_phrase>
+			<guid>{B594C111-DBF8-AB41-96CC-BDE6D444ECEB}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>hungry</side1_phrase>
+			<side2_phrase>hungrig</side2_phrase>
+			<guid>{39C8C8C9-164E-6E41-87B0-EC31AD872F1D}</guid>
+			<list_position>13</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<side2_picture url="pictures/image010.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Where is...?</side1_phrase>
+			<side2_phrase>Var är...?</side2_phrase>
+			<side2_hint>singular</side2_hint>
+			<guid>{BC2F20AD-E637-0042-B82F-B8238A232A37}</guid>
+			<list_position>14</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>bakery</side1_phrase>
+			<side2_phrase>ett bageri</side2_phrase>
+			<guid>{B58199BB-431D-354B-BC17-8B5C41BD1401}</guid>
+			<list_position>15</list_position>
+			<side2_sound url="sounds/learn012.mp3"/>
+			<side2_picture url="pictures/image012.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>street</side1_phrase>
+			<side2_phrase>en gata</side2_phrase>
+			<guid>{50F150BE-1A23-9B40-9A8F-9C0B9BA0B063}</guid>
+			<list_position>16</list_position>
+			<side2_sound url="sounds/learn013.mp3"/>
+			<side2_picture url="pictures/image013.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>across the street</side1_phrase>
+			<side2_phrase>på andra sidan gatan</side2_phrase>
+			<guid>{841FA472-7E7D-E543-A06D-81DC602D980A}</guid>
+			<list_position>17</list_position>
+			<side2_sound url="sounds/learn014.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Thank you!</side1_phrase>
+			<side2_phrase>Tack!</side2_phrase>
+			<guid>{DD5F4240-C0B0-4E42-A0CB-799269541405}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn015.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>one</side1_phrase>
+			<side2_phrase>ett</side2_phrase>
+			<side1_hint>referring to a numeral</side1_hint>
+			<side2_hint>referring to a numeral</side2_hint>
+			<guid>{4F68C878-A114-CB4E-BA59-F409398D2B5E}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn016.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

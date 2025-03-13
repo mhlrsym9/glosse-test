@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alphabet name="" knownLanguage="ENGLISH" learningLanguage="SWEDISH" learningFontUrl="fonts/Latin.swf" isRTL="false" formatVersion="1" transliterated="false" translitFont="">
+  <module name="Grammar Tips" moduleUrl="modules/LanguageFundamentals.swf" dataUrl="alphabet/grammartips.xml"/>
+</alphabet>

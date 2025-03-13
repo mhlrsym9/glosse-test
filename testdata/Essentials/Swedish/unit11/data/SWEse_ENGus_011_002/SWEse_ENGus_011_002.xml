@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>011_002</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:16:03</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>What did you say?</side1_phrase>
+			<side2_phrase>Vad sa du?</side2_phrase>
+			<guid>{FF346A85-5888-2C4E-A87E-5964F7DC0378}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>loud</side1_phrase>
+			<side2_phrase>hög</side2_phrase>
+			<side2_hint>referring to sound</side2_hint>
+			<side1_alt_answers>
+				<alt_answer>tall</alt_answer>
+			</side1_alt_answers>
+			<guid>{9E0D097B-A196-FB4A-A660-ECFA6BD66085}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<side2_picture url="pictures/image001.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please speak louder.</side1_phrase>
+			<side2_phrase>Tala högre, är du snäll.</side2_phrase>
+			<guid>{C7F41DA6-080B-254A-8188-A21DB7878747}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to find</side1_phrase>
+			<side2_phrase>att hitta</side2_phrase>
+			<guid>{B7AF0C79-FEC4-9143-A415-0CB89F423E19}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I can&apos;t find my passport.</side1_phrase>
+			<side2_phrase>Jag hittar inte mitt pass.</side2_phrase>
+			<guid>{2FE4EF7E-B03F-E344-A439-6960D8F0E74C}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to answer</side1_phrase>
+			<side2_phrase>att svara</side2_phrase>
+			<guid>{43409B8D-D80E-884F-9EAD-621EEF577BEE}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<side2_picture url="pictures/image005.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please answer yes or no.</side1_phrase>
+			<side2_phrase>Svara ja eller nej.</side2_phrase>
+			<guid>{E5460A98-FCB2-B442-95E2-57499093F831}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to read</side1_phrase>
+			<side2_phrase>att läsa</side2_phrase>
+			<guid>{FFB45403-E026-1741-ABAD-214D6249FD2E}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I only read a little Swedish.</side1_phrase>
+			<side2_phrase>Jag kan bara läsa lite svenska.</side2_phrase>
+			<guid>{F24DDC84-18BD-7A45-AC80-ED833CC83904}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Please read this to me.</side1_phrase>
+			<side2_phrase>Läs det här för mig, är du snäll.</side2_phrase>
+			<guid>{C9805040-B5C0-274A-8C49-EFBEA10DD92D}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<side2_picture url="pictures/image009.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I have an international driver&apos;s license.</side1_phrase>
+			<side2_phrase>Jag har ett internationellt körkort.</side2_phrase>
+			<guid>{7E114F29-CDC3-EC46-8C7A-916A58144F81}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="byki_schema.xsd" formatVersion="2">
+	<head>
+		<name>011_003</name>
+		<side1_language_key>ENGLISH</side1_language_key>
+		<side2_language_key>SWEDISH</side2_language_key>
+		<description></description>
+		<creator>Copyright Transparent Language</creator>
+		<creator_url></creator_url>
+		<creator_application></creator_application>
+		<subject_name></subject_name>
+		<side1_title>English</side1_title>
+		<side2_title>Swedish</side2_title>
+		<creation_date>2010-10-20T14:16:03</creation_date>
+		<is_themed>false</is_themed>
+		<is_government>false</is_government>
+		<is_library>false</is_library>
+		<is_alternative_side2_present>false</is_alternative_side2_present>
+		<is_ordered>true</is_ordered>
+		<is_transliteration_shown>false</is_transliteration_shown>
+		<ListProtection>
+			<is_Protected_Editing>false</is_Protected_Editing>
+			<is_Protected_Copying>false</is_Protected_Copying>
+			<is_Protected_Sharing>false</is_Protected_Sharing>
+		</ListProtection>
+		<LearningFeatures>
+			<is_PreviewIt>true</is_PreviewIt>
+			<is_SR_RecognizeIt>true</is_SR_RecognizeIt>
+			<is_Written_RecognizeIt>true</is_Written_RecognizeIt>
+			<is_SR_ProduceIt>true</is_SR_ProduceIt>
+			<is_Written_ProduceIt>true</is_Written_ProduceIt>
+		</LearningFeatures>
+	</head>
+	<cards>
+		<card>
+			<side1_phrase>Wednesday</side1_phrase>
+			<side2_phrase>onsdag</side2_phrase>
+			<guid>{880C10D0-8B5F-C64C-AE4A-30ACFEF58D9E}</guid>
+			<list_position>1</list_position>
+			<side2_sound url="sounds/learn000.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>this Wednesday</side1_phrase>
+			<side2_phrase>den här onsdagen</side2_phrase>
+			<guid>{545C8A10-96DA-3746-B683-041F9215F45C}</guid>
+			<list_position>2</list_position>
+			<side2_sound url="sounds/learn001.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>refund</side1_phrase>
+			<side2_phrase>en återbetalning</side2_phrase>
+			<guid>{7B01B118-50F3-E445-A3A7-786ADC3F18F7}</guid>
+			<list_position>3</list_position>
+			<side2_sound url="sounds/learn002.mp3"/>
+			<side2_picture url="pictures/image002.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>business-class</side1_phrase>
+			<side2_phrase>affärsklass</side2_phrase>
+			<side2_alt_answers>
+				<alt_answer>business class</alt_answer>
+			</side2_alt_answers>
+			<guid>{802927FE-ADE8-BD45-9092-27AE68723057}</guid>
+			<list_position>4</list_position>
+			<side2_sound url="sounds/learn003.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>one-way</side1_phrase>
+			<side2_phrase>enkel</side2_phrase>
+			<side2_alt_answers>
+				<alt_answer>enkelriktad</alt_answer>
+			</side2_alt_answers>
+			<guid>{CF72864A-76B9-5349-9152-50C4168F37A7}</guid>
+			<list_position>5</list_position>
+			<side2_sound url="sounds/learn004.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Can you read my handwriting?</side1_phrase>
+			<side2_phrase>Kan du läsa min handstil?</side2_phrase>
+			<guid>{C7E20D4B-72FD-E842-9F31-E754C00171DB}</guid>
+			<list_position>6</list_position>
+			<side2_sound url="sounds/learn005.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>I can&apos;t read your handwriting.</side1_phrase>
+			<side2_phrase>Jag kan inte läsa din handstil.</side2_phrase>
+			<guid>{7C1B9958-7C00-E346-81FD-A1E985C653F2}</guid>
+			<list_position>7</list_position>
+			<side2_sound url="sounds/learn006.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>dictionary</side1_phrase>
+			<side2_phrase>en ordbok</side2_phrase>
+			<guid>{7FBE111D-9B17-EA4C-A6D7-DCACB6C3726F}</guid>
+			<list_position>8</list_position>
+			<side2_sound url="sounds/learn007.mp3"/>
+			<side2_picture url="pictures/image007.jpg"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Do you have a dictionary?</side1_phrase>
+			<side2_phrase>Har du en ordbok?</side2_phrase>
+			<guid>{7D3516A0-8116-344E-BFB6-7BF39D8E5B16}</guid>
+			<list_position>9</list_position>
+			<side2_sound url="sounds/learn008.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>to know</side1_phrase>
+			<side2_phrase>att veta</side2_phrase>
+			<guid>{EA480863-2F54-0F46-A602-8A797CAC8775}</guid>
+			<list_position>10</list_position>
+			<side2_sound url="sounds/learn009.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>That&apos;s good to know.</side1_phrase>
+			<side2_phrase>Det är bra att veta.</side2_phrase>
+			<guid>{C48CEE5A-FF49-F04C-949D-AB52B972F54B}</guid>
+			<list_position>11</list_position>
+			<side2_sound url="sounds/learn010.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+		<card>
+			<side1_phrase>Thank you, you have been very helpful.</side1_phrase>
+			<side2_phrase>Tack, du har varit till stor hjälp.</side2_phrase>
+			<guid>{308A8674-52E9-0C4F-8293-8F551BD01215}</guid>
+			<list_position>12</list_position>
+			<side2_sound url="sounds/learn011.mp3"/>
+			<is_video_sound_used>false</is_video_sound_used>
+			<is_video_auto_played>false</is_video_auto_played>
+		</card>
+	</cards>
+</list>
