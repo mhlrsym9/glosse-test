@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="glossy" default="compile">
+
+    <!-- ======= Properties ===== -->
+
+    <property environment="env"/>
+    <import file="build-ivy.xml" />
+    <property file="build.properties" />
+    <property name="docs.title"     value="Glossy" />
+
+
+    <fileset id="commons-cli-lib" dir="${lib.main.dir}/commons-cli/1.2.0"/>
+    <fileset id="commons-lang-lib" dir="${lib.main.dir}/commons-lang/2.1.0"/>
+    <fileset id="commons-logging-lib" dir="${lib.main.dir}/commons-logging/1.1.1"/>
+    <fileset id="jaxb-lib" dir="${lib.main.dir}/jaxb/2.2.2"/>
+    <fileset id="log4j-lib" dir="${lib.main.dir}/log4j/1.2.15"/>
+    <fileset id="looks-lib" dir="${lib.main.dir}/jgoodies-looks/2.4.0"/>
+    <fileset id="spring-lib" dir="${lib.main.dir}/spring/3.0.5">
+        <exclude name="*.libd"/>
+    </fileset>
+    <fileset id="junit-lib" dir="${lib.test.dir}/junit/4.7.0"/>
+    <fileset id="hamcrest-lib" dir="${lib.test.dir}/hamcrest/1.2.0"/>
+    <fileset id="spring-test-lib" dir="${lib.test.dir}/spring/3.0.5"/>
+    <fileset id="mockito-lib" dir="${lib.test.dir}/mockito/1.8.5"/>
+    <fileset id="commons-io-lib" dir="${lib.main.dir}/commons-io/1.4.0"/>
+
+    <!-- classpath for compilation -->
+    <path id="production.classpath.compile">
+        <fileset refid="spring-lib"/>
+        <fileset refid="commons-cli-lib"/>
+        <fileset refid="commons-lang-lib"/>
+        <fileset refid="commons-logging-lib"/>
+        <fileset refid="jaxb-lib"/>
+        <fileset refid="log4j-lib"/>
+        <fileset refid="looks-lib"/>
+        <fileset refid="commons-io-lib"/>
+    </path>
+
+    <!-- default build.number to 0 unless CI server tells us otherwise -->
+    <property name="build.number" value="0"/>
+
+    <path id="test.classpath.compile">
+        <pathelement location="${prod.classes.dir}"/>
+        <path refid="production.classpath.compile"/>
+        <fileset refid="spring-test-lib"/>
+        <fileset refid="junit-lib"/>
+        <fileset refid="hamcrest-lib"/>
+        <fileset refid="mockito-lib"/>
+    </path>
+
+    <path id="classpath.test">
+        <path refid="test.classpath.compile"/>
+        <pathelement location="${prod.classes.dir}"/>
+        <pathelement location="${test.classes.dir}"/>
+    </path>
+
+    <!-- class path for Cobertura -->
+    <path id="cobertura.classpath">
+        <fileset dir="${project.libs}/cobertura/">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+
+    <path id="classpath.instrumented">
+        <pathelement location="${instr.classes.dir}" />
+        <pathelement location="${prod.classes.dir}"/>
+        <pathelement location="${test.classes.dir}"/>
+        <path refid="cobertura.classpath"/>
+        <path refid="production.classpath.compile"/>
+        <path refid="test.classpath.compile"/>
+    </path>
+
+    <!-- class path for documentation generation -->
+    <path id="classpath.javadoc">
+        <path refid="production.classpath.compile"/>
+    </path>
+
+    <!-- Sources -->
+    <path id="sources">
+        <path location="${src.dir}"/>
+    </path>
+
+    <!-- ===== Targets ===== -->
+
+    <target name="clean" description="Removes all generated files">
+        <delete dir="${classes.dir}"    failonerror="false" />
+        <delete dir="${kit.out.dir}"    failonerror="false" />
+    </target>
+
+    <target name="compile" depends="clean" description="Compiles source files">
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${prod.classes.dir}"/>
+        <mkdir dir="${test.classes.dir}"/>
+        <echo file="${production.resources.dir}/version.properties">version=${build.number}</echo>
+
+        <javac srcdir="${production.src.dir}" destdir="${prod.classes.dir}" debug="true" source="1.8">
+            <compilerarg value="-Xlint:unchecked" />
+            <compilerarg value="-Xlint:deprecation" />
+            <classpath refid="production.classpath.compile"/>
+        </javac>
+
+        <javac srcdir="${test.src.dir}" destdir="${test.classes.dir}" debug="true" source="1.8">
+            <compilerarg value="-Xlint:unchecked" />
+            <compilerarg value="-Xlint:deprecation" />
+            <classpath refid="test.classpath.compile"/>
+        </javac>
+<!--
+		<move todir="${prod.classes.dir}/com">
+            <fileset dir="${classes.dir}/com" />
+        </move >
+-->
+
+        <copy todir="${prod.classes.dir}">
+            <fileset dir="${production.resources.dir}"/>
+        </copy>
+
+<!--
+        <move todir="${test.classes.dir}/transparent">
+            <fileset dir="${classes.dir}/transparent" />
+        </move>
+-->
+    </target>
+
+    <target name="doc" description="generates source documentation">
+        <delete dir="${docs.dir}" />
+        <javadoc
+            classpathref="classpath.javadoc"
+            destdir="${docs.dir}"
+            author="true"
+            version="true"
+            use="true"
+            windowtitle="${docs.title}">
+            <doctitle>
+                <![CDATA[<h1>${docs.title}</h1>]]>
+            </doctitle>
+            <bottom>
+                <![CDATA[<i>Copyright &#169; 2008-2011 Transparent Language. All Rights Reserved.</i>]]>
+            </bottom>
+            <fileset dir="${src.dir}">
+                <exclude name="test*/**" />
+                <exclude name="**/*.html" />
+                <exclude name="**/*.xml" />
+                <exclude name="**/*.properties" />
+                <exclude name="**/*.xsd" />
+				<exclude name="**/*.png" />
+				<exclude name="**/*.MF" />
+				<exclude name="**/*.jnlp" />
+				<exclude name="**/*.jsp" />
+            </fileset>
+        </javadoc>
+    </target>
+
+    <target name="build" description="does a complete build from scratch" depends="compile,doc" />
+
+    <target name="make.test.results.dir">
+        <mkdir dir="${test.result.dir}"/>
+        <mkdir dir="${instr.classes.dir}"/>
+        <mkdir dir="${report.cobertura.dir}"/>
+        <delete includeemptydirs="true">
+            <fileset dir="${test.result.dir}" includes="**/*"/>
+            <fileset dir="${instr.classes.dir}" includes="**/*"/>
+            <fileset dir="${report.cobertura.dir}" includes="**/*"/>
+        </delete>
+    </target>
+
+    <!-- Make instrument for Cobertura engine -->
+    <target name="make-instrument">
+        <taskdef resource="tasks.properties" classpathref="cobertura.classpath" />
+        <delete file="${basedir}/cobertura.ser" />
+
+        <!-- Instrument the application classes, writing the instrumented classes into ${build.instrumented.dir}. -->
+        <cobertura-instrument todir="${instr.classes.dir}">
+            <ignore regex="org.apache.log4j.*"/>
+            <fileset dir="${prod.classes.dir}">
+                <!-- Instrument all the application classes, but don't instrument the test classes. -->
+                <include name="**/*.class" />
+                <exclude name="**/*Builder*.class"/>
+            </fileset>
+
+        </cobertura-instrument>
+
+    </target>
+
+    <target name="run-cobertura" depends="make-instrument">
+        <taskdef resource="tasks.properties" classpathref="cobertura.classpath" />
+
+        <junit
+            fork="yes" forkmode="once"
+            printsummary="no"
+            haltonfailure="no"
+            failureProperty="test.failed">
+            <!--jvmarg value="-XX:-UseSplitVerifier"/-->
+
+            <classpath refid="classpath.instrumented" />
+            <!-- Generate xml files for each junit tests runs -->
+            <assertions>
+                <enable/>
+            </assertions>
+            <formatter type="brief" usefile="false"/>
+            <formatter type="xml" />
+            <batchtest todir="${test.result.dir}">
+                <fileset dir="${test.classes.dir}">
+                    <include name="**/Test*.class" />
+                    <include name="**/*Test.class" />
+                </fileset>
+            </batchtest>
+
+        </junit>
+        <fail if="test.failed">
+            *** Unit tests failed! ***
+        </fail>
+
+        <!-- Generate Cobertura xml file containing the coverage data -->
+        <cobertura-report format="xml" destdir="${report.cobertura.dir}">
+            <fileset dir="${production.src.dir}"/>
+        </cobertura-report>
+    </target>
+
+
+    <target name="test.only"
+            description="runs unit tests, assumes system has already been built"
+            depends="make.test.results.dir">
+
+        <!-- run unit tests -->
+        <junit printsummary="on" failureproperty="test.failure">
+            <classpath refid="classpath.test"/>
+            <assertions>
+              <enable/>
+            </assertions>
+            <formatter type="brief" usefile="false"/>
+            <formatter type="xml"/>
+            <batchtest todir="${test.result.dir}">
+                <fileset dir="${test.classes.dir}">
+                    <include name="**/Test*.class" />
+                    <include name="**/*UnitTest.class" />
+                </fileset>
+            </batchtest>
+        </junit>
+
+        <!-- generate an HTML report -->
+        <junitreport todir="${test.result.dir}">
+            <fileset dir="${test.result.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${test.result.dir}/html"/>
+        </junitreport>
+        <!-- terminate on test failure(s) -->
+        <fail if="test.failure">*** Units tests failed. ***</fail>
+    </target>
+
+    <target name="kit" description="builds a destribution of the tool">
+        <delete dir="${kit.out.dir}" />
+        <mkdir dir="${kit.out.dir}"/>
+
+        <copy todir="${kit.out.dir}/lib">
+            <fileset refid="spring-lib"/>
+            <fileset refid="commons-cli-lib"/>
+            <fileset refid="commons-lang-lib"/>
+            <fileset refid="commons-logging-lib"/>
+            <fileset refid="jaxb-lib"/>
+            <fileset refid="log4j-lib"/>
+            <fileset refid="looks-lib"/>
+            <fileset refid="commons-io-lib"/>
+        </copy>
+        <copy todir="${kit.out.dir}">
+            <fileset dir="${res.dir}" />
+        </copy>
+
+        <jar destfile="${kit.out.dir}/lib/gloss-e.jar">
+            <fileset dir="${prod.classes.dir}"/>
+            <manifest>
+                <attribute name="Implementation-Vendor" value="Transparent Language, Inc."/>
+                <attribute name="Implementation-Title" value="Gloss-E"/>
+                <attribute name="Implementation-Version" value="${build.number}"/>
+                <attribute name="Main-Class" value="com.transparent.glossary.GuiClientShell"/>
+                <attribute name="Permissions" value="all-permissions"/>
+            </manifest>
+        </jar>
+
+        <signjar alias="00e2b189-cb1d-11e3-a90c-4061862a0e72" keystore="TL_Certificate_2017.pfx" storepass="transparent" lazy="true" verbose="false" storetype="PKCS12" tsaurl="http://timestamp.digicert.com">
+            <path>
+                <fileset dir="${kit.out.dir}/lib"/>
+            </path>
+        </signjar>
+
+        <war destfile="${kit.out.dir}/gloss-e-${build.number}.war" webxml="${production.web.dir}/WEB-INF/web.xml/" duplicate="fail">
+            <fileset dir="${production.web.dir}"/>
+            <fileset dir="${production.resources.dir}/images"/>
+            <fileset dir="${kit.out.dir}/lib">
+            </fileset>
+            <lib dir="${lib.main.dir}/jnlp-servlet/1.8.0"/>
+        </war>
+    </target>
+
+    <target name="sign-webstart-jar">
+        <signjar jar="out/artifacts/glottal_Web_exploded/gloss-e.jar"
+                 alias="00e2b189-cb1d-11e3-a90c-4061862a0e72"
+                 storepass="transparent"
+                 keystore="TL_Certificate_2017.pfx"
+                 storetype="PKCS12"
+                 verbose="true"
+                 tsaurl="http://timestamp.digicert.com"/>
+    </target>
+
+    <target name="sonar">
+        <taskdef uri="antlib:org.sonar.ant">
+            <classpath>
+                <fileset dir="${project.libs}/sonar">
+                    <include name="*.jar"/>
+                </fileset>
+            </classpath>
+        </taskdef>
+
+        <sonar:sonar
+                workDir="${basedir}/sonar"
+                key="org.transparent:gloss-e"
+                version="1"
+                xmlns:sonar="antlib:org.sonar.ant">
+
+            <sources>
+                <path location="${production.src.dir}"/>
+            </sources>
+            <tests>
+                <path location="${test.src.dir}"/>
+            </tests>
+            <libraries>
+                <path refid="production.classpath.compile"/>
+                <path refid="test.classpath.compile"/>
+            </libraries>
+            <binaries>
+                <path location="${prod.classes.dir}"/>
+            </binaries>
+        </sonar:sonar>
+    </target>
+
+    <target name="test" depends="compile,test.only" description="builds, then runs unit tests" />
+    <target name="bamboo-build" depends="compile, test.only, kit" />
+</project>

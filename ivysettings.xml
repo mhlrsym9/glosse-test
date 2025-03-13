@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-settings>
+    <property name="ivy.local.default.root" value="${ivy.default.ivy.user.dir}/local" override="false"/>
+    <settings defaultResolver="${default.ivy.resolver}"/>
+    <!--Authentication required for publishing (deployment). 'Artifactory Realm' is the realm used by Artifactory so don't change it.-->
+    <credentials host="cd1" realm="Artifactory Realm" username="SVNBuild" passwd="Snoopy*09" />
+    <resolvers>
+        <url name="external" m2compatible="true">
+            <artifact pattern="http://cd1:81/artifactory/ext-release-local/[organization]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]"/>
+        </url>
+        <url name="plugins" m2compatible="true">
+            <artifact pattern="http://cd1:81/artifactory/plugins-release-local/[organization]/[module]/[revision]/[artifact]-[revision].[ext]" />
+        </url>
+        <chain name="main">
+            <url name="libs-release" m2compatible="true">
+                <artifact pattern="http://cd1:81/artifactory/libs-release-local/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+                <ivy pattern="http://cd1:81/artifactory/libs-release-local/[organisation]/[module]/[revision]/ivy-[revision].xml" />
+            </url>
+            <ibiblio name="repo1" m2compatible="true" root="http://cd1:81/artifactory/repo1"/>
+            <resolver ref="external"/>
+            <resolver ref="plugins"/>
+        </chain>
+        <chain name="dev">
+            <filesystem name="local">
+                <artifact pattern="${ivy.local.default.root}/[organisation]/[module]/[revision]/[type]s/[artifact].[ext]"/>
+                <ivy pattern="${ivy.local.default.root}/[organisation]/[module]/[revision]/[type]s/[artifact].[ext]"/>
+            </filesystem>
+            <resolver ref="external"/>
+            <resolver ref="plugins"/>
+        </chain>
+    </resolvers>
+</ivy-settings>

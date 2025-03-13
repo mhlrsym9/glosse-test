@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Copyright 2011, Transparent Language, Inc.
+All Rights Reserved.
+Transparent Language Confidential Information
+-->
+<ivy-module 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:m="http://ant.apache.org/ivy/maven"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd"
+	version="2.0">
+    <info
+        organisation="com.transparent"
+        module="glossy"
+        status="integration">
+	</info>
+    <configurations>
+        <!-- <conf name="cobertura" description="Cobertura libraries"/> -->
+        <!-- <conf name="sonar" description="Sonar libraries"/> -->
+        <!--conf name="test" description="Libraries required for Unit Tests"/-->
+        <!--conf name="main" description="Libraries required for Compilation"/-->
+        <!--conf name="webapp" description="Libraries required for Java Web Start"/-->
+    </configurations>
+	<dependencies>
+        <!-- Cobertura libraries -->
+        <!-- <dependency org="cobertura" name="asm" rev="3.0" conf="cobertura->default"/>
+        <dependency org="cobertura" name="asm-tree" rev="3.0" conf="cobertura->default"/> -->
+        <!--  <dependency org="cobertura" name="cobertura" rev="2.1.1" conf="cobertura->default"/> -->
+        <!-- dependency org="cobertura" name="jakarta-oro" rev="2.0.8" conf="cobertura->default"/> -->
+        <!-- <dependency org="cobertura" name="log4j" rev="1.2.9" conf="cobertura->default"/> -->
+        <!-- <dependency org="org.apache" name="log4j" rev="1.2.17" conf="cobertura->default"/> -->
+        
+        <dependency org="org.codehaus.mojo" name="cobertura-maven-plugin" rev="2.7" conf="cobertura->default"/>
+        
+        <!-- Sonar libraries -->
+        <dependency org="mysql" name="mysql-connector-java" rev="5.1.13" conf="sonar->default"/>
+        <dependency org="ant" name="sonar-ant-task" rev="1.2" conf="sonar->default"/>
+        
+        <!-- Test libraries -->
+        <!--dependency org="org.mockito" name="mockito-all" rev="1.8.5" conf="test->default"/>
+        <dependency org="junit" name="com.springsource.org.junit" rev="4.7.0" conf="test->default"/>
+        <dependency org="org.hamcrest"  name="hamcrest-all" rev="1.2" conf="test->default"/-->
+
+        <!-- Spring Framework Release Test Library -->
+        <!-- <dependency org="springframework" name="org.springframework.test" rev="3.0.5.RELEASE" conf="test->default"/> -->
+
+        <!-- Spring Framework Development Release Test Library -->
+        <!--dependency org="springframework" name="spring-test" rev="3.2.0.M1" conf="test->default"/-->
+
+        <!-- Main libraries -->
+        <!--dependency org="apache-commons" name="commons-cli" rev="1.2" conf="main->default"/>
+        <dependency org="org.apache" name="log4j" rev="1.2.17" conf="main->default"/>
+        <dependency org="org.apache.commons" name="com.springsource.org.apache.commons.lang" rev="2.1.0" conf="main->default"/>
+        <dependency org="org.apache.commons" name="com.springsource.org.apache.commons.logging" rev="1.1.1" conf="main->default"/>
+        <dependency org="com.jgoodies" name="jgoodies-common" rev="1.1.1" conf="main->default"/>
+        <dependency org="com.jgoodies" name="jgoodies-looks" rev="2.4.0" conf="main->default"/>
+        <dependency org="javax" name="activation" rev="0.0" conf="main->default"/>
+        <dependency org="javax.xml.bind" name="jaxb-api" rev="2.2.2" conf="main->default"/>
+        <dependency org="com.sun.xml.bind" name="jaxb-impl" rev="2.2.2" conf="main->default"/>
+        <dependency org="com.sun.xml.bind" name="jaxb-xjc" rev="2.2.2" conf="main->default"/>
+        <dependency org="com.sun.xml.bind" name="jaxb1-impl" rev="2.2.2" conf="main->default"/>
+        <dependency org="javax.xml.stream" name="jsr173-api" rev="1.0" conf="main->default"/-->
+
+        <!-- Spring Framework Release Libraries -->
+        <!--
+        <dependency org="springframework" name="org.springframework.aop" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.asm" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.aspects" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.beans" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.context" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.context.support" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.core" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.expression" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.instrument" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.instrument.tomcat" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.jdbc" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.jms" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.orm" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.oxm" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.transaction" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.web" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.web.portlet" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.web.servlet" rev="3.0.5.RELEASE" conf="main->default"/>
+        <dependency org="springframework" name="org.springframework.web.struts" rev="3.0.5.RELEASE" conf="main->default"/>
+        -->
+        <!-- Spring Framework Development Release Libraries-->
+        <!--dependency org="springframework" name="spring-aop" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-asm" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-aspects" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-beans" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-context" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-context-support" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-core" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-expression" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-instrument" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-instrument-tomcat" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-jdbc" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-jms" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-orm" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-oxm" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-tx" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-web" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-webmvc-portlet" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-webmvc" rev="3.2.0.M1" conf="main->default"/>
+        <dependency org="springframework" name="spring-struts" rev="3.2.0.M1" conf="main->default"/-->
+
+        <!-- WebApp -->
+        <!--dependency org="jnlp" name="jnlp" rev="0.0" conf="webapp->default"/>
+        <dependency org="jnlp" name="jnlp-servlet" rev="0.0" conf="webapp->default"/>
+        <dependency org="javaee" name="javaee" rev="5.0.0" conf="webapp->default"/>
+        <dependency org="appserv-jstl" name="appserv-jstl" rev="0.0" conf="webapp->default"/-->
+	</dependencies>
+</ivy-module>

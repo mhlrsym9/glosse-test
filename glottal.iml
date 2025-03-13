@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset1" name="My Fileset" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/glottal-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/gloss-e-ui-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="WebStart">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/classes/production" />
+    <output-test url="file://$MODULE_DIR$/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring Core" level="project" />
+    <orderEntry type="library" name="Spring Data Access and Integration" level="project" />
+    <orderEntry type="library" name="Spring Web and Remoting" level="project" />
+    <orderEntry type="library" name="Spring AOP" level="project" />
+    <orderEntry type="library" name="Spring Instrumentation" level="project" />
+    <orderEntry type="library" name="Apache Commons Logging" level="project" />
+    <orderEntry type="library" name="Apache Commons Lang" level="project" />
+    <orderEntry type="library" name="Apache Log4j" level="project" />
+    <orderEntry type="library" name="Apache Commons CLI" level="project" />
+    <orderEntry type="library" name="JAXB" level="project" />
+    <orderEntry type="library" name="JGoodies Looks" level="project" />
+    <orderEntry type="library" name="JSTL" level="project" />
+    <orderEntry type="library" name="JNLP Servlet" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="JavaEE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Hamcrest" level="project" />
+    <orderEntry type="library" scope="TEST" name="JUnit" level="project" />
+    <orderEntry type="library" scope="TEST" name="Spring Testing" level="project" />
+    <orderEntry type="library" scope="TEST" name="Mockito" level="project" />
+    <orderEntry type="library" name="3.2" level="project" />
+    <orderEntry type="library" name="spring-test-3.2.0.M1" level="project" />
+    <orderEntry type="library" name="org.apache.commons:com.springsource.org.apache.commons.io:1.4.0" level="project" />
+  </component>
+</module>
