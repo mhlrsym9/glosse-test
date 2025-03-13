@@ -1,0 +1,63 @@
+<dl>
+    <dt><strong>05/12/2011</strong></dt>
+        <dd>Fix for CAD-481.  There was a turd left over from the switch over to using the B4X file name. We spent
+            all the time examining the file name but ended up using the contents of the XML anyway. Doh!</dd>
+    <dt><strong>04/19/2011</strong></dt>
+        <dd>Fix for CAD-434.  We now account for multiple underscore (_) characters.</dd>
+    <dt><strong>04/18/2011</strong></dt>
+        <dd>Now use the B4X XML file name to determine where MARSOC IAT glossary content is located.  We used
+        to use the name contained in the XML file, which cannot be counted on.</dd>
+    <dt><strong>03/23/2011</strong></dt>
+        <dd>Altered the algorithm that determines what is a phrase.  The new logic says that if any of the four
+        punctuation marks are anywhere in the string, mark it as a phrase.  The old logic just looked at the first
+        and last characters.</dd>
+    <dt><strong>03/16/2011</strong></dt>
+        <dd>We have split off the sound pathing algorithm into two flavors: MARSOC and non-MARSOC.  For MARSOC, the content
+        is expected to always be in alphabet/glossary so we build our paths based off of that assumption.  For non-MARSOC<
+        we determine the location of the B4X folder and use that when we calculate the path.</dd>
+    <dt><strong>03/10/2011</strong></dt>
+        <dd>We now calculate the expected path to the sound file based on the B4X folder location.  The unit number
+            used in the referenced by tag is also calculated using the same algorithm.</dd>
+    <dt><strong>03/03/2011</strong></dt>
+        <dd>Log a warning message if any cards are detected that do not have any phrases.  It is an attempt to detect
+            bad content files.</dd>
+    <dt><strong>03/02/2011</strong></dt>
+        <dd>We now create a path to a sound file that includes the B4X directory.</dd>
+    <dt><strong>02/22/2011</strong></dt>
+        <dd>We now silently export a CSV file of the L1 data so Eszter can import the Gloss-E output into Excel.</dd>
+        <dd>Fix for CAD-365: we now report referencing units at Unit 01 instead of PORbr_ENGus_01</dd>
+    <dt><strong>02/17/2011</strong></dt>
+        <dd>Each level of the viewer now contains a summation of the nodes below it.</dd>
+        <dd>Added part-of-speech, referenced by and sound file to viewer.  Also put a word and phrase count summary
+        into the the glossary viewer.</dd>
+    <dt><strong>02/16/2011</strong></dt>
+        <dd>Fixed the glossary parser so it expects UTF-8 encoding.  This fixed the weird character issue on
+            Windows.</dd>
+    <dt><strong>02/15/2011</strong></dt>
+        <dd>Added a glossary previewer.</dd>
+    <dt><strong>02/11/2011</strong></dt>
+        <dd>Display a dialog when the processing completes or fails.  Prior to the change, errors could happen
+        and the user would never know enough to look in the developer messages window.</dd>
+    <dt><strong>02/10/2011</strong></dt>
+        <dd>The reset menu selection now works.</dd>
+    <dt><strong>02/09/2011</strong></dt>
+        <dd>You no longer have to hit the Enter key when supplying the file prefix or either suffix.</dd>
+    <dt><strong>02/08/2011</strong></dt>
+        <dd>Re-enabled the suffix controls.  I got them to work correctly.</dd>
+    <dt><strong>02/07/2011</strong></dt>
+        <dd>Can now control the stop words algorithm through the UI.</dd>
+        <dd>Can now control the file prefix if you don't like the standard prefix of "glossary".</dd>
+        <dd>Started wiring up the L1 and L2 suffix control but discovered that the engine does not
+            properly support those features so I disabled them in the UI until somebody decides that
+            they really need that support.</dd>
+    <dt><strong>02/04/2011</strong></dt>
+        <dd>Enabled the Help->Topics window.  The help contents still needs work.</dd>
+        <dd>Enabled the Help->About window</dd>
+        <dd>Support for custom configuration files</dd>
+    <dt><strong>02/03/2011</strong></dt>
+        <dd>Show the release version in the title bar</dd>
+        <dd>Replaced the Go button with a big blue icon</dd>
+        <dd>Disable the Go button until all required selections have been chosen</dd>
+    <dt><strong>02/02/2011</strong></dt>
+        <dd>Ability to install and update over the network</dd>
+</dl>

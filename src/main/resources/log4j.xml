@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+<!--
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <param name="follow" value="true"/>
+        <param name="target" value="System.out"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%m %n" />
+        </layout>
+    </appender>
+-->
+
+    <!-- "normal" user messages go here.  In code, we'll attach the GUI appender to this -->
+    <logger name="normal.messages" additivity="false">
+        <level value="ALL"/>
+    </logger>
+
+    <!-- I wanted to send all log messages to the GUI but ran into a size limitation in JTextArea so for now,
+         we need to limit the messages to WARN or above -->
+    <root>
+        <priority value="WARN"/>
+    </root>
+
+</log4j:configuration>

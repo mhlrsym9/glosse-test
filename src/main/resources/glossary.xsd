@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="glossary" type="glossaryType"/>
+  <xs:complexType name="phraseType">
+    <xs:sequence>
+      <xs:element type="keyType" name="key"/>
+      <xs:element type="translationType" name="translation"/>
+      <xs:element name="annotations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="annotationType" name="annotation" maxOccurs="unbounded" minOccurs="0"
+            />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="sideOneSoundfile" type="soundURL"/>
+      <xs:element name="sideTwoSoundfile" type="soundURL"/>
+      <xs:element name="referencedBy" type="referencedByType"/>
+      <xs:element name="partOfSpeech" type="partOfSpeechType"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="L2" use="required"/>
+    <xs:attribute type="xs:string" name="L1" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="keyType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="language" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="phrasesType">
+    <xs:sequence>
+      <xs:element type="phraseType" name="phrase" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="glossaryType">
+    <xs:sequence>
+      <xs:element type="lettersType" name="letters"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="language"/>
+    <xs:attribute name="version" type="xs:token">
+      <xs:annotation>
+        <xs:documentation>The version property defines the version of Gloss-E that was used to generate the XML file.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="letterType">
+    <xs:sequence>
+      <xs:element type="wordsType" name="words"/>
+      <xs:element name="phrases">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="phraseType" name="phrase" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="name" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="annotationsType">
+    <xs:sequence>
+      <xs:element type="annotationType" name="annotation" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="annotationType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="name" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="wordType">
+    <xs:sequence>
+      <xs:element type="keyType" name="key"/>
+      <xs:element type="translationType" name="translation"/>
+      <xs:element name="annotations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="annotationType" name="annotation" maxOccurs="unbounded" minOccurs="0"
+            />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="1" name="sideOneSoundfile" type="soundURL"/>
+      <xs:element name="sideTwoSoundfile" type="soundURL"/>
+      <xs:element name="referencedBy" type="referencedByType"/>
+      <xs:element name="partOfSpeech" type="partOfSpeechType"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="L2" use="required"/>
+    <xs:attribute type="xs:string" name="L1" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="wordsType">
+    <xs:sequence>
+      <xs:element type="wordType" name="word" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="translationType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="language" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="lettersType">
+    <xs:sequence>
+      <xs:element type="letterType" name="letter" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="referencedByType">
+    <xs:annotation>
+      <xs:documentation>Defines the lesson that the word or phrase was orginally used in.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:NMTOKEN"/>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="partOfSpeechType">
+    <xs:annotation>
+      <xs:documentation>Part of speech this word or phrase belongs to.  Originally put in for MARSOC.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:token"/>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="soundURL">
+    <xs:annotation>
+      <xs:documentation>Defines the URL to the sound file for the word or phrase.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="xs:token"/>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

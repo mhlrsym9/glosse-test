@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="$$codebase">
+    <information>
+        <title>Gloss-E</title>
+        <vendor>Transparent Language</vendor>
+        <description>Glossary generation tool</description>
+        <description kind="tooltip">Glossary generation tool</description>
+        <icon href="010288-3d-glossy-blue-orb-icon-animals-animal-spider1-32x32.png"/>
+        <offline-allowed/>
+        <shortcut online="true">
+            <desktop/>
+        </shortcut>
+    </information>
+
+    <application-desc name="Gloss-E" main-class="com.transparent.glossary.GuiClientShell"/>
+
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="gloss-e.jar"/>
+        <jar href="activation.jar"/>
+        <jar href="com.springsource.org.apache.commons.io-1.4.0.jar"/>
+        <jar href="com.springsource.org.apache.commons.lang-2.1.0.jar"/>
+        <jar href="com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+        <jar href="com.springsource.org.apache.log4j-1.2.15.jar"/>
+        <jar href="commons-cli-1.2.jar"/>
+        <jar href="jaxb-api.jar"/>
+        <jar href="jaxb-impl.jar"/>
+        <jar href="jaxb-xjc.jar"/>
+        <jar href="jaxb1-impl.jar"/>
+        <jar href="jgoodies-common-1.1.1.jar"/>
+        <jar href="jgoodies-looks-2.4.0.jar"/>
+        <jar href="jsr173_1.0_api.jar"/>
+        <jar href="org.springframework.aop-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.asm-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.aspects-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.beans-3.0.5.RELEASE.jar"/>
+        <jar href="org.springframework.context-3.0.5.RELEASE.jar"/>
+        <jar href="org.springframework.context.support-3.0.5.RELEASE.jar"/>
+        <jar href="org.springframework.core-3.0.5.RELEASE.jar"/>
+        <jar href="org.springframework.expression-3.0.5.RELEASE.jar"/>
+        <jar href="org.springframework.instrument-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.instrument.tomcat-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.jdbc-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.jms-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.orm-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.oxm-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.transaction-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.web-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.web.portlet-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.web.servlet-3.0.5.RELEASE.jar" download="lazy"/>
+        <jar href="org.springframework.web.struts-3.0.5.RELEASE.jar" download="lazy"/>
+    </resources>
+
+    <security>
+        <all-permissions/>
+    </security>
+</jnlp>

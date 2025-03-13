@@ -1,0 +1,85 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>Gloss-E Help</title></head>
+    <body>
+        <h3>Overview</h3>
+        <p>Gloss-E is a Java-based tool which will scan the contents of a folder full of B4Xs and generate the files
+        neccessary to drive Courseware's Glossary viewer.  At minimum, the user must know where the content folder is 
+        located and where the generated files will be written to.</p>
+        
+        <h3>Required Information</h3>
+        <p>The <em>Content Folder</em> is the location of the folder containing the B4Xs that are to be processed by the tool.
+        The folder can either be local or on a network share.  The user must have read permissions for that folder or
+        Gloss-E will not operate correctly.  The <em>destination folder</em> is the location where the files created by
+        Gloss-E should be written.  The user must have write privledges to the directory or the tool will fail.</p>
+        
+        <h3>Optional Information</h3>
+        <p>In most cases Gloss-E's built in configuration is sufficient and should be used.  In some cases, however, it
+        is necessary to use an alternate configuration, usually for testing purposes.  Setting the <em>configuration file</em>
+        property overrides Gloss-E's internal configuration and will attempt to use the file specified.  The file is expected
+        to be in the same format as the internal file.  Using an incorrect configuration file will result in unpredictable
+        results so contacting development for assistance in obtaining a configuration file is highly recommended.</p>
+        <p>The <em>file prefix</em> is a way to control the names of the generated glossary files.  If nothing is
+        is specified, then the Gloss-E will use the implied file name of <samp>glossary</samp>. If a prefix is provided,
+        then the generated files will use that prefix instead of glossary.  For example, if I specify a prefix
+        of <samp>B145X</samp> then the generated file names will be <samp>B145X_L1.xml</samp> and <samp>B145X_L2.xml</samp>
+        instead of the default <samp>glossary_L1.xml</samp> and <samp>glossary_L2.xml</samp></p>
+
+        <p>The <em>L1 suffix</em> and  <em>L2 suffix</em> control the last portion of the file name.  The suffix
+        is appended after the file prefix, using an underscore <samp>_</samp> to separate the two.  For example, if I enter
+        in <samp>ENGLISH</samp> as my L1 suffix and <samp>SPANISH</samp> as my L2 suffix, I will get the following
+        files names: <samp>glossary_ENGLISH.xml</samp> and <samp>glossary_ENGLISH.xml</samp>.</p>
+
+        <p>The <em>MARSOC support</em> option alters Gloss-E's processing so that part-of-speech information can be
+        obtained by examining the name of the B4X folders.  The rule is that anything after the lesson number is to
+        be considered to be a part-of-speech identifier.  For example, PORbr_ENGus_07_Verbs would specify that lesson
+        07 contains words/phrases that are Verbs.  PORbr_ENGus_07_Verbs_and_Nouns would specify that lesson 07
+        has Verbs and Nouns.  Gloss-E does not interpret the part-of-speech encoding and simply replaces the 
+        underscores with blanks and uses that value when filling  in the part-of-speech tags in the generated XML.</p>
+        <p>The <em>Stop Word Type</em> option controls how Gloss-E uses the stop word information contained in the
+        configuration file.  A stop word is text that is ignored by Gloss-E when it attempts to determine how to organize
+        the words/phrases being processed.  In English, for example, we might have <samp>the</samp> as stop word.  When
+        Gloss-E encounters the phrase <samp>the door</samp>, it will group the phrase with phrases that begin with the letter
+            <samp>d</samp>.  If we were to omit <samp>the</samp> from the stop word list, the phrase would be grouped with phrases that begin
+        with the letter <samp>t</samp>.</p>
+
+        <h3>Words, Phrases and Stop Words</h3>
+        <p>One of Gloss-E's jobs is to organize the text that it finds into groups anchored by letters of the alphabet.
+        For example, the word <samp>apple</samp> would be placed in the "words starting with the letter A" group.  In order to
+        categorize the text, Gloss-E applies a few simple rules.  One rule it uses is the "phrase rule".  Gloss-E
+        groups the text in one of two buckets: words or phrases.  Gloss-E looks at the first and last character of the
+        text.  If either one of those characters is a period, exclamation point or question mark, the text is marked
+        as being a phrase.  If the text is not a phrase, then it is treated as a word.</p>
+        <p>Languages often have text that should be ignored when collating, such as <samp>the</samp> or <samp>of</samp>.
+        Gloss-E's configuration file contains a section for each language that it knows about.  Each section has an
+        area labeled <samp>stopWords</samp> which should probably have been labeled <samp>things to ignore</samp>.
+        Gloss-E takes these stop words and uses it as an indication of what text should be ignored when analyzing
+        the text.  Technically, the stop word string is a collection of regular expressions that indicate what text
+        should be matched for "ignoring".  Although each language has its own set of stop words, a typical list looks
+        like this:</p>
+
+        <ul>
+            <li>!</li>
+            <li>?</li>
+            <li>.</li>
+            <li>,</li>
+            <li>;</li>
+            <li>:</li>
+            <li>\</li>
+            <li>-</li>
+            <li>(</li>
+            <li>)</li>
+            <li>any digits</li>
+        </ul>
+
+        <p>As an example, the text <samp>(a fish) shark</samp> would probably be seen by Gloss-E as <samp>fish shark</samp>
+        because the two parens are ignored as well as the article <samp>a</samp>.  Additionally, Gloss-E sees everything as lowercase
+        so <samp>FiSh</samp> and <samp>fish</samp> are the same.</p>
+
+        <h3>Generating Glossary Files</h3>
+        <p>Once all the required information has been provided, the "go" button will become enabled.  Once clicked,
+        you should see progress messages in the window.  When the processing is complete a "done" message will 
+        shown. You can also view a sub-set of the information contained in the generated files by accessing the
+        Glossary View tab.</p>
+    </body>
+</html>

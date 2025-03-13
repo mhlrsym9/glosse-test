@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="plastic3DLookAndFeel" class="com.jgoodies.looks.plastic.Plastic3DLookAndFeel"/>
+    <bean id="plasticXPLookAndFeel" class="com.jgoodies.looks.plastic.PlasticXPLookAndFeel"/>
+    <bean id="plasticLookAndFeel" class="com.jgoodies.looks.plastic.PlasticLookAndFeel"/>
+    <bean id="windowsLookAndFeel" class="com.jgoodies.looks.windows.WindowsLookAndFeel"/>
+    <bean id="view" class="com.transparent.glossary.gui.SwingView">
+        <constructor-arg value="Gloss-E version 1.2.0"/>
+        <constructor-arg index="1" value="800"/>
+        <constructor-arg index="2" value="660"/>
+        <constructor-arg ref="windowsLookAndFeel"/>
+    </bean>
+    <bean id="mediator" class="com.transparent.glossary.gui.Mediator">
+        <constructor-arg ref="view"/>
+        <constructor-arg ref="model"/>
+        <constructor-arg ref="exitStrategy"/>
+        <constructor-arg ref="treeModelBuilder"/>
+        <property name="engine" ref="processor"/>
+    </bean>
+    <bean id="model" class="com.transparent.glossary.gui.Model"/>
+    <bean id="processor" class="com.transparent.glossary.gui.ConcreteProcessor">
+        <constructor-arg ref="clientShell"/>
+        <constructor-arg ref="scheduler"/>
+        <property name="statusHandler" ref="mediator"/>
+    </bean>
+    <bean id="clientShell" class="com.transparent.glossary.CliClientShell"/>
+    <bean id="exitStrategy" class="com.transparent.glossary.gui.SystemExitStrategy"/>
+    <bean id="scheduler" class="java.util.concurrent.ScheduledThreadPoolExecutor">
+        <constructor-arg value="5"/>
+    </bean>
+    <bean id="treeModelBuilder" class="com.transparent.glossary.gui.SaxTreeModelBuilder"/>
+</beans>

@@ -1,0 +1,1494 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+    <util:properties id="versionProp" location="classpath:version.properties"/>
+
+    <bean id="collatorData" class="com.transparent.glossary.sort.CollatorDataHelper">
+        <property name="collatorData">
+            <map>
+                <entry key="ITALIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ITALIAN"/>
+                        <property name="javaLocaleCode" value="it" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value="A	À B	C	D	E È	F	G	H	I Ì	L	M	N	O	P	Q	R	S	T	U Ù	V	Z"/>
+                    </bean>
+                </entry>
+                <entry key="ENGLISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ENGLISH"/>
+                        <property name="javaLocaleCode" value="en" />
+                        <property name="stopWords" value="\ba\b \ban\b \bthe\b \bto\b \! \? \. , ; : &quot; ' … — « » \( \) ^-"/>
+                        <property name="alphabet" value="A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z"/>
+                        <property name="miscBucketLabel" value="*"/>
+                    </bean>
+                </entry>
+                <entry key="ENGLISH_BRITISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ENGLISH_BRITISH"/>
+                        <property name="javaLocaleCode" value="en_GB" />
+                        <property name="stopWords" value="\ba\b \ban\b \bthe\b \bto\b \! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value="A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z"/>
+                    </bean>
+                </entry>
+
+
+                <entry key="ABKHAZ">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ABKHAZ"/>
+                        <property name="javaLocaleCode" value="ab" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="AFRIKAANS">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="AFRIKAANS"/>
+                        <property name="javaLocaleCode" value="af" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="ALBANIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ALBANIAN"/>
+                        <property name="javaLocaleCode" value="sq" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="ARABIC">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC"/>
+                        <property name="javaLocaleCode" value="ar" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^-&#x0640; ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                            <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                        <property name="letterGroups">
+                            <value>&#x0627; &#x0622; &#x0623; &#x0625; &#x0671; &#x0672; &#x0673; &#x0675; | &#x0628; &#x066E; &#x0750; &#x0751; &#x0752; &#x0753; &#x0754; &#x0755; &#x0756; | &#x062A; &#x067C; &#x067D; | &#x062B; | &#x062C; | &#x062D; &#x0757; &#x0758; | &#x062E; | &#x062F; &#x0759; &#x075A; | &#x0630; | &#x0631; | &#x0632; | &#x0633; | &#x0634; &#x06FA; | &#x0635; | &#x0636; &#x06FB; | &#x0637; | &#x0638; | &#x0639; | &#x063A; &#x06FC; | &#x0641; | &#x0642; &#x066F; | &#x0643; | &#x0644; &#x06B8; | &#x0645; | &#x0646; &#x06B9; &#x06BA; | &#x0647; | &#x0648; &#x0676; &#x06CF; &#x0624; | &#x064A; &#x0626; &#x0649; &#x06CC;</value>
+                        </property>
+                        <property name="miscBucketLabel" value="*"/>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_MSA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC"/>
+                        <property name="javaLocaleCode" value="ar" />
+                        <property name="stopWords" value="\b&#x0627;&#x0644;&#x0640;\b \! \? \. , ; : &quot; ' … — « » \( \) / ^-&#x0640; ^-"/>
+                        <property name="alphabet">
+                            <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                        <property name="letterGroups">
+                            <value>&#x0627; &#x0622; &#x0623; &#x0625; &#x0671; &#x0672; &#x0673; &#x0675; | &#x0628; &#x066E; &#x0750; &#x0751; &#x0752; &#x0753; &#x0754; &#x0755; &#x0756; | &#x062A; &#x067C; &#x067D; | &#x062B; | &#x062C; | &#x062D; &#x0757; &#x0758; | &#x062E; | &#x062F; &#x0759; &#x075A; | &#x0630; | &#x0631; | &#x0632; | &#x0633; | &#x0634; &#x06FA; | &#x0635; | &#x0636; &#x06FB; | &#x0637; | &#x0638; | &#x0639; | &#x063A; &#x06FC; | &#x0641; | &#x0642; &#x066F; | &#x0643; | &#x0644; &#x06B8; | &#x0645; | &#x0646; &#x06B9; &#x06BA; | &#x0647; | &#x0648; &#x0676; &#x06CF; &#x0624; | &#x064A; &#x0626; &#x0649; &#x06CC;</value>
+                        </property>
+                        <property name="miscBucketLabel" value="*"/>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_ALGERIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_ALGERIAN"/>
+                        <property name="javaLocaleCode" value="ar_DZ" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_EGYPTIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_EGYPTIAN"/>
+                        <property name="javaLocaleCode" value="ar_EG" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_LIBYAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_LIBYAN"/>
+                        <property name="javaLocaleCode" value="ar_LY" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_MOROCCAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_MOROCCAN"/>
+                        <property name="javaLocaleCode" value="ar_MA" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_NSYRIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_NSYRIAN"/>
+                        <property name="collationRules">
+                            <value>&lt; &#x0627; &lt; &#x0628; &lt; &#x062A; &lt; &#x062B; &lt; &#x062C; &lt; &#x062D; &lt; &#x062E; &lt; &#x062F; &lt; &#x0630; &lt; &#x0631; &lt; &#x0632; &lt; &#x0633; &lt; &#x0634; &lt; &#x0635; &lt; &#x0636; &lt; &#x0637; &lt; &#x0638; &lt; &#x0639; &lt; &#x063A; &lt; &#x0641; &lt; &#x0642; &lt; &#x0643; &lt; &#x0644; &lt; &#x0645; &lt; &#x0646; &lt; &#x0647; &lt; &#x0648; &lt; &#x064A;</value>
+                        </property>
+                        <property name="stopWords">
+                            <value>"\! \? \. , ; : \\ = / ^- \( \) \[ \] ٪ &quot; &#x061B; &#x066B; &#x066C; &#x002E; &#x2026; &#x060C; &#x061F; &#x06F1; &#x06F2; &#x06F3; &#x06F4; &#x06F5; &#x06F6; &#x06F7; &#x06F8; &#x06F9; &#x06F0; \'"</value>
+                        </property>
+                        <property name="alphabet">
+                            <!--value>&#x0627; &#x0628; &#x062A; &#x062B; &#x062C; &#x062D; &#x062E; &#x062F; &#x0630; &#x0631; &#x0632; &#x0633; &#x0634; &#x0635; &#x0636; &#x0637; &#x0638; &#x0639; &#x063A; &#x0641; &#x0642; &#x0643; &#x0644; &#x0645; &#x0646; &#x0647; &#x0648; &#x064A;</value-->
+                            <value><![CDATA[ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف  ق ك ل م ن ه و ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_SUDANESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_SUDANESE"/>
+                        <property name="javaLocaleCode" value="ar_SD" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARABIC_TUNISIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARABIC_TUNISIAN"/>
+                        <property name="javaLocaleCode" value="ar_TN" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^- \b&#x0627;&#x0644;&#x0640;\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ا	ب	ت	ث	ج	ح	خ	د	ذ	ر	ز	س	ش	ص	ض	ط	ظ	ع	غ	ف	ق	ك	ل	م	ن	ه	و	ي]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ARMENIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ARMENIAN"/>
+                        <property name="javaLocaleCode" value="hy" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="AYMARA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="AYMARA"/>
+                        <property name="javaLocaleCode" value="ay" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="AZERBAIJANI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="AZERBAIJANI"/>
+                        <property name="javaLocaleCode" value="az" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BALUCHI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BALUCHI"/>
+                        <property name="collationRules">
+                            <value>&lt; &#x0627;,&#x0653;,&#x0622; &lt; &#x0628; &lt; &#x067E; &lt; &#x062A; &lt; &#x0679; &lt; &#x062C; &lt; &#x0686; &lt; &#x062F; &lt; &#x0688; &lt; &#x0631; &lt; &#x0691; &lt; &#x0632; &lt; &#x0698; &lt; &#x0633; &lt; &#x0634; &lt; &#x06A9; &lt; &#x06AF; &lt; &#x0644; &lt; &#x0645; &lt; &#x0646; &lt; &#x0648; &lt; &#x06C1; &lt; &#x0621; &lt; &#x06CC; &lt; &#x06D2; &lt; &#x06BE; &lt; &#x062B; &lt; &#x06BA; &lt; &#x0630; &lt; &#x062D; &lt; &#x062E; &lt; &#x0635; &lt; &#x0636; &lt; &#x0637; &lt; &#x0638; &lt; &#x0639; &lt; &#x063A; &lt; &#x0641; &lt; &#x0642;</value>
+                        </property>
+                        <property name="stopWords">
+                            <value>\! \? \. \, \; \: \\ \/ \- \( \) &#x06D4; ، &#x061F; &#x060C; \[ \] ٪ &#x061B; \' \" ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9</value>
+                        </property>
+                        <property name="alphabet">
+                            <value>&#x0627; &#x0628; &#x067E; &#x062A; &#x0679; &#x062C; &#x0686; &#x062F; &#x0688; &#x0631; &#x0691; &#x0632; &#x0698; &#x0633; &#x0634; &#x06A9; &#x06AF; &#x0644; &#x0645; &#x0646; &#x0648; &#x06C1; &#x0621; &#x06CC; &#x06D2; &#x06BE; &#x062B; &#x06BA; &#x0630; &#x062D; &#x062E; &#x0635; &#x0636; &#x0637; &#x0638; &#x0639; &#x063A; &#x0641; &#x0642;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="BASHKIR">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BASHKIR"/>
+                        <property name="javaLocaleCode" value="ba" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BASQUE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BASQUE"/>
+                        <property name="javaLocaleCode" value="eu" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BELORUSSIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BELORUSSIAN"/>
+                        <property name="javaLocaleCode" value="be" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BENGALI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BENGALI"/>
+                        <property name="javaLocaleCode" value="bn" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BOSNIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BOSNIAN"/>
+                        <property name="javaLocaleCode" value="bs" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BRETON">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BRETON"/>
+                        <property name="javaLocaleCode" value="br" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="BULGARIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="BULGARIAN"/>
+                        <property name="javaLocaleCode" value="bg" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[А	Б	В	Г	Д	Е	Ж	З	И	Й	К	Л	М	Н	О	П	Р	С	Т	У	Ф	Х	Ц	Ч	Ш	Щ	Ъ	Ь	Ю	Я]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="CATALAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CATALAN"/>
+                        <property name="javaLocaleCode" value="ca" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="CHAMORRO">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CHAMORRO"/>
+                        <property name="javaLocaleCode" value="ch" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="CHECHEN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CHECHEN"/>
+                        <property name="javaLocaleCode" value="ce" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="CHINESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CHINESE"/>
+                        <property name="javaLocaleCode" value="zh" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="MANDARIN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="MANDARIN"/>
+                        <property name="javaLocaleCode" value="zh" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- &#x3001; &#x3002; &#xFF01; &#xFF0C; &#xFF1F;"/>
+                        <property name="alphabet" value=" "/>
+                    </bean>
+                </entry>
+                <entry key="CORNISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CORNISH"/>
+                        <property name="javaLocaleCode" value="kw" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="CROATIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CROATIAN"/>
+                        <property name="javaLocaleCode" value="hr" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	Č	Ć	D	Dž	Đ	E	F	G	H	I	J	K	L	Lj	M	N	Nj	O	P	R	S	Š	T	U	V	Z	Ž]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="CZECH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="CZECH"/>
+                        <property name="javaLocaleCode" value="cs" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="DANISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="DANISH"/>
+                        <property name="javaLocaleCode" value="da" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	Æ	Ø	Å]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="DARI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="DARI"/>
+                        <property name="stopWords">
+                            <value>\! \? \. \, \; \: \\ \- \( \) 0 1 2 3 4 5 6 7 8 9 / \" &#x061F; ، &#x061B; ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۰</value>
+                        </property>
+                        <property name="collationRules">
+                            <value>&lt; &#x0627;, &#x0622;, &#x0625; &lt; &#x0628; &lt; &#x067E; &lt; &#x062A; &lt; &#x062B; &lt; &#x062C; &lt; &#x0686; &lt; &#x062D; &lt; &#x062E; &lt; &#x062F; &lt; &#x0630; &lt; &#x0631; &lt; &#x0632; &lt; &#x0698; &lt; &#x0633; &lt; &#x0634; &lt; &#x0635; &lt; &#x0636; &lt; &#x0637; &lt; &#x0638; &lt; &#x0639; &lt; &#x063A; &lt; &#x0641; &lt; &#x0642; &lt; &#x06A9; &lt; &#x06AF; &lt; &#x0644; &lt; &#x0645; &lt; &#x0646; &lt; &#x0648; &lt; &#x0647; &lt; &#x06CC; &lt; &#x06F0; &lt; &#x06F1; &lt; &#x06F2; &lt; &#x06F3; &lt; &#x06F4; &lt; &#x06F5; &lt; &#x06F6; &lt; &#x06F7; &lt; &#x06F8; &lt; &#x06F9;</value>
+                        </property>
+                        <property name="alphabet">
+                            <value>&#x0627; &#x0628; &#x067E; &#x062A; &#x062B; &#x062C; &#x0686; &#x062D; &#x062E; &#x062F; &#x0630; &#x0631; &#x0632; &#x0698; &#x0633; &#x0634; &#x0635; &#x0636; &#x0637; &#x0638; &#x0639; &#x063A; &#x0641; &#x0642; &#x06A9; &#x06AF; &#x0644; &#x0645; &#x0646; &#x0648; &#x0647; &#x06CC; &#x06F0; &#x06F1; &#x06F2; &#x06F3; &#x06F4; &#x06F5; &#x06F6; &#x06F7; &#x06F8; &#x06F9;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="DUTCH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="DUTCH"/>
+                        <property name="javaLocaleCode" value="nl" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bde\b \bhet\b \been\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ECUADORIAN_QUECHUA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ECUADORIAN_QUECHUA"/>
+                        <property name="javaLocaleCode" value="qu_EC" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="ESPERANTO">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ESPERANTO"/>
+                        <property name="javaLocaleCode" value="eo" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="ESTONIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ESTONIAN"/>
+                        <property name="javaLocaleCode" value="et" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="FARSI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="FARSI"/>
+                        <property name="collationRules">
+                            <value>&lt; &#xfe8d; &lt; &#xfe8f; &lt; &#x067e; &lt; &#xfe95; &lt; &#xfe99; &lt; &#xfe9d; &lt; &#xfb7a; &lt; &#xfea1; &lt; &#xfea5; &lt; &#xfea9; &lt; &#xfeab; &lt; &#xfead; &lt; &#xfeaf; &lt; &#x0698; &lt; &#xfeb1; &lt; &#xfeb5; &lt; &#xfeb9; &lt; &#xfebd; &lt; &#xfec1; &lt; &#xfec5; &lt; &#xfec9; &lt; &#xfecd; &lt; &#xfed1; &lt; &#xfed5; &lt; &#x06a9; &lt; &#x06af; &lt; &#xfedd; &lt; &#xfee1; &lt; &#xfee5; &lt; &#x0648; &lt; &#xfee9; &lt; &#xfeef;</value>
+                        </property>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value>&#xfe8d; &#xfe8f; &#x067e; &#xfe95; &#xfe99; &#xfe9d; &#xfb7a; &#xfea1; &#xfea5; &#xfea9; &#xfeab; &#xfead; &#xfeaf; &#x0698; &#xfeb1; &#xfeb5; &#xfeb9; &#xfebd; &#xfec1; &#xfec5; &#xfec9; &#xfecd; &#xfed1; &#xfed5; &#x06a9; &#x06af; &#xfedd; &#xfee1; &#xfee5; &#x0648; &#xfee9; &#xfeef;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="FAROESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="FAROESE"/>
+                        <property name="javaLocaleCode" value="fo" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="FINNISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="FINNISH"/>
+                        <property name="javaLocaleCode" value="fi" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="FRENCH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="FRENCH"/>
+                        <property name="javaLocaleCode" value="fr" />
+                        <property name="stopWords" value="\bs'\b \bse\b \bla\b \ble\b \bl'\b \bles\b \bun\b \bune\b \bdes\b \! \? \. , ; : &quot; ' … — « » \( \) / ^\d* ^- € ₣"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="FRENCH_CANADIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="FRENCH_CANADIAN"/>
+                        <property name="javaLocaleCode" value="fr_CA" />
+                        <property name="stopWords" value="\bs'\b \bse\b \bla\b \ble\b \bl'\b \bles\b \bun\b \bune\b \bdes\b \! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="FRISIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="FRISIAN"/>
+                        <property name="javaLocaleCode" value="fy" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="GALICIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="GALICIAN"/>
+                        <property name="javaLocaleCode" value="gl" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="GEORGIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="GEORGIAN"/>
+                        <property name="javaLocaleCode" value="ka" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="GERMAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="GERMAN"/>
+                        <property name="javaLocaleCode" value="de" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bein\b \beine\b \beinen\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	Ä B	C	D	E	F	G	H	I	J	K	L	M	N	O Ö	P	Q	R	S ß	T	U Ü	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="GREEK">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="GREEK"/>
+                        <property name="javaLocaleCode" value="el" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bο\b \bη\b \bτο\b \bτον\b \bτην\b \bοι\b \bτα\b \bτους\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[Α	Β	Γ	Δ	Ε	Ζ	Η	Θ	Ι	Κ	Λ	Μ	Ν	Ξ	Ο	Π	Ρ	Σ	Τ	Υ	Φ	Χ	Ψ	Ω]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="GUARANI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="GUARANI"/>
+                        <property name="javaLocaleCode" value="gn" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="HAITIAN_CREOLE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="HAITIAN_CREOLE"/>
+                        <property name="javaLocaleCode" value="ht" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="HEBREW">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="HEBREW"/>
+                        <property name="javaLocaleCode" value="he" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                            <value><![CDATA[א	בּ	ג	ד	ה	ו	ז	ח	ט	י	ך	כּ	ל	ם	מ	ן	נ	ס	ע	ף	פּ	ץ	צ	ק	ר	ש	ת]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="HINDI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="HINDI"/>
+                        <!--property name="javaLocaleCode" value="hi" /-->
+                        <property name="collationRules">
+                            <value>&lt; &#x0905; &lt; &#x0906; &lt; &#x0907; &lt; &#x0908; &lt; &#x0909; &lt; &#x090A; &lt; &#x090B; &lt; &#x090D; &lt; &#x090E; &lt; &#x090F; &lt; &#x0910; &lt; &#x0911; &lt; &#x0913; &lt; &#x0914; &lt; &#x0915; &lt; &#x0916; &lt; &#x0917; &lt; &#x0918; &lt; &#x0919; &lt; &#x091A; &lt; &#x091B; &lt; &#x091C; &lt; &#x091D; &lt; &#x091E; &lt; &#x091F; &lt; &#x0920; &lt; &#x0921; &lt; &#x0922; &lt; &#x0923; &lt; &#x0924; &lt; &#x0925; &lt; &#x0926; &lt; &#x0927; &lt; &#x0928; &lt; &#x0929; &lt; &#x092A; &lt; &#x092B; &lt; &#x092C; &lt; &#x092D; &lt; &#x092E; &lt; &#x092F; &lt; &#x0930; &lt; &#x0931; &lt; &#x0932; &lt; &#x0935; &lt; &#x0936; &lt; &#x0937; &lt; &#x0938; &lt; &#x0939; &lt; &#x0958; &lt; &#x0959; &lt; &#x095A; &lt; &#x095B; &lt; &#x095C; &lt; &#x095D; &lt; &#x095E; &lt; &#x095F; &lt; &#x0933; &lt; &#x0934; &lt; &#x0966; &lt; &#x0967; &lt; &#x0968; &lt; &#x0969; &lt; &#x096A; &lt; &#x096B; &lt; &#x096C; &lt; &#x096D; &lt; &#x096E; &lt; &#x096F;</value>
+                        </property>
+                        <property name="stopWords">
+                            <value>\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- ॥ ॰ ॱ ० १ २ ३ ४ ५ ६ ७ ८ ९</value>
+                        </property>
+                        <property name="alphabet">
+                            <value>&#x0905; &#x0906; &#x0907; &#x0908; &#x0909; &#x090A; &#x090B; &#x090D; &#x090E; &#x090F; &#x0910; &#x0911; &#x0913; &#x0914; &#x0915; &#x0916; &#x0917; &#x0918; &#x0919; &#x091A; &#x091B; &#x091C; &#x091D; &#x091E; &#x091F; &#x0920; &#x0921; &#x0922; &#x0923; &#x0924; &#x0925; &#x0926; &#x0927; &#x0928; &#x0929; &#x092A; &#x092B; &#x092C; &#x092D; &#x092E; &#x092F; &#x0930; &#x0931; &#x0932; &#x0935; &#x0936; &#x0937; &#x0938; &#x0939; &#x0958; &#x0959; &#x095A; &#x095B; &#x095C; &#x095D; &#x095E; &#x095F; &#x0933; &#x0934; &#x0966; &#x0967; &#x0968; &#x0969; &#x096A; &#x096B; &#x096C; &#x096D; &#x096E; &#x096F;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="HUNGARIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="HUNGARIAN"/>
+                        <property name="javaLocaleCode" value="hu" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \ba\b \baz\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	Á	B	C	Cs	D	Dz	Dzs	E	É	F	G	Gy	H	I	Í	J	K	L	Ly	M	N	Ny	O	Ó	Ö	Ő	P	Q	R	S	Sz	T	Ty	U	Ú	Ü	Ű	V	W	X	Y	Z	Zs]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ICELANDIC">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ICELANDIC"/>
+                        <property name="javaLocaleCode" value="is" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="INDONESIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="INDONESIAN"/>
+                        <property name="javaLocaleCode" value="id" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="INUKTITUT">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="INUKTITUT"/>
+                        <property name="javaLocaleCode" value="iu" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="IRISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="IRISH"/>
+                        <property name="javaLocaleCode" value="ga" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \ban\b \bna\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	Á	B	C	D	E	É	F	G	H	I	Í	L	M	N	O	Ó	P	R	S	T	U	Ú]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="JAPANESE_KATAKANA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="JAPANESE"/>
+                        <property name="javaLocaleCode" value="ja" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value>&#x30a2; &#x30a4; &#x30a6; &#x30a8; &#x30aa; &#x30ab; &#x30ad; &#x30af; &#x30b1; &#x30b3; &#x30b5; &#x30b7; &#x30b9; &#x30bb; &#x30bd; &#x30bf; &#x30c1; &#x30c4; &#x30c6; &#x30c8; &#x30ca; &#x30cb; &#x30cc; &#x30cd; &#x30ce; &#x30cf; &#x30d2; &#x30d5; &#x30d8; &#x30db; &#x30de; &#x30df; &#x30e0; &#x30e1; &#x30e2; &#x30e4; &#x30e6; &#x30e8; &#x30e9; &#x30ea; &#x30eb; &#x30ec; &#x30ed; &#x30ef; &#x30f0; &#x30f1; &#x30f2; &#x30f3;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="JAPANESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="JAPANESE"/>
+                        <property name="javaLocaleCode" value="ja" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <!--Hiragana-->
+                        <property name="alphabet">
+                                  <value><![CDATA[あ い	う	え	お	か	き	く	け	こ	さ	し	す	せ	そ	た	ち	つ	て	と	な	に	ぬ	ね	の	は	ひ	ふ	へ	ほ	ま	み	む	め	も	や	ゆ	よ	ら	り	る	れ	ろ	わ	ゐ	ゑ	を	ん]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="JAPANESE_KANJI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="JAPANESE"/>
+                        <property name="javaLocaleCode" value="ja" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <!--Hiragana-->
+                        <property name="alphabet">
+                                  <value><![CDATA[あ い	う	え	お	か	き	く	け	こ	さ	し	す	せ	そ	た	ち	つ	て	と	な	に	ぬ	ね	の	は	ひ	ふ	へ	ほ	ま	み	む	め	も	や	ゆ	よ	ら	り	る	れ	ろ	わ	ゐ	ゑ	を	ん]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="JAPANESE_HIRAGANA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="JAPANESE"/>
+                        <property name="javaLocaleCode" value="ja" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[あ い	う	え	お	か	き	く	け	こ	さ	し	す	せ	そ	た	ち	つ	て	と	な	に	ぬ	ね	の	は	ひ	ふ	へ	ほ	ま	み	む	め	も	や	ゆ	よ	ら	り	る	れ	ろ	わ	ゐ	ゑ	を	ん]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="JAVANESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="JAVANESE"/>
+                        <property name="javaLocaleCode" value="jv" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="KAZAKH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="KAZAKH"/>
+                        <property name="javaLocaleCode" value="kk" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="KHMER">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="KHMER"/>
+                        <property name="javaLocaleCode" value="km" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \b&#x17D2;\b \b&#x17D4;\b \b&#x17D5;\b \b&#x17D6;\b \b&#x17DB;\b \b&#x17D7;\b \b&#x17D8;\b \b&#x17D9;\b \b&#x17DA;\b \b&#x17E1;\b \b&#x17E2;\b \b&#x17E3;\b \b&#x17E4;\b \b&#x17E5;\b \b&#x17E6;\b \b&#x17E7;\b \b&#x17E8;\b \b&#x17E9;\b \b&#x17E0;\b"/>
+                        <property name="collationRules">
+                            <value>&lt; &#x1780;,&#x17D2;&#x1780; &lt; &#x1781;,&#x17D2;&#x1781; &lt; &#x1782;,&#x17D2;&#x1782; &lt; &#x1783;,&#x17D2;&#x1783; &lt; &#x1784;,&#x17D2;&#x1784; &lt; &#x1785;,&#x17D2;&#x1785; &lt; &#x1786;,&#x17D2;&#x1786; &lt; &#x1787;,&#x17D2;&#x1787; &lt; &#x1788;,&#x17D2;&#x1788; &lt; &#x1789;,&#x17D2;&#x1789;,&#x1789;&#x17D2;&#x1789; &lt; &#x178A;,&#x17D2;&#x178A; &lt; &#x178B;,&#x17D2;&#x178B; &lt; &#x178C;,&#x17D2;&#x178C; &lt; &#x178D;,&#x17D2;&#x178D; &lt; &#x178E;&#x17D2;&#x178E; &lt; &#x178F;,&#x17D2;&#x178F; &lt; &#x1790;,&#x17D2;&#x1790; &lt; &#x1791; &lt; &#x17D2;&#x1791; &lt; &#x1792;,&#x17D2;&#x1792; &lt; &#x1793;,&#x17D2;1793; &lt; &#x1794;,&#x17D2;&#x1794; &lt; &#x1795;,&#x17D2;&#x1795; &lt; &#x1796;,&#x17D2;&#x1796; &lt; &#x1797;,&#x17D2;&#x1797; &lt; &#x1798;,&#x17D2;&#x1798; &lt; &#x1799;,&#x17D2;&#x1799; &lt; &#x179A;,&#x17D2;&#x179A; &lt; &#x179B;,&#x17D2;&#x179B; &lt; &#x179C;,&#x17D2;&#x179C; &lt; &#x179F;,&#x17D2;&#x179F; &lt; &#x17A0;,&#x17D2;&#x17A0; &lt; &#x17A1; &lt;, &#x17A2;,&#x17D2;&#x17A2; &lt; &#x17A5;,&#x17D2;&#x17A5; &lt; &#x17A6;&#x17D2;&#x17A6; &lt; &#x17A7;,&#x17D2;&#x17A7; &lt; &#x17A8;,&#x17D2;&#x17A8; &lt; &#x17A9;,&#x17D2;&#x17A9; &lt; &#x17AA;,&#x17D2;&#x17AA; &lt; &#x17AB;,&#x17D2;&#x17AB; &lt; &#x17AC;,&#x17D2;&#x17AC; &lt; &#x17AD;,&#x17D2;&#x17AD; &lt; &#x17AE;,&#x17D2;&#x17AE; &lt; &#x17AF;,&#x17D2;&#x17AF; &lt; &#x17B0;,&#x17D2;&#x17B0; &lt; &#x17B1;,&#x17D2;&#x17B1; &lt; &#x17B2;,&#x17D2;&#x17B2; &lt; &#x17B3;,&#x17D2;&#x17B3;</value>
+                        </property>
+                        <property name="alphabet">
+                            <value>&#x1780; &#x1781; &#x1782; &#x1783; &#x1784; &#x1785; &#x1786; &#x1787; &#x1788; &#x1789; &#x178A; &#x178B; &#x178C; &#x178D; &#x178E; &#x178F; &#x1790; &#x1791; &#x1792; &#x1793; &#x1794; &#x1795; &#x1796; &#x1797; &#x1798; &#x1799; &#x179A; &#x179B; &#x179C; &#x179F; &#x17A0; &#x17A1; &#x17A2; &#x17A5; &#x17A6; &#x17A7; &#x17A8; &#x17A9; &#x17AA; &#x17AB; &#x17AC; &#x17AD; &#x17AE; &#x17AF; &#x17B0; &#x17B1; &#x17B2; &#x17B3;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="KONGO">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="KONGO"/>
+                        <property name="javaLocaleCode" value="kg" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="KOREAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="KOREAN"/>
+                        <property name="javaLocaleCode" value="ko" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[ㄱ	ㄲ	ㄴ	ㄷ	ㄸ	ㄹ	ㅁ	ㅂ	ㅃ	ㅅ	ㅆ	ㅇ	ㅈ	ㅉ	ㅊ	ㅋ	ㅌ	ㅍ	ㅎ	ㅏ	ㅐ	ㅑ	ㅒ	ㅓ	ㅔ	ㅕ	ㅖ	ㅗ	ㅘ	ㅙ	ㅚ	ㅛ	ㅜ	ㅝ	ㅞ	ㅟ	ㅠ	ㅡ	ㅢ	ㅣ]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="LATIN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="LATIN"/>
+                        <property name="javaLocaleCode" value="la" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="LATVIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="LATVIAN"/>
+                        <property name="javaLocaleCode" value="lv" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="LITHUANIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="LITHUANIAN"/>
+                        <property name="javaLocaleCode" value="lt" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="LUGANDA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="LUGANDA"/>
+                        <property name="javaLocaleCode" value="lg" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="LUXEMBOURGISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="LUXEMBOURGISH"/>
+                        <property name="javaLocaleCode" value="lb" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="MACEDONIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="MACEDONIAN"/>
+                        <property name="javaLocaleCode" value="mk" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="MALAGASY">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="MALAGASY"/>
+                        <property name="javaLocaleCode" value="mg" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="MALAY">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="MALAY"/>
+                        <property name="javaLocaleCode" value="ms" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="MONGOLIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="MONGOLIAN"/>
+                        <property name="javaLocaleCode" value="mn" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="NORWEGIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="NORWEGIAN"/>
+                        <!--<property name="javaLocaleCode" value="nn" />-->
+                        <!--Forced collation rule as per TL Content department request, this is different from the way Java sorts Norwegian -->
+                        <property name="collationRules">
+                            <value><![CDATA[< a,A < b,B < c,C < d,D < e,E < f,F < g,G < h,H < i,I < j,J < k,K < l,L < m,M < n,N < o,O < p,P < q,Q < r,R < s,S < t,T < u,U < v,V < w,W < x,X < y,Y < z,Z < æ,Æ < ø,Ø < å,Å]]></value>
+                        </property>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bei\b \ben\b \bet\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	Æ	Ø	Å]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="NYANJA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="NYANJA"/>
+                        <property name="javaLocaleCode" value="ny" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="PASHTO">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="PASHTO"/>
+                        <!--property name="javaLocaleCode" value="ps" /-->
+                        <property name="stopWords">
+                            <value>\! \? \. \, \; \: \\ \- \( \) 0 1 2 3 4 5 6 7 8 9 \/ \" \' &#x061F; ، &#x061B; ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۰</value>
+                        </property>
+                        <property name="collationRules">
+                            <value>&lt; &#x0627;, &#x0671; &lt; &#x0628; &lt; &#x067E; &lt; &#x062A; &lt; &#x067C; &lt; &#x062B; &lt; &#x062C; &lt; &#x0686; &lt; &#x0681; &lt; &#x0685; &lt; &#x062D; &lt; &#x062E; &lt; &#x062F; &lt; &#x0689; &lt; &#x0630; &lt; &#x0631; &lt; &#x0693; &lt; &#x0632; &lt; &#x0698; &lt; &#x0696; &lt; &#x0633; &lt; &#x0634; &lt; &#x069A; &lt; &#x0635; &lt; &#x0636; &lt; &#x0637; &lt; &#x0638; &lt; &#x0639; &lt; &#x063A; &lt; &#x0641; &lt; &#x0642; &lt; &#x06A9; &lt; &#x06AB; &lt; &#x0644; &lt; &#x0645; &lt; &#x0646; &lt; &#x06BC; &lt; &#x0648; &lt; &#x0647; &lt; &#x06CC; &lt; &#x06D0; &lt; &#x06CD; &lt; &#x064A; &lt; &#x0626; &lt; &#x06F0; &lt; &#x06F1; &lt; &#x06F2; &lt; &#x06F3; &lt; &#x06F4; &lt; &#x06F5; &lt; &#x06F6; &lt; &#x06F7; &lt; &#x06F8; &lt; &#x06F9;</value>
+                        </property>
+                        <property name="alphabet">
+                            <value>&#x0627; &#x0628; &#x067E; &#x062A; &#x067C; &#x062B; &#x062C; &#x0686; &#x0681; &#x0685; &#x062D; &#x062E; &#x062F; &#x0689; &#x0630; &#x0631; &#x0693; &#x0632; &#x0698; &#x0696; &#x0633; &#x0634; &#x069A; &#x0635; &#x0636; &#x0637; &#x0638; &#x0639; &#x063A; &#x0641; &#x0642; &#x06A9; &#x06AB; &#x0644; &#x0645; &#x0646; &#x06BC; &#x0648; &#x0647; &#x06CC; &#x06D0; &#x06CD; &#x064A; &#x0626; &#x06F0; &#x06F1; &#x06F2; &#x06F3; &#x06F4; &#x06F5; &#x06F6; &#x06F7; &#x06F8; &#x06F9;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="PIDGINENGLISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="PIDGINENGLISH"/>
+                        <property name="javaLocaleCode" value="en" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="POLISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="POLISH"/>
+                        <property name="javaLocaleCode" value="pl" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P R S Ś T U W Y Z Ź Ż]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="PORTUGUESE_BRAZILIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="PORTUGUESE_BRAZILIAN"/>
+                        <property name="javaLocaleCode" value="pt_BR" />
+                        <property name="stopWords" value="\ba\b \bas\b \bo\b \bos\b \bum\b \buma\b \bumas\b \buns\b \! \? \. , ; : &quot; ' … — « » \( \) / ^-"/>
+                        <property name="alphabet">
+                            <value><![CDATA[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]]></value>
+                        </property>
+                        <property name="letterGroups">
+                            <value><![CDATA[A Á À Â Ã | B | C Ç | D | E É Ê | F | G | H | I Í | J | K | L | M | N | O Ó Ô Õ | P | Q | R | S | T | U Ú | V | W | X | Y | Z]]></value>
+                        </property>
+                        <property name="miscBucketLabel" value="*"/>
+                    </bean>
+                </entry>
+                <entry key="PORTUGUESE_EUROPEAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="PORTUGUESE_EUROPEAN"/>
+                        <property name="javaLocaleCode" value="pt" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bo\b \ba\b \bos\b \bas\b \buma\b \buns\b \bumas\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <!--requested by George for GLPC-->
+                <entry key="PORTUGUESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="PORTUGUESE"/>
+                        <property name="javaLocaleCode" value="pt_BR" />
+                        <property name="stopWords" value="\ba\b \bas\b \bo\b \bos\b \bum\b \buma\b \bumas\b \buns\b \! \? \. , ; : &quot; ' … — « » \( \) / ^-"/>
+                        <property name="alphabet">
+                            <value><![CDATA[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]]></value>
+                        </property>
+                        <property name="letterGroups">
+                            <value><![CDATA[A Á À Â Ã | B | C Ç | D | E É Ê | F | G | H | I Í | J | K | L | M | N | O Ó Ô Õ | P | Q | R | S | T | U Ú | V | W | X | Y | Z]]></value>
+                        </property>
+                        <property name="miscBucketLabel" value="*"/>
+                    </bean>
+                </entry>
+                <entry key="PUNJABI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="PUNJABI"/>
+                        <property name="javaLocaleCode" value="pa" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="QUECHUA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="QUECHUA"/>
+                        <property name="javaLocaleCode" value="qu" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="ROMANIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ROMANIAN"/>
+                        <!--<property name="javaLocaleCode" value="ro" />-->
+                        <!--Forced collation rule as per TL Content department request, this is different from the way Java sorts Romanian -->
+                        <property name="collationRules">
+                            <value><![CDATA[< a,A < ă,Ă < â,Â < B < C < D < E < F < G < H < I < î,Î < J < K < L < M < N < O < P < Q < R < S < ş,Ş < T < ţ,Ţ < U < V < W < X < Y < Z]]></value>
+                        </property>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bun\b \bnişte\b \bo\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	Ă	Â	B	C	D	E	F	G	H	I	Î	J	K	L	M	N	O	P	Q	R	S	Ş	T	Ţ	U	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="ROMANSCH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ROMANSCH"/>
+                        <property name="javaLocaleCode" value="rm" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="RUANDA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="RUANDA"/>
+                        <property name="javaLocaleCode" value="rw" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="RUNDI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="RUNDI"/>
+                        <property name="javaLocaleCode" value="rn" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="RUSSIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="RUSSIAN"/>
+                        <property name="javaLocaleCode" value="ru" />
+                        <property name="stopWords" value="\! \? \. / , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="collationRules">
+                            <value><![CDATA[< А,А́,а,а́ < Б,б < В,в < Г,г < Д, д < Е,Е́,е,е́ < Ё,е < Ж,ж < З,з < И,И́,и,и́ < Й,й < К,к < Л,л < М,м < Н,н <  О,О́,о,о́ < П,п < Р,р < С,с < Т,т < У,У́,у,у́ < Ф,ф < Х,х < Ц,ц < Ч,ч < Ш, ш < Щ,щ < Ъ,ъ < Ы,Ы́,ы,ы́ < Ь,ь < Э,Э́,э,э́ < Ю,Ю́,ю,ю́ < Я, Я́,я,я́]]></value>
+                        </property>
+                        <property name="alphabet">
+                            <value><![CDATA[А	Б	В	Г	Д	Е	Ё	Ж	З	И	Й	К	Л	М	Н	О	П	Р	С	Т	У	Ф	Х	Ц	Ч	Ш	Щ	Ъ	Ы	Ь	Э	Ю	Я]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="SAMOAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SAMOAN"/>
+                        <property name="javaLocaleCode" value="sm" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SCOTTISH_GAELIC">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SCOTTISH_GAELIC"/>
+                        <property name="javaLocaleCode" value="gd" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SERBIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SERBIAN"/>
+                        <property name="javaLocaleCode" value="sr" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SHONA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SHONA"/>
+                        <property name="javaLocaleCode" value="sn" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SLOVAK">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SLOVAK"/>
+                        <property name="javaLocaleCode" value="sk" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SLOVENE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SLOVENE"/>
+                        <property name="javaLocaleCode" value="sl" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SOMALI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SOMALI"/>
+                        <!--property name="javaLocaleCode" value="so" /-->
+                        <property name="stopWords" value="\bku\b \bka\b \bla\b \bsi\b \bKu\b \bKa\b \bLa\b \bSi\b \! \? / \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="collationRules">
+                            <value><![CDATA[< B,b < T,t < J,j < X,x < Kh,kh < D,d < R,r < S,s < Sh,sh < Dh,dh < C,c < G,g < F,f < Q,q < K,k < L,l < M,m < N,n < W,w < H,h < Y,y < A,a,AA,aa < E,e,EE,ee < I,i,II,ii < O,o,OO,oo < U,u,UU,uu]]></value>
+                    </property>
+                    <property name="alphabet">
+                        <value><![CDATA[B T J X Kh D R S Sh Dh C G F Q K L M N W H Y A E I O U]]></value>
+                    </property>
+                    </bean>
+                </entry>
+                <entry key="SOTHO">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SOTHO"/>
+                        <property name="javaLocaleCode" value="st" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SPANISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SPANISH"/>
+                        <property name="javaLocaleCode" value="es" />
+                        <property name="stopWords" value="\! ¡ ¿ \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bel\b \bla\b \blo\b \blos\b \blas\b \bun\b \buna\b \bunos\b \bunas\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A Á	B	C	CH	D	E É	F	G	H	I Í	J	K	L	LL	M	N	Ñ	O Ó	P	Q	R	S	T	U Ú	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="SPANISH_COLOMBIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SPANISH_COLOMBIAN"/>
+                        <property name="javaLocaleCode" value="es_CO" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bel	\b \bla\b \blo\b \blos\b \blas\b \bun\b \buna\b \bunos\b \bunas\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A Á	B	C	CH	D	E É	F	G	H	I Í	J	K	L	LL	M	N	Ñ	O Ó	P	Q	R	S	T	U Ú	V	W	X	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="SWAHILI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SWAHILI"/>
+                        <property name="javaLocaleCode" value="sw" />
+                        <property name="stopWords" value="\bku\b \! \? / \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="collationRules">
+                            <value><![CDATA[< A,a < B,b < CH,ch < D,d < E,e < F,f < G,g < H,h < I,i < J,j < K,k < L,l < M,m < N,n < O,o < P,p < R,r < S,s < T,t < U,u < V,v < W,w < Y,y < Z,z]]></value>
+                        </property>
+                        <property name="alphabet">
+                            <value><![CDATA[A	B	Ch	D	E	F	G	H	I	J	K	L	M	N	O	P	R	S	T	U	V	W	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="SWAZI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SWAZI"/>
+                        <property name="javaLocaleCode" value="ss" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="SWEDISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="SWEDISH"/>
+                        <property name="javaLocaleCode" value="sv" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \ben\b \bett\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z	Å	Ä	Ö]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="TAGALOG">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TAGALOG"/>
+                        <!--<property name="javaLocaleCode" value="tl" />-->
+                        <!--Forced collation rule as per TL Content department request, this is different from the way Java sorts Tagalog -->
+                        <property name="collationRules">
+                            <value><![CDATA[< a,A < b,B < k,K < d,D < e,E < g,G < h,H < i,I < l,L < m,M < n,N < ng,Ng < o,O < p,P < r,R < s,S < t,T < u,U < w,W < y,Y]]></value>
+                        </property>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^- \bang\b \bmga\b \bisa\b \bisà\b"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	K	D	E	G	H	I	L	M	N	Ng	O	P	R	S	T	U	W	Y]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="TAHITIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TAHITIAN"/>
+                        <property name="javaLocaleCode" value="ty" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="TAJIKI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TAJIKI"/>
+                        <property name="javaLocaleCode" value="tg" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="THAI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="THAI"/>
+                        <property name="javaLocaleCode" value="th" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value>&#x0e01; &#x0e02; &#x0e04; &#x0e06; &#x0e07; &#x0e08; &#x0e09; &#x0e0a; &#x0e0b; &#x0e0c; &#x0e0d; &#x0e0e; &#x0e0f; &#x0e10; &#x0e11; &#x0e12; &#x0e13; &#x0e14; &#x0e15; &#x0e16; &#x0e17; &#x0e18; &#x0e19; &#x0e1a; &#x0e1b; &#x0e1c; &#x0e1d; &#x0e1e; &#x0e1f; &#x0e20; &#x0e21; &#x0e22; &#x0e23; &#x0e25; &#x0e27; &#x0e28; &#x0e29; &#x0e2a; &#x0e2b; &#x0e2c; &#x0e2d; &#x0e2e;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="TONGAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TONGAN"/>
+                        <property name="javaLocaleCode" value="to" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="TSWANA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TSWANA"/>
+                        <property name="javaLocaleCode" value="tn" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="TURKISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TURKISH"/>
+                        <property name="javaLocaleCode" value="tr" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	B	C	Ç	D	E	F	G	Ğ	H	I	İ	J	K	L	M	N	O	Ö	P	R	S	Ş	T	U	Ü	V	Y	Z]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="TURKMEN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="TURKMEN"/>
+                        <property name="javaLocaleCode" value="tk" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="UKRAINIAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="UKRAINIAN"/>
+                        <property name="javaLocaleCode" value="uk" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="URDU">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="URDU"/>
+                        <!--<property name="javaLocaleCode" value="ur" />-->
+                        <!--Forced collation rule as per TL Content department request, this is different from the way Java sorts Urdu -->
+                        <property name="collationRules">
+                            <value>&lt; &#x0627;, &#x0627;&#x0653; &lt; &#x0628; &lt; &#x067E; &lt; &#x062A; &lt; &#x0679; &lt; &#x062B; &lt; &#x062C; &lt; &#x0686; &lt; &#x062D; &lt; &#x062E; &lt; &#x062F; &lt; &#x0688; &lt; &#x0630; &lt; &#x0631; &lt; &#x0691; &lt; &#x0632; &lt; &#x0698; &lt; &#x0633; &lt; &#x0634; &lt; &#x0635; &lt; &#x0636; &lt; &#x0637; &lt; &#x0638; &lt; &#x0639; &lt; &#x063A; &lt; &#x0641; &lt; &#x0642; &lt; &#x06A9; &lt; &#x06AF; &lt; &#x0644; &lt; &#x0645; &lt; &#x0646; &lt; &#x06BA; &lt; &#x0648; &lt; &#x06C1; &lt; &#x06BE; &lt; &#x06CC; &lt; &#x06D2; &lt; &#x0030; &lt; &#x0031; &lt; &#x0032; &lt; &#x0033; &lt; &#x0034; &lt; &#x0035; &lt; &#x0036; &lt; &#x0037; &lt; &#x0038; &lt; &#x0039;</value>
+                        </property>
+                        <property name="stopWords">
+                            <value>\! \? \. \, \; \: \\ \/ \- \( \) &#x06D4; ، &#x061F; &#x061B; \[ \] ٪ \' \" ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9</value>
+                        </property>
+                        <property name="alphabet">
+                            <value>&#x0627; &#x0628; &#x067E; &#x062A; &#x0679; &#x062B; &#x062C; &#x0686; &#x062D; &#x062E; &#x062F; &#x0688; &#x0630; &#x0631; &#x0691; &#x0632; &#x0698; &#x0633; &#x0634; &#x0635; &#x0636; &#x0637; &#x0638; &#x0639; &#x063A; &#x0641; &#x0642; &#x06A9; &#x06AF; &#x0644; &#x0645; &#x0646; &#x06BA; &#x0648; &#x06C1; &#x06BE; &#x06CC; &#x06D2; &#x0030; &#x0031; &#x0032; &#x0033; &#x0034; &#x0035; &#x0036; &#x0037; &#x0038; &#x0039;</value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="UZBEK">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="UZBEK"/>
+                        <property name="javaLocaleCode" value="uz" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="UZBEK_LATIN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="UZBEK_LATIN"/>
+                        <property name="javaLocaleCode" value="en" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="VIETNAMESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="VIETNAMESE"/>
+                        <property name="javaLocaleCode" value="vi" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet">
+                                  <value><![CDATA[A	Ă	Â	B	C	D	Đ	E	Ê	G	H	I	K	L	M	N	O	Ô	Ơ	P	Q	R	S	T	U	Ư	V	X	Y]]></value>
+                        </property>
+                    </bean>
+                </entry>
+                <entry key="WELSH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="WELSH"/>
+                        <property name="javaLocaleCode" value="cy" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="WOLOF">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="WOLOF"/>
+                        <property name="javaLocaleCode" value="wo" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="XHOSA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="XHOSA"/>
+                        <property name="javaLocaleCode" value="xh" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="YIDDISH">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="YIDDISH"/>
+                        <property name="javaLocaleCode" value="yi" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="YORUBA">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="YORUBA"/>
+                        <property name="javaLocaleCode" value="yo" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+                <entry key="ZULU">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="ZULU"/>
+                        <property name="javaLocaleCode" value="zu" />
+                        <property name="stopWords" value="\! \? \. , ; : &quot; ' … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <!--transliterated languages-->
+
+                <entry key="T_ARABIC">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_ARABIC"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_DARI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_DARI"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_HINDI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_HINDI"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_THAI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_THAI"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_URDU">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_URDU"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_FARSI">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_FARSI"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_GREEK">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_GREEK"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_HEBREW">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_HEBREW"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_CHINESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_CHINESE"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_JAPANESE">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_JAPANESE"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+
+                <entry key="T_KOREAN">
+                    <bean class="com.transparent.glossary.sort.CollatorData">
+                        <property name="tplLanguageCode" value="T_KOREAN"/>
+                        <property name="javaLocaleCode" value="en"/>
+                        <property name="stopWords" value="\! \? \. , ; : &quot; … — « » \( \) ^\d* ^-"/>
+                        <property name="alphabet" value=""/>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <!---->
+    <!---->
+    <!---->
+
+    <bean id="b4xReader" class="com.transparent.glossary.io.GlossaryInputDataReader">
+        <property name="collatorHelper" ref="collatorData"/>
+        <property name="languageCodeL1XPath" value="/list/head/side1_language_key/text()"/>
+        <property name="languageCodeL2XPath" value="/list/head/side2_language_key/text()"/>
+        <property name="sideOneSoundUrlXPath" value="side1_sound/@url"/>
+        <property name="sideTwoSoundUrlXPath" value="side2_sound/@url"/>
+        <property name="nameXPath" value="/list/head/name/text()"/>
+        <property name="sideTwoPartOfSpeechXPath" value="side2_part_of_speech/text()"/>
+        <property name="dataObjectCollectionXPath" value="/list/cards/*"/>
+        <property name="sortFieldsL1XPaths">
+            <list value-type="java.lang.String">
+                <value>side1_phrase/text()</value>
+            </list>
+        </property>
+        <property name="sortFieldsL2XPaths">
+            <list value-type="java.lang.String">
+                <value>side2_phrase/text()</value>
+            </list>
+        </property>
+        <property name="fieldsToIncludeMap">
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="L1" value="side1_phrase/text()"/>
+                <entry key="L2" value="side2_phrase/text()"/>
+                <entry key="L2_T" value="side2_transliteration/text()"/>
+                <entry key="hint1" value="side1_hint/text()"/>
+                <entry key="comment" value="comment/text()"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="ttKnownReader" class="com.transparent.glossary.io.GlossaryInputDataReader">
+        <property name="collatorHelper" ref="collatorData"/>
+        <property name="languageCodeL1XPath" value="/tt/@lang"/>
+        <property name="dataObjectCollectionXPath" value="/tt/body/*"/>
+        <property name="sortFieldsL1XPaths">
+            <list value-type="java.lang.String">
+                <value>text()</value>
+            </list>
+        </property>
+        <property name="fieldsToIncludeMap">
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="L1" value="text()"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="ttLearningReader" class="com.transparent.glossary.io.GlossaryInputDataReader">
+        <property name="collatorHelper" ref="collatorData"/>
+        <property name="languageCodeL2XPath" value="/tt/@lang"/>
+        <property name="dataObjectCollectionXPath" value="/tt/body/*"/>
+        <property name="sortFieldsL2XPaths">
+            <list value-type="java.lang.String">
+                <value>text()</value>
+            </list>
+        </property>
+        <property name="fieldsToIncludeMap">
+            <map key-type="java.lang.String" value-type="java.lang.String">
+                <entry key="L2" value="text()"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="duplicatesSortObjectFilter" class="com.transparent.glossary.processor.SortObjectsL1L2DuplicateFilter"/>
+    <bean id="ttMergeFilter" class="com.transparent.glossary.processor.SortObjectsL1L2FileMergeFilter">
+        <property name="filePatternL1" value=".*_known_tt\.xml"/>
+        <property name="filePatternL2" value=".*_learning_tt\.xml" />
+        <property name="commonPartPattern" value=".*\\(.*)?_.*_tt\.xml" />
+    </bean>
+
+    <bean id="b4xGlossaryProcessorEntry" class="com.transparent.glossary.processor.GlossaryProcessorEntry">
+        <property name="processingRule" value="SINGLE" />
+        <property name="inputReadersMap">
+            <map key-type="java.io.FileFilter" value-type="com.transparent.glossary.io.GlossaryInputDataReader">
+                <entry value-ref="b4xReader">
+                    <key>
+                        <bean class="com.transparent.glossary.io.XmlContentFileFilter">
+                            <property name="XPath" value="/list/cards/*"/>
+                            <property name="expectedResult" value="length(!=0)"/>
+                            <!--exclude files and patterns before analyzing content-->
+                            <property name="patterns">
+                                <list value-type="java.lang.String">
+                                    <value>.*recon\.xml</value>
+                                    <value>.*grammar\.xml</value>
+                                </list>
+                            </property>
+                        </bean>
+                    </key>
+                </entry>
+            </map>
+        </property>
+        <property name="sortObjectsFilters">
+            <list value-type="com.transparent.glossary.processor.ISortObjectsFilter">
+                <ref bean="duplicatesSortObjectFilter"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="ttGlossaryProcessorEntry" class="com.transparent.glossary.processor.GlossaryProcessorEntry">
+        <property name="processingRule" value="ALL" />
+        <property name="inputReadersMap">
+            <map key-type="java.io.FileFilter" value-type="com.transparent.glossary.io.GlossaryInputDataReader">
+                <entry value-ref="ttKnownReader">
+                    <key>
+                        <bean class="com.transparent.glossary.io.PatternFileFilter">
+                            <property name="patterns">
+                                <list value-type="java.lang.String">
+                                    <value>.*_known_tt\.xml</value>
+                                </list>
+                            </property>
+                        </bean>
+                    </key>
+                </entry>
+                <entry value-ref="ttLearningReader">
+                    <key>
+                        <bean class="com.transparent.glossary.io.PatternFileFilter">
+                            <property name="patterns">
+                                <list value-type="java.lang.String">
+                                    <value>.*_learning_tt\.xml</value>
+                                </list>
+                            </property>
+                        </bean>
+                    </key>
+                </entry>
+            </map>
+        </property>
+        <property name="sortObjectsFilters">
+            <list value-type="com.transparent.glossary.processor.ISortObjectsFilter">
+                <ref bean="ttMergeFilter" />
+                <ref bean="duplicatesSortObjectFilter"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="glossaryJaxbContext" class="javax.xml.bind.JAXBContext" factory-method="newInstance">
+        <constructor-arg>
+            <list value-type="java.lang.Class">
+                <value>com.transparent.glossary.model.Glossary</value>
+                <value>com.transparent.glossary.model.GlossaryLetter</value>
+                <value>com.transparent.glossary.model.GlossaryWordEntry</value>
+                <value>com.transparent.glossary.model.GlossaryPhraseEntry</value>
+                <value>com.transparent.glossary.model.GlossaryAnnotation</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="glossaryL1Writer" class="com.transparent.glossary.io.GlossaryOutputWriter">
+        <property name="versionProp" ref="versionProp" />
+        <property name="glossaryJaxbContext" ref="glossaryJaxbContext"/>
+        <property name="collatorHelper" ref="collatorData" />
+        <property name="glossaryKeyField" value="L1" />
+        <property name="glossaryTranslationField" value="L2"/>
+        <property name="annotationFields">
+            <list value-type="java.lang.String">
+                <value>hint1</value>
+                <value>comment</value>
+            </list>
+        </property>
+        <property name="sortType" value="L1" />
+    </bean>
+
+    <bean id="glossaryL2Writer" class="com.transparent.glossary.io.GlossaryOutputWriter">
+        <property name="glossaryJaxbContext" ref="glossaryJaxbContext"/>
+        <property name="versionProp" ref="versionProp" />
+        <property name="collatorHelper" ref="collatorData" />
+        <property name="glossaryKeyField" value="L2" />
+        <property name="glossaryTranslationField" value="L1"/>
+        <property name="annotationFields">
+            <list value-type="java.lang.String">
+                <value>hint1</value>
+                <value>comment</value>
+            </list>
+        </property>
+        <property name="sortType" value="L2" />
+    </bean>
+
+    <bean id="glossaryProcessor" class="com.transparent.glossary.processor.GlossaryProcessor">
+        <property name="processorEntries">
+            <list value-type="com.transparent.glossary.processor.GlossaryProcessorEntry">
+                <ref bean="b4xGlossaryProcessorEntry" />
+                <ref bean="ttGlossaryProcessorEntry" />
+            </list>
+        </property>
+        <property name="inputDataFinalFilters">
+            <list value-type="com.transparent.glossary.processor.ISortObjectsFilter">
+                <ref bean="duplicatesSortObjectFilter" />
+            </list>
+        </property>
+
+        <property name="glossaryOutputWriters">
+            <map key-type="com.transparent.glossary.sort.SortType" value-type="com.transparent.glossary.io.GlossaryOutputWriter">
+                <entry key="L1" value-ref="glossaryL1Writer" />
+                <entry key="L2" value-ref="glossaryL2Writer" />
+            </map>
+        </property>
+
+        <property name="phraseMarkers">
+            <list value-type="java.lang.String">
+                <value>.</value>
+                <value>!</value>
+                <value>?</value>
+                <value>… — « » \( \) ^\d* ^-</value>
+            </list>
+        </property>
+        <property name="collatorHelper" ref="collatorData" />
+    </bean>
+</beans>
